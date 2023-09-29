@@ -43,7 +43,8 @@ body:
             label: Minecraft Version
             description: The version of Minecraft you were using when the bug occured
             options:
-                - "1.19"
+                - "Prominence I 1.19.2"
+                - "Prominence II 1.20.1"
         validations:
             required: true
     -   type: dropdown

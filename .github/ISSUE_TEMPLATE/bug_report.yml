@@ -7,15 +7,16 @@ body:
             label: Describe the Bug
             description: A clear and concise description of what the bug is
         validations:
+            value: Tomes from Zenith still dont work, even if patch notes said they working.
             required: true
     -   type: textarea
         attributes:
             label: Reproduction Steps
             description: Tell us about the steps to reproduce the bug
             value: |
-                1.
-                2.
-                3.
+                1. Use 3rd (Best one) Tome with enchanted item like sword
+                2. Use both items in Anvil
+                3. Only get a book with enchant
                 ...
         validations:
             required: false
@@ -42,23 +43,20 @@ body:
         attributes:
             label: Minecraft Version
             description: The version of Minecraft you were using when the bug occured
-            options:
-                - "Prominence I 1.19.2"
-                - "Prominence II 1.20.1"
+            value: Prominence II | 1.20.1
         validations:
             required: true
     -   type: dropdown
         attributes:
             label: Modloader
             description: The version of Minecraft you were using when the bug occured
-            options:
-                - "Forge"
-                - "Fabric"
+            value: Forge
         validations:
             required: true
     -   type: input
         attributes:
             label: Modpack Version
+            value: v2.8.0
             description: The Modpack version you where using example bmc v52
         validations:
             required: true
@@ -66,9 +64,7 @@ body:
         attributes:
             label: Optifine
             description: Did you used Optifine in our packs?
-            options:
-                - "I used Optifine"
-                - "No"
+            value: no
         validations:
             required: true
     -   type: textarea

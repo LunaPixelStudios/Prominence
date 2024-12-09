@@ -1,0 +1,21 @@
+{
+  // How frequently the spell damages victims in ticks. 20 ticks is 1 second.
+  // Default: 40 ticks
+  "tick_rate": 40,
+  // The maximum stacks of Blood Plague that Blood Boil will apply.
+  // Default: 2 stacks
+  "max_stacks": 2,
+  // Whether or not the duration of Blood Plague should be reset if the max stacks are reached.
+  // Default: true
+  "reset_duration_if_max_stacks": true,
+  // The radius the death knight has to be for the victim to receive damage when it ticks.
+  // If there are multiple blood death knights within the radius, the victim will only take damage from the closest one.
+  // Default: 5 blocks
+  "radius": 5.0,
+  // The duration of the Blood Plague debuff in ticks. 20 ticks is 1 second.
+  // Default: 600 ticks (30 seconds)
+  "duration_ticks": 600,
+  // The damage scaling of the spell. This multiplies the base blood power of the caster to output damage.
+  // Default: 0.1x
+  "damage_blood_scaling": 0.1
+}

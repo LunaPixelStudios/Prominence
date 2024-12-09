@@ -1,0 +1,10 @@
+{
+	// Whether or not to show the reforging tab in the anvil screen.
+	"showReforgingTab": true,
+	"xIconPosition": 0,
+	"yIconPosition": 0,
+	"tieredTooltip": true,
+	// Swaps the text with a plate displayed on the item's name.
+	"showPlatesOnName": true,
+	"centerName": true
+}

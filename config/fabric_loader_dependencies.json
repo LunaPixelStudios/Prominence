@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "overrides": {
+    "bettertrims": {
+      "-depends": {
+        "fabricloader": "IGNORED"
+      }
+    },
+    "chatanimation": {
+      "-depends": {
+        "fabricloader": "IGNORED"
+      }
+    },
+    "smoothgui": {
+      "-depends": {
+        "fabricloader": "IGNORED"
+      }
+    },
+    "copycats": {
+      "-depends": {
+        "fabricloader": "IGNORED"
+      }
+    },
+    "create_questing": {
+      "-depends": {
+        "ftbquests": "IGNORED"
+      }
+    },
+    "estrogen": {
+      "-depends": {
+        "fabricloader": "IGNORED"
+      }
+    },
+    "frostiful": {
+      "-depends": {
+        "fabricloader": "IGNORED"
+      }
+    },
+    "thermoo": {
+      "-depends": {
+        "fabricloader": "IGNORED"
+      }
+    } 
+  }
+}

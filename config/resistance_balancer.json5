@@ -1,0 +1,32 @@
+{
+  // --------------------------------------------------------------------------------------------------------
+  //                                     Resistance Balancer by ElocinDev
+  // --------------------------------------------------------------------------------------------------------
+  //  
+  //  This mod allows rebalance the Resistance effect by changing the formula used to calculate the damage
+  //  mitigation. This is useful to balance the game to your liking.
+  //  
+  // --------------------------------------------------------------------------------------------------------
+  // Do not touch this
+  "configVersion": 1,
+  // --------------------------------------------------------------------------------------------------------
+  //                                             Custom Formula
+  //  
+  //  The result of this formula will be the total damage reduced
+  //  
+  //  Variables:
+  //    RESISTANCE : The amount of resistance
+  //  
+  //  By the mod's default, the formula is: min(RESISTANCE / 4.0, 1.0) * 0.20
+  //  This formula will mitigate up to 20% of the damage at Resistance IV
+  //  
+  //  You can define a more complex formula that fits for you, as this was designed for the Prominence modpack.
+  // --------------------------------------------------------------------------------------------------------
+  "enable_custom_formula": false,
+  "custom_formula": "min(RESISTANCE / 4.0, 1.0) * 0.20",
+  // --------------------------------------------------------------------------------------------------------
+  //  
+  // If custom formula is disabled, it will instead use a simpler logic, simply reducing the damage by a percentage.
+  //  By default this is 0.05, meaning Resistance would reduce 5% of the damage dealt per level. So at Resistance IV, it would reduce 20% of the damage.
+  "percentile_reduction_fallback": 0.05
+}

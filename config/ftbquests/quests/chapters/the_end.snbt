@@ -1,0 +1,280 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_end"
+	group: "3E586F2160161EEA"
+	icon: "minecraft:end_portal_frame"
+	id: "4B174BB2FDFE4D4F"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			id: "07E305E95A000FAF"
+			rewards: [
+				{
+					id: "4C3C8B451A623747"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "7EE53A7AB9795524"
+					item: "betterend:guidebook"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 2.0d
+			subtitle: "To open and Entere the &5End portal&r, you will need to use the eyes from the End Remastered. You will need to &2Explore Structures &rto find them, but some of them can be &6Crafted"
+			tasks: [{
+				dimension: "minecraft:the_end"
+				icon: "minecraft:end_stone"
+				id: "42642531FFCE3EBA"
+				title: "Enter The End"
+				type: "dimension"
+			}]
+			title: "Enter &5The End"
+			x: -0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["07E305E95A000FAF"]
+			icon: "minecraft:chorus_flower"
+			id: "5D1A1D97DD8AF29B"
+			rewards: [{
+				id: "225AC6E8CE664128"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				biome: "betterend:chorus_forest"
+				icon: "minecraft:chorus_flower"
+				id: "174E4FFFE6872705"
+				title: "Visit &9the Chorus Forest"
+				type: "biome"
+			}]
+			x: -3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["07E305E95A000FAF"]
+			icon: "betterend:crystal_shards"
+			id: "352060C2CA83EB32"
+			rewards: [{
+				id: "35DEE97DFFAC82E2"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				biome: "betterend:crystal_mountains"
+				icon: "betterend:crystal_shards"
+				id: "7CB1BDA68A99590D"
+				title: "Visit &9the Crystal Mountains "
+				type: "biome"
+			}]
+			x: -2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["07E305E95A000FAF"]
+			icon: "farmersdelight:red_mushroom_colony"
+			id: "338C8A2C9D3EF0D0"
+			rewards: [{
+				id: "032AF296B8D8E81D"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				biome: "betterend:foggy_mushroomland"
+				icon: "farmersdelight:red_mushroom_colony"
+				id: "50E4623D931BADB2"
+				title: "Visit &9the Foggy Mushroomland"
+				type: "biome"
+			}]
+			x: -3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["07E305E95A000FAF"]
+			icon: "betterend:shadow_berry_cooked"
+			id: "37434D432D8687C7"
+			rewards: [{
+				id: "6079A30CBAF86E1D"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				biome: "betterend:shadow_forest"
+				icon: "betterend:shadow_berry_cooked"
+				id: "4C8B040483BDE011"
+				title: "Visit &9the Shadow Forest"
+				type: "biome"
+			}]
+			x: -2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["07E305E95A000FAF"]
+			id: "2A8964DA960593FD"
+			rewards: [
+				{
+					id: "6155AADD525E5DBA"
+					item: {
+						Count: 1b
+						id: "soulsweapons:kirkhammer"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "39A9E5EBC6FBCBA6"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "298BC6C257346CD8"
+					item: "minecraft:enchanted_golden_apple"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "5C3C823C0D2A1AF0"
+					item: {
+						Count: 1b
+						id: "betterend:crystalite_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7BFFC979964212ED"
+					item: {
+						Count: 1b
+						id: "betterend:crystalite_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6DCF021EE0C599F0"
+					item: {
+						Count: 1b
+						id: "betterend:crystalite_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1AEC0EC6F5277FFF"
+					item: {
+						Count: 1b
+						id: "betterend:crystalite_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "10A2FCB09D893395"
+					item: {
+						Count: 1b
+						id: "betterend:elytra_crystalite"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Craft the Crystalite Armor"
+			x: -0.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["07E305E95A000FAF"]
+			id: "19EC55FBA59451CE"
+			rewards: [
+				{
+					id: "34677DA490BE34F7"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "143C82BD36D0CC23"
+					item: {
+						Count: 1b
+						id: "betterend:aeternium_hammer"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5289438FA78D0DF3"
+					item: "prominent:molten_remnant"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "705ACE3FBDD37BC6"
+					item: {
+						Count: 1b
+						id: "betterend:aeternium_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0409CB4B56B26507"
+					item: {
+						Count: 1b
+						id: "betterend:aeternium_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "54EB521FA49DFE50"
+					item: {
+						Count: 1b
+						id: "betterend:aeternium_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4D7AE70DC1E8B7D4"
+					item: {
+						Count: 1b
+						id: "betterend:aeternium_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Craft the Aeternium Armor"
+			x: -0.5d
+			y: 2.0d
+		}
+	]
+	title: " &dThe End"
+}

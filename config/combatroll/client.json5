@@ -1,0 +1,11 @@
+{
+	"playCooldownSound": true,
+	"playCooldownFlash": true,
+	"playRollSound": true,
+	"hudArrowColor": 16538401,
+	"hudBackgroundOpacity": 75,
+	"showWhenFull": true,
+	"showHUDInCreative": false,
+	"showKeybinding": true,
+	"keybindingLabelPosition": "LEFT"
+}

@@ -1,0 +1,38 @@
+{
+  //Sets the position of the mana display; Client-sided
+  //The x-offset is subtracted from the x pos of the middle of the screen. (Ex: 0 would make it right in the middle)
+  //The y-offset is subtracted from the y pos at the bottom of the screen. (Ex: 0 would make it at the very bottom of the screen)
+  //X-Offset Default: 180
+  //Y-Offset Default: 15
+  "mana_xoffset": 250,
+  "mana_yoffset": 15,
+  //Determines whether mana should only display if you have a mana item in your hand.
+  //Client-Sided, Accepts "true" or "false"
+  //Default: false (always shows mana)
+  "displayManaWithItem": true,
+  //Chance for a soul to drop when killing players and creatures using a soul scythe (bosses always drop a soul)
+  //The number should follow these bounds: 0 <= x <= 1.0
+  //Default: 0.05 (1/20)
+  "soulDropChance": 0.05,
+  //Weight/Chance for the Wizard Village House to spawn in villages
+  //Default: 10
+  "wizard_village_weight": 10,
+  //Determines whether the a sound should be played when using a channeler
+  //Client-Sided, Accepts "true" or "false"
+  //Default: true
+  "play_channel_sound": true,
+  //The chance that Harvesters will drop the bonus related to the mob
+  //The number should follow these bounds: 0 <= x <= 1.0
+  //Default: 0.05 (1/20)
+  "harvester_chance": 0.05,
+  //Whether screen shaking should be enabled or not. Used for players hit with the Rumble spell.
+  //Client-Sided, Accepts "true" or "false"
+  //Default: true
+  "enableScreenShake": true,
+  // The max amount of experience the standard experience pouch can hold.
+  // Default: 550
+  "experiencePouchMax": 550,
+  // The max amount of experience the super experience pouch can hold.
+  // Default: 2920
+  "superExperiencePouchMax": 2920
+}

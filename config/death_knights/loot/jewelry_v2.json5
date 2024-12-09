@@ -1,0 +1,44 @@
+{
+  "frost_necklace": {
+    "rolls": 1,
+    "chance": 0.2,
+    "loot_tables": [
+      "minecraft:chests/ancient_city_ice_box"
+    ]
+  },
+  "frost_ring": {
+    "rolls": 3,
+    "chance": 0.15,
+    "loot_tables": [
+      "minecraft:chests/ancient_city_ice_box"
+    ]
+  },
+  "unholy_necklace": {
+    "rolls": 1,
+    "chance": 0.2,
+    "loot_tables": [
+      "minecraft:chests/woodland_mansion"
+    ]
+  },
+  "unholy_ring": {
+    "rolls": 3,
+    "chance": 0.1,
+    "loot_tables": [
+      "minecraft:chests/woodland_mansion"
+    ]
+  },
+  "blood_necklace": {
+    "rolls": 1,
+    "chance": 0.2,
+    "loot_tables": [
+      "minecraft:chests/bastion_treasure"
+    ]
+  },
+  "blood_ring": {
+    "rolls": 3,
+    "chance": 0.1,
+    "loot_tables": [
+      "minecraft:chests/bastion_treasure"
+    ]
+  }
+}

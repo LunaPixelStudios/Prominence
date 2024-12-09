@@ -1,0 +1,20 @@
+{
+  // How frequently the spell damages entities in ticks. 20 ticks is 1 second.
+  // Default: 5 ticks
+  "tick_rate": 5,
+  // The radius of the spell. This applies for both the particles and damage.
+  // Default: 2 blocks
+  "radius": 2.0,
+  // The damage scaling of the spell. This multiplies the base frost power of the caster to output damage.
+  // Default: 0.5x
+  "damage_frost_scaling": 0.5,
+  // The multiplier for critical damage. This is multiplied to the damage if the spell crits.
+  // Default: 2.0x
+  "damage_critical_scaling": 2.0,
+  // The amount of ticks the victim gets frozen after being hit. 20 ticks is 1 second.
+  // Default: 20 ticks
+  "frozen_ticks": 20,
+  // Chance per tick to apply frozen to the target
+  // Default: 0.10 (10%)
+  "frozen_chance": 0.1
+}

@@ -1,0 +1,40 @@
+{
+  // Items in for example mineshaft chests get modifiers
+  "lootContainerModifier": true,
+  // Equipped items on entities get modifiers
+  "entityItemModifier": true,
+  // Crafted items get modifiers
+  "craftingModifier": true,
+  // Merchant items get modifiers
+  "merchantModifier": true,
+  // Decreases the biggest weights by this modifier
+  "reforgeModifier": 0.9,
+  // Modify the biggest weights by this modifier per smithing level
+  "levelzReforgeModifier": 0.01,
+  // Modify the biggest weights by this modifier per luck
+  "luckReforgeModifier": 0.02,
+  // Tier 1 of Reforging (Limestone)
+  // Qualities here will be able to be reforged onto items while using the Tier 1 reforge material, Limestone by default. Can be changed via the item tag tiered:reforge_tier_1
+  "tier_1_qualities": [
+    "Common",
+    "Uncommon",
+    "Rare",
+    "Epic"
+  ],
+  // Tier 2 of Reforging (Pyrite)
+  // Qualities here will be able to be reforged onto items while using the Tier 2 reforge material, Pyrite by default. Can be changed via the item tag tiered:reforge_tier_2
+  "tier_2_qualities": [
+    "Uncommon",
+    "Rare",
+    "Epic",
+    "Legendary"
+  ],
+  // Tier 3 of Reforging (Galena)
+  // Qualities here will be able to be reforged onto items while using the Tier 3 reforge material, Galena by default. Can be changed via the item tag tiered:reforge_tier_3
+  "tier_3_qualities": [
+    "Rare",
+    "Epic",
+    "Legendary",
+    "Mythic"
+  ]
+}

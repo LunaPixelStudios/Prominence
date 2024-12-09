@@ -1,0 +1,54 @@
+{
+  "entries": [
+    {
+      "pool": "minecraft:village/desert/houses",
+      "structures": [
+        {
+          "id": "rogues:village/desert/barracks",
+          "weight": 6,
+          "limit": 1
+        }
+      ]
+    },
+    {
+      "pool": "minecraft:village/savanna/houses",
+      "structures": [
+        {
+          "id": "rogues:village/savanna/barracks",
+          "weight": 6,
+          "limit": 1
+        }
+      ]
+    },
+    {
+      "pool": "minecraft:village/plains/houses",
+      "structures": [
+        {
+          "id": "rogues:village/plains/barracks",
+          "weight": 6,
+          "limit": 1
+        }
+      ]
+    },
+    {
+      "pool": "minecraft:village/taiga/houses",
+      "structures": [
+        {
+          "id": "rogues:village/taiga/barracks",
+          "weight": 6,
+          "limit": 1
+        }
+      ]
+    },
+    {
+      "pool": "minecraft:village/snowy/houses",
+      "structures": [
+        {
+          "id": "rogues:village/snowy/barracks",
+          "weight": 6,
+          "limit": 1
+        }
+      ]
+    }
+  ]
+}

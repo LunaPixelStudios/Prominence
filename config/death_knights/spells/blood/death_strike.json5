@@ -1,0 +1,11 @@
+{
+  // The amount of health the death knight will heal when Death Strike is used.
+  // Default: 0.10, (10%) of the Death Knight's Max Health
+  "max_health_healing": 0.1,
+  // If the death knight's health is full, should the spell apply an absorption effect instead?
+  // Default: true
+  "apply_absorption_if_full": true,
+  // The duration of the absorption effect in ticks. 20 ticks is 1 second.
+  // Default: 160 ticks (8 seconds)
+  "absorption_duration": 160
+}

@@ -1,0 +1,58 @@
+{
+	"normal": {
+		"bidirectional": [
+			[
+				"2r6gwuy3rfi0qhvg",
+				"03uw1se43yuutps2"
+			],
+			[
+				"sgcbg3rzuu9wun78",
+				"2r6gwuy3rfi0qhvg"
+			],
+			[
+				"eon2d0g9geekepri",
+				"2r6gwuy3rfi0qhvg"
+			],
+			[
+				"03uw1se43yuutps2",
+				"8g0m9yrel63lkfda"
+			],
+			[
+				"8g0m9yrel63lkfda",
+				"fu25k9i4opgsty9s"
+			],
+			[
+				"fu25k9i4opgsty9s",
+				"wzhyg0e77zk694yd"
+			],
+			[
+				"141ilpowt5glbhp1",
+				"sgcbg3rzuu9wun78"
+			],
+			[
+				"141ilpowt5glbhp1",
+				"eon2d0g9geekepri"
+			],
+			[
+				"03uw1se43yuutps2",
+				"6s4r3ljkkgxu3tbe"
+			],
+			[
+				"6s4r3ljkkgxu3tbe",
+				"0q59uc0l2auxfw0d"
+			],
+			[
+				"0q59uc0l2auxfw0d",
+				"c7hf5p2qv0liis7g"
+			]
+		]
+	},
+	"exclusive": {
+		"bidirectional": [
+			[
+				"sgcbg3rzuu9wun78",
+				"eon2d0g9geekepri"
+			]
+		]
+	}
+}

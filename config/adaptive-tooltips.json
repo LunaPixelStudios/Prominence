@@ -1,0 +1,19 @@
+{
+	wrapText: "SMART",
+	overwriteVanillaWrapping: false,
+	prioritizeTooltipTop: true,
+	bedrockCentering: false,
+	bestCorner: true,
+	alwaysBestCorner: false,
+	preventVanillaClamping: true,
+	onlyRepositionHoverTooltips: true,
+	useYACLTooltipPositioner: false,
+	scrollKeyCode: 342,
+	horizontalScrollKeyCode: 341,
+	smoothScrolling: true,
+	scrollDirection: "REVERSE",
+	verticalScrollSensitivity: 10,
+	horizontalScrollSensitivity: 10,
+	tooltipTransparency: 1.0,
+	removeFirstLinePadding: true
+}

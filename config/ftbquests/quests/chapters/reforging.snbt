@@ -1,0 +1,323 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "reforging"
+	group: "555B69C1AF8C1C7F"
+	icon: {
+		Count: 1b
+		id: "ftbquests:custom_icon"
+		tag: {
+			Icon: "tiered:textures/gui/reforge_tab_icon.png"
+		}
+	}
+	id: "7501A35FAE3E34FE"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "tiered:textures/gui/reforge_tab_icon.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 2.5d
+			y: 0.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.35d
+			hover: [ ]
+			image: "tiered:textures/plates/common.png"
+			rotation: 0.0d
+			width: 1.3363636363636364d
+			x: -4.638218923957993E-4d
+			y: 3.2397959183673493d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.35d
+			hover: [ ]
+			image: "tiered:textures/plates/uncommon.png"
+			rotation: 0.0d
+			width: 1.3363636363636364d
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.35d
+			hover: [ ]
+			image: "tiered:textures/plates/rare.png"
+			rotation: 0.0d
+			width: 1.3363636363636364d
+			x: -4.638218923957993E-4d
+			y: 3.790816326530596d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.35d
+			hover: [ ]
+			image: "tiered:textures/plates/uncommon.png"
+			rotation: 0.0d
+			width: 1.3363636363636364d
+			x: 2.5301484230055564d
+			y: 3.2193877551020336d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.35d
+			hover: [ ]
+			image: "tiered:textures/plates/rare.png"
+			rotation: 0.0d
+			width: 1.3363636363636364d
+			x: 2.5d
+			y: 3.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.35d
+			hover: [ ]
+			image: "tiered:textures/plates/legendary.png"
+			rotation: 0.0d
+			width: 1.3363636363636364d
+			x: 2.509740259740255d
+			y: 4.096938775510203d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.35d
+			hover: [ ]
+			image: "tiered:textures/plates/epic.png"
+			rotation: 0.0d
+			width: 1.3363636363636364d
+			x: 2.509740259740255d
+			y: 3.79081632653061d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.35d
+			hover: [ ]
+			image: "tiered:textures/plates/rare.png"
+			rotation: 0.0d
+			width: 1.3363636363636364d
+			x: 4.99953617810759d
+			y: 3.2193877551020407d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.35d
+			hover: [ ]
+			image: "tiered:textures/plates/epic.png"
+			rotation: 0.0d
+			width: 1.3363636363636364d
+			x: 4.99953617810759d
+			y: 3.5051020408163254d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.35d
+			hover: [ ]
+			image: "tiered:textures/plates/legendary.png"
+			rotation: 0.0d
+			width: 1.3363636363636364d
+			x: 5.019944341372899d
+			y: 3.79081632653061d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.35d
+			hover: [ ]
+			image: "tiered:textures/plates/mythic.png"
+			rotation: 0.0d
+			width: 1.3363636363636364d
+			x: 5.019944341372899d
+			y: 4.0969387755102105d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.35d
+			hover: [ ]
+			image: "tiered:textures/plates/epic.png"
+			rotation: 0.0d
+			width: 1.3363636363636364d
+			x: -4.6382189241001015E-4d
+			y: 4.079846938775518d
+		}
+	]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"&7When crafting or obtaining tools, armors or weapons, you will notice that they have a quality/rarity."
+				""
+				"&7The qualities range from:"
+				"&8- &fCommon"
+				"&8- &2Uncommon"
+				"&8- &3Rare"
+				"&8- &dEpic"
+				"&8- &6Legendary"
+				"&8- &cMythic"
+				""
+				"{@pagebreak}"
+				""
+				"&6Reforging&7 is an essential part of your own progression because it allows to change the rarity your item has."
+				""
+				"&7To do so, you can find the &eReforging&7 tab in an &eAnvil&7. You will require:"
+				""
+				"&8- &eThe Base Material &8(Left Slot)"
+				"&8- &eThe Item to Reforge &8(Middle Slot)"
+				"&8- &eThe Reforge Material &8(Right Slot)"
+				""
+				""
+				"{@pagebreak}"
+				""
+				"&e&lBase Material &r&8(Left Slot)"
+				""
+				"&7The base material is related directly to the item you want to reforge. For example, a &eHoly Wand&7 would require a &eGold Ingot&7 as a base material. You can see the required materials by hovering over the reforge button after placing your item in the middle slot."
+				""
+				""
+				"{@pagebreak}"
+				""
+				"&e&lBase Item &r&8(Middle Slot)"
+				""
+				"&7The Base Item is the item you want to change the rarity. Not all items are reforgable, only tools, weapons and armors are."
+				""
+				""
+				"{@pagebreak}"
+				""
+				"&e&lReforge Material"
+				""
+				"&7This material will decide what quality your item will be reforged to, there are 3 tiers of materials which you can see in the next quests of this questline."
+				""
+				""
+				"{@pagebreak}"
+				""
+				"&a&lIncreasing Your Chances"
+				""
+				"&7It's not all about grinding! You can &eincrease chances on higher qualities&7 with your &aLuck&7! Items that give luck passively, luck potions, trinkets, wine, get them all!"
+			]
+			id: "3C95FD1F14D109CF"
+			shape: "hexagon"
+			subtitle: "&8[Click to read instructions]"
+			tasks: [{
+				id: "71FAC91280FBBF9C"
+				item: "minecraft:anvil"
+				title: "Craft an Anvil"
+				type: "item"
+			}]
+			title: "&6&lFirst Steps:&f The Anvil"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3C95FD1F14D109CF"]
+			description: [
+				""
+				"&7The &nLimestone Chunk&r&7 is the first tier of reforging materials."
+				""
+				"&7It is found in the &aOverworld&7, obtainable by &eStonecutting&7 a &fLimestone Block&r&8 (for 4 pieces)&7, or an &fDiorite Block&r &8(for 1 piece)"
+				""
+				"&7It can reforge to the following qualities:"
+				"&8- &fCommon"
+				"&8- &2Uncommon"
+				"&8- &3Rare"
+				"&8- &dEpic"
+			]
+			id: "4D3F0D8217067D24"
+			shape: "diamond"
+			subtitle: "&8[Click to read instructions]"
+			tasks: [{
+				id: "4593A7256861742B"
+				item: "tiered:limestone_chunk"
+				type: "item"
+			}]
+			title: "&6&lTier I: &fLimestone"
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4D3F0D8217067D24"]
+			description: [
+				""
+				"&7The &nPyrite Chunk&r&7 is the second tier of reforging materials."
+				""
+				"&7It is found in the &cNether&7, obtainable by &eCrafting&7 using 4 &6Pyrite Dust&r&8 (for 1 piece)&7, or by &eSmelting&7 an &6Ancient Debris&r&7 block &8(for 4 pieces)"
+				""
+				"&8* Pyrite Dust can be obtained by mining Pyrite Ore in the Nether"
+				""
+				"&7It can reforge to the following qualities:"
+				"&8- &2Uncommon"
+				"&8- &3Rare"
+				"&8- &dEpic"
+				"&8- &6Legendary"
+			]
+			id: "31388834855FB88E"
+			shape: "diamond"
+			subtitle: "&8[Click to read instructions]"
+			tasks: [{
+				id: "23DAEBDBFD05AB7B"
+				item: "tiered:pyrite_chunk"
+				type: "item"
+			}]
+			title: "&6&lTier II: &ePyrite"
+			x: 2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["31388834855FB88E"]
+			description: [
+				""
+				"&7The &nGalena Chunk&r&7 is the third tier and last reforging material."
+				""
+				"&7It is found in the &dEnd&7, obtainable by &eCrafting&7 using 2 &3Galena Dust&r&7 and 2 &3Popped Chorus Fruit&r&8 (for 1 piece)&7."
+				"&7Alternatively, instead of using Galena Dust, you can use &3End Stone&r."
+				""
+				"&8* Galena Dust can be found in the deep caves of the Overworld."
+				""
+				"&7It can reforge to the following qualities:"
+				"&8- &3Rare"
+				"&8- &dEpic"
+				"&8- &6Legendary"
+				"&8- &cMythic"
+			]
+			id: "2DE7359A85169236"
+			shape: "diamond"
+			subtitle: "&8[Click to read instructions]"
+			tasks: [{
+				id: "7C188E7D00623268"
+				item: "tiered:galena_chunk"
+				type: "item"
+			}]
+			title: "&6&lTier III: &3Galena"
+			x: 5.0d
+			y: 2.5d
+		}
+	]
+	title: " &eInformation: &6Reforging"
+}

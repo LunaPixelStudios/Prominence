@@ -1,0 +1,17 @@
+{
+	id: "324c8ee5-2f66-4b49-9ab2-8066aef3544e"
+	type: "party"
+	owner: "619f7be2-a0d9-334f-98f6-f25e4ce91e73"
+	ranks: {
+		619f7be2-a0d9-334f-98f6-f25e4ce91e73: "owner"
+	}
+	properties: {
+		"ftbteams:display_name": "Metamorphosis"
+		"ftbteams:description": "Eblabny"
+		"ftbteams:color": "#59FFE1"
+		"ftbteams:free_to_join": 1b
+		"ftbteams:max_msg_history_size": 1000
+	}
+	message_history: [{ from: "00000000-0000-0000-0000-000000000000", date: 1733743203301L, text: "{\"color\":\"yellow\",\"translate\":\"ftbteams.message.joined\",\"with\":[{\"text\":\"Kurivyan\"}]}" }]
+	extra: { }
+}

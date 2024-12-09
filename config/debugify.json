@@ -1,0 +1,7 @@
+{
+  "MC-89146": true,
+  "MC-199467": true,
+  "opt_out_updater": true,
+  "gameplay_fixes_in_multiplayer": false,
+  "default_disabled": true
+}

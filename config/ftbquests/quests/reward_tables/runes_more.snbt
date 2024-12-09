@@ -1,0 +1,11 @@
+{
+	id: "228D50C0B6188B71"
+	loot_size: 1
+	order_index: 2
+	rewards: [
+		{ count: 32, item: "runes:arcane_stone" }
+		{ count: 32, item: "runes:fire_stone" }
+		{ count: 32, item: "runes:frost_stone" }
+	]
+	title: "runes_more"
+}

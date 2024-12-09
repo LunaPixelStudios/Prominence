@@ -1,0 +1,13 @@
+#.
+#Settings which are more fun and not fit for survival
+[minigame]
+	#.
+	#Gives you permanent, unremovable Girl Power Effect
+	permaDash = true
+	#.
+	#The level of Girl Power Effect when Perma-Dash is enabled
+	#Range: 0 ~ 255
+	permaDashAmount = 0
+	#.
+	#Enable/Disable all minigame settings
+	minigameEnabled = false

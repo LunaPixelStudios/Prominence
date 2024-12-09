@@ -1,0 +1,17 @@
+{
+	id: "79c522c6-f111-3cce-91e2-6b0a5803c8be"
+	type: "player"
+	player_name: "destroyer1zxc"
+	ranks: {
+		79c522c6-f111-3cce-91e2-6b0a5803c8be: "owner"
+	}
+	properties: {
+		"ftbteams:display_name": "destroyer1zxc"
+		"ftbteams:description": ""
+		"ftbteams:color": "#59FF7F"
+		"ftbteams:free_to_join": 0b
+		"ftbteams:max_msg_history_size": 1000
+	}
+	message_history: [ ]
+	extra: { }
+}

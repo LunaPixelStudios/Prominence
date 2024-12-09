@@ -1,0 +1,17 @@
+{
+  // The effect to apply to the Death Knight when hitting an enemy.
+  // Default: minecraft:resistance
+  "effect_to_apply": "minecraft:resistance",
+  // The amount of the effect's stacks given when hitting an enemy.
+  // Default: 3 stacks (Resistance III)
+  "stack_amount": 3,
+  // The maximum amount of the effect that Marrowrend should stack up to.
+  // Default: 4 stacks
+  "max_stacks": 4,
+  // The duration of the resistance effect in ticks. 20 ticks is 1 second.
+  // Default: 200 ticks (10 seconds)
+  "effect_duration": 200,
+  // The chance to reduce the stack count by 1 when an enemy hits the Death Knight.
+  // Default: 1.00 (100% chance)
+  "stack_reduction_chance": 1.0
+}

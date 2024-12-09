@@ -1,0 +1,17 @@
+{
+	id: "2ea998b8-f3eb-3751-aadf-a6e3076ace6e"
+	type: "player"
+	player_name: "Sunllast"
+	ranks: {
+		2ea998b8-f3eb-3751-aadf-a6e3076ace6e: "owner"
+	}
+	properties: {
+		"ftbteams:display_name": "Sunllast"
+		"ftbteams:description": ""
+		"ftbteams:color": "#59FFDB"
+		"ftbteams:free_to_join": 0b
+		"ftbteams:max_msg_history_size": 1000
+	}
+	message_history: [ ]
+	extra: { }
+}

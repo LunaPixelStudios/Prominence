@@ -1,0 +1,32 @@
+["Loot Beams"]
+    beam_radius = 1.0
+    beam_alpha = 0.85
+    render_distance = 24.0
+    fade_distance = 24.0
+    render_name_color = true
+    render_rarity_color = true
+    beam_height = 1.5
+color_overrides = [  ]
+    beam_y_offset = 0.0
+
+    ["Loot Beams".Nametags]
+        borders = true
+        nametag_look_sensitivity = 0.018
+always_draw_rarities_on = [ "#minecrft:music_discs" ]
+        white_rarities = false
+        dmcloot_compat_rarity = true
+        render_stackcount = true
+        nametag_scale = 1.0
+        render_nametags = true
+        render_nametags_onlook = true
+        nametag_background_alpha = 0.5
+        nametag_y_offset = 0.75
+custom_rarities = [  ]
+        nametag_text_alpha = 1.0
+
+    ["Loot Beams".Items]
+        only_equipment = false
+blacklist = [  ]
+        all_items = false
+whitelist = [ "prominent:void_hourglass", "prominent:lesser_mythical_essence", "prominent:greater_mythical_essence" ]
+        only_rare = false

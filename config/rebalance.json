@@ -1,0 +1,16 @@
+{
+  "enable_dynamic_rebalance": true,
+  "reduction_amount": 15.0,
+  "attack_speed_weight": 0.2,
+  "health_minimum": 1.0,
+  "health_threshold": 1.0,
+  "enable_pvp_rebalance": true,
+  "pvp_damage_multiplier": 0.75,
+  "enable_global_reduction": true,
+  "global_reduction_multiplier": 0.5,
+  "global_reduction_start": 4.0,
+  "enable_max_damage_limit": true,
+  "max_damage_limit": 120.0,
+  "max_damage_limit_extra": 30.0,
+  "enable_debug": false
+}

@@ -1,0 +1,8 @@
+{
+  "attributes": {
+    "MAX_HEALTH": 18960.0,
+    "MOVEMENT_SPEED": 0.25,
+    "ATTACK_DAMAGE": 24.0,
+    "ATTACK_SPEED": 0.65
+  }
+}

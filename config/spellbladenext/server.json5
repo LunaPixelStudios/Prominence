@@ -1,0 +1,40 @@
+{
+	// Upper bound of Ashes of the Stars (Default: 50)
+	"ashes_upper_bound": 12,
+	// Lower bound of Ashes of the Stars (Default: 10)
+	"ashes_lower_bound": 6,
+	// Upper bound of Crystallised Omniscience (Default: 30)
+	"omni_upper": 12,
+	// Lower bound of Crystallised Omniscience (Default: 5)
+	"omni_lower": 6,
+	// Coefficient for Voidforge gained damage (Default: 1x, results in 100% gained as)
+	"voidforge": 1,
+	// Spellblade passive maximum Strength and Haste(Default: 10
+	"passive": 0,
+	// Distance from 0,0 below which Hexblades will not invade in the Glass Ocean (Default: 0)
+	"hexblade_grace": 0,
+	// Damage multiplier for spin attacks (eg: Whirlwind) (Default: 1.0)
+	"spin_attack_coeff": 0.6000000238418579,
+	// Hexblade module (Default: TRUE)
+	"hexblade_on": true,
+	// Magus changes the weather on phase end (Default: TRUE)
+	"magusWeather": true,
+	// Magus can be summoned outside the glass ocean (Default: TRUE)
+	"magusWeaker": false,
+	// Reactive ward regen rate coefficient (Default: 1.0)
+	"wardrate": 1.0,
+	// Horde Spawn with Mutations (Only with Fight or Die: Mutations)
+	"horde": false,
+	// Enable Teleporting to Glass Ocean
+	"glassocean": true,
+	// Horde/Hexblade spawn modifier (Default: 1.0)
+	"spawnmodifier": 0.6000000238418579,
+	// Magisters give different xp in the Glass Ocean (Default: false)
+	"diffXP": false,
+	// Magister XP in the Glass Ocean, if different (Default: 25)
+	"magisterXP": 0,
+	// Do not apply Spell Oil capability to any item matching this regex. (Not applied of empty)
+	"blacklist_spell_oil_regex": ".*",
+	// Enable tabula rasa (Default: true
+	"tab": true
+}

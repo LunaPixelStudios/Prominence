@@ -1,0 +1,60 @@
+{
+	// Warding enchant bonus per 1 level - Default: 1.0
+	"wardingenchant": 1.0,
+	// Battle Rouse enchant bonus per 1 level - Default: 0.04
+	"battlerouseenchant": 0.03999999910593033,
+	// Defiance enchant bonus per 1 level - Default: 0.25
+	"defianceEnchant": 0.25,
+	// Evasion enchant bonus per 1 level - Default: 0.04
+	"evasionEnchant": 0.03999999910593033,
+	// Spellbreak enchant bonus per 1 level - Default: 0.04
+	"spellbreakEnchant": 0.03999999910593033,
+	// Suppressing enchant bonus per 1 level - Default: 0.04
+	"suppressingEnchant": 0.03999999910593033,
+	// Glancing Blow damage factor - Default: 0.65
+	"glancingBlowFactor": 0.6499999761581421,
+	// Suppression damage factor - Default: 0.5
+	"suppressionDamageFactor": 0.5,
+	// Spellbreak damage factor - Default: 0.0
+	"spellbreakDamageFactor": 0.0,
+	// Max spellbreak - Default: 0.75
+	"maxSpellbreak": 0.75,
+	// Reabsorption regeneration factor (proportion of 25% of maximum per second) - Default: 1.0
+	"factor": 1.0,
+	// Reabsorption regeneration delay in seconds - Default: 4.0
+	"delay": 4.0,
+	// Reabsorption custom visuals (Default: true)
+	"visuals": true,
+	// Registration of turtle bracer
+	"turtle_bracer": true,
+	// Mod of turtle bracer
+	"turtle_bracer_mod": 0.30000001192092896,
+	// Registration of turtle girdle
+	"turtle_girdle": true,
+	// Mod of turtle girdle
+	"turtle_girdle_mod": 1.0,
+	// Registration of arcane bracer
+	"arcane_bracer": true,
+	// Mod of arcane bracer
+	"arcane_bracer_mod": 0.25,
+	// Registration of nonbeliever amulet
+	"nonbeliever": true,
+	// Mod of nonbeliever amulet
+	"nonbeliever_mod": 0.5,
+	// Registration of defiance ring
+	"defiance_ring": true,
+	// Mod of defiance ring
+	"defiance_ring_mod": 0.15000000596046448,
+	// Registration of undying soul
+	"undying_soul": true,
+	// Mod of undying soul
+	"undying_soul_mod": 0.30000001192092896,
+	// Mod of gold absorption ring
+	"gold_absorption_ring_mod": 4.0,
+	// Mod of netherite absorption ring
+	"netherite_absorption_ring_mod": 6.0,
+	// Mod of gold necklace
+	"gold_absorption_necklace_mod": 0.25,
+	// Mod of netherite necklace
+	"netherite_absorption_necklace_mod": 0.5
+}

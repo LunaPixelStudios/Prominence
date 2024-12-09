@@ -1,0 +1,2039 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "rsquare"
+	filename: "modern_industrialization"
+	group: "49D52BD6447C5CC0"
+	icon: "modern_industrialization:guidebook"
+	id: "5BB4D2FC1908D3D1"
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Remember, this guidebook is very very important in order to progress in case you're lost on what to do. Please take the time and read them when needed."]
+			icon: "modern_industrialization:guidebook"
+			id: "6F6196A606D3A8EF"
+			rewards: [{
+				id: "30114C4833A34014"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Hello, young technician! I am here to help guide you through the factory world of Modern Industrialization. It may be a bit overwhelming at first, but it won't hurt too much, right?"
+			tasks: [
+				{
+					id: "3E45F701C61708E1"
+					type: "checkmark"
+				}
+				{
+					id: "0C23DC9B228035CD"
+					item: "modern_industrialization:guidebook"
+					type: "item"
+				}
+			]
+			title: "Engineering School?!"
+			x: -9.5d
+			y: -11.0d
+		}
+		{
+			dependencies: ["6F6196A606D3A8EF"]
+			id: "385079198388468C"
+			rewards: [
+				{
+					id: "22EDAF043A96FEEF"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "15EDC42C4703B53F"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					id: "7F9340B38EA75839"
+					item: "minecraft:copper_ingot"
+					type: "item"
+				}
+			]
+			shape: "square"
+			subtitle: "Such a piece of equipment is surely gonna be important for our uses! It feels like we're doing blacksmith work!"
+			tasks: [
+				{
+					id: "1B769C345EAF942C"
+					item: "modern_industrialization:forge_hammer"
+					type: "item"
+				}
+				{
+					id: "6302ACABBC6AEA42"
+					item: {
+						Count: 1b
+						id: "modern_industrialization:iron_hammer"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Are we Blacksmiths?"
+			x: -9.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["385079198388468C"]
+			description: ["Steam machines will accept inputs from any side, be it items, steam or another fluid. You can lock their slots by clicking on the lock in the interface. Locked slots only accept one type of item or fluid."]
+			icon: "modern_industrialization:bronze_ingot"
+			id: "4661838E492BDE53"
+			rewards: [{
+				id: "48BE059E717F3B88"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "gear"
+			subtitle: "Full Steam Ahead! You have now made it to this point of learning how tech works, are you ready for more?"
+			tasks: [{
+				count: 32L
+				id: "393032946BC049BC"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "c:bronze_ingots"
+					}
+				}
+				title: "Bronze Ingots"
+				type: "item"
+			}]
+			title: "&6Your First Bronze!"
+			x: -9.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["4661838E492BDE53"]
+			id: "7F96B49412F52611"
+			rewards: [
+				{
+					count: 5
+					id: "7001E0BE6F705515"
+					item: "techreborn:bronze_ingot"
+					type: "item"
+				}
+				{
+					id: "12C276B1044FCBB4"
+					type: "xp"
+					xp: 20
+				}
+			]
+			subtitle: "This is probably the first machine you will want to build as it saves your hammer from hammering away their durability."
+			tasks: [{
+				id: "3F8C83D99FC1C002"
+				item: "modern_industrialization:bronze_compressor"
+				type: "item"
+			}]
+			title: "Mechanical Press, but more Modern!"
+			x: -12.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["4661838E492BDE53"]
+			description: [
+				"Steam machines need steam to function, and that's exactly what the boiler provides. It will slowly use fuel to heat up. When it's hot enough, it will start to produce steam. Don't forget to feed it with water or your fuel will burn for nothing."
+				""
+				"You can also smelt water buckets into steam buckets. Make your first Bronze Compressor before the boiler to save a lot on the plates!"
+				""
+				"It probably looks expensive to you right now, but don't forget that you can triple ores with the Forge Hammer. Also, as soon as you will have your first two machines, it will become more than twice less expensive!"
+				""
+				"The boiler will automatically produce and send steam to adjacent machines, up to 8 millibuckets per tick."
+				""
+				"Bronze machines can only process recipes up to 2 EU/t, meaning that the recipe will use 2 Energy Units per Tick. As 1 millibucket of steam = 1 EU, a boiler at max temperature can power 4 machines simultaneously!"
+			]
+			id: "0BAB52BE15CE157F"
+			rewards: [
+				{
+					count: 3
+					id: "48FE673386EA9DF8"
+					item: "modern_industrialization:steam_bucket"
+					type: "item"
+				}
+				{
+					id: "50EE9ECCB68BB9FD"
+					type: "xp"
+					xp: 25
+				}
+			]
+			subtitle: "Oh, That's Hot! Remember that the boiler is an advanced machinery that is able to power several machines at once and saves fuel efficiently. Don't forget to give it water or else the fuel wastes burning to ashes."
+			tasks: [{
+				id: "047BE723A63F9E5F"
+				item: "modern_industrialization:bronze_boiler"
+				type: "item"
+			}]
+			title: "Full Steam Ahead!"
+			x: -9.5d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"748D2241F66FF644"
+				"0DD703B94D202B68"
+				"4AD93229344EA0BE"
+			]
+			description: [""]
+			icon: "modern_industrialization:steam_blast_furnace"
+			id: "586CB8FEAA0A50C6"
+			rewards: [{
+				id: "48C41FC140863B6B"
+				type: "xp"
+				xp: 40
+			}]
+			subtitle: "The Steam Blast Furnace has a similar structure like the Coke Oven, but this is used to create steel. Perhaps this is where the next stage comes."
+			tasks: [
+				{
+					count: 29L
+					id: "34C10A32EE244F3F"
+					item: "modern_industrialization:fire_clay_bricks"
+					type: "item"
+				}
+				{
+					id: "49215E965FF25243"
+					item: "modern_industrialization:steam_blast_furnace"
+					type: "item"
+				}
+				{
+					id: "343625490325E9E0"
+					item: "modern_industrialization:bronze_fluid_input_hatch"
+					type: "item"
+				}
+				{
+					id: "1F0ABBBFABD188C2"
+					item: "modern_industrialization:bronze_item_input_hatch"
+					type: "item"
+				}
+				{
+					id: "6056045338C6DD46"
+					item: "modern_industrialization:bronze_item_output_hatch"
+					type: "item"
+				}
+			]
+			title: "Sauna but for metals"
+			x: -9.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4661838E492BDE53"]
+			description: [""]
+			id: "5A27B361EF71A4DF"
+			rewards: [{
+				id: "66BB04E6CA8C33E5"
+				type: "xp"
+				xp: 30
+			}]
+			shape: "rsquare"
+			subtitle: "The Macerator is an interesting machine that allows the recycling of materials and powder them into dust and be reused again."
+			tasks: [{
+				id: "7799145BACA36D6A"
+				item: "modern_industrialization:bronze_macerator"
+				type: "item"
+			}]
+			title: "Reduce, Reuse, Reforge"
+			x: -6.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["385079198388468C"]
+			description: [""]
+			id: "70CD9F0D26A75E13"
+			rewards: [
+				{
+					id: "77CB2BB7884957A3"
+					item: "minecraft:water_bucket"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "1D21EBE1D2B67222"
+					item: "modern_industrialization:coke"
+					type: "item"
+				}
+			]
+			subtitle: "This is a miner's trusty item that will mine tunnels in a 3x3 manner. Remember to always refuel with water and coal like a steam engine!"
+			tasks: [{
+				id: "4BCB31C3818DC3D7"
+				item: "modern_industrialization:steam_mining_drill"
+				type: "item"
+			}]
+			title: "My Drill Will Pierce the Heavens!"
+			x: -11.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["4661838E492BDE53"]
+			dependency_requirement: "one_started"
+			id: "4575644C7E5F2DEE"
+			rewards: [
+				{
+					id: "3BF5F814E7572F46"
+					item: "farmersdelight:mixed_salad"
+					type: "item"
+				}
+				{
+					id: "5C18906AE0E461D7"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "The Mixer will help you mix dusts or fluids for a cheaper price. Just don't put your food ingredients in here, or it'll smell bad."
+			tasks: [{
+				id: "1CCFC1ADFBB4F858"
+				item: "modern_industrialization:bronze_mixer"
+				type: "item"
+			}]
+			title: "Is this for baking?"
+			x: -11.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["4661838E492BDE53"]
+			description: [""]
+			icon: "modern_industrialization:bronze_cutting_machine"
+			id: "68E8311AC3140A56"
+			rewards: [{
+				id: "562C0214B1418055"
+				type: "xp"
+				xp: 40
+			}]
+			subtitle: "Now this is a perfect machine used to save your materials from being wasted! Use it to cut into any machine part you need, at the cost of some lubricant."
+			tasks: [{
+				icon: "modern_industrialization:bronze_cutting_machine"
+				id: "05C1EB3A2AEB99EF"
+				item: "modern_industrialization:bronze_cutting_machine"
+				type: "item"
+			}]
+			title: "I'll cut you!"
+			x: -7.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["4661838E492BDE53"]
+			description: [""]
+			id: "39FADF9C0442304F"
+			rewards: [
+				{
+					count: 16
+					id: "12FF8CCB7F2657F8"
+					item: "minecraft:clay_ball"
+					type: "item"
+				}
+				{
+					id: "1A047D17FD23D1EF"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "Dust to dust! Clay to bricks! Making these bricks aren't particularly hard, just turn regular bricks into dust, mix it with some clay and smelt."
+			tasks: [{
+				count: 12L
+				id: "5FB4F9E06ED83BA2"
+				item: "modern_industrialization:fire_clay_brick"
+				type: "item"
+			}]
+			title: "Where's the Fire in Fire Clay?"
+			x: -8.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["39FADF9C0442304F"]
+			description: [""]
+			id: "4AD93229344EA0BE"
+			rewards: [{
+				id: "2D513299E81DDA0D"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "The Bronze Furnace is just as slow as a normal furnace, but it uses steam instead of any other fuel source, and cheaper as well."
+			tasks: [{
+				id: "747A0D40FA945748"
+				item: "modern_industrialization:bronze_furnace"
+				type: "item"
+			}]
+			title: "Is it to steam food?"
+			x: -8.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["4661838E492BDE53"]
+			description: [
+				"Coke will be very useful for steel, but it is also a powerful fuel."
+				""
+				"I hope that you can find a convenient location for your input and output hatches so it will run smoothly."
+			]
+			icon: "modern_industrialization:coke_oven"
+			id: "36ECD7C06649DE78"
+			rewards: [
+				{
+					count: 32
+					id: "28752E436B412354"
+					item: "minecraft:coal"
+					type: "item"
+				}
+				{
+					id: "6C440A2969E906B9"
+					type: "xp"
+					xp: 30
+				}
+			]
+			subtitle: "The Coke Oven is meant to make coke fuel, not soda. Remember to power this oven with steam using the input hatch and it will give coke in the output hatch. Always carry a wrench in order to see the multiblock structure."
+			tasks: [
+				{
+					id: "217D2448551C324A"
+					item: "modern_industrialization:coke_oven"
+					type: "item"
+				}
+				{
+					count: 21L
+					id: "2418D8560CE16E75"
+					item: "minecraft:bricks"
+					type: "item"
+				}
+				{
+					id: "1EC4B2642DBB8127"
+					item: "modern_industrialization:bronze_item_input_hatch"
+					type: "item"
+				}
+				{
+					id: "510058C68DBCD031"
+					item: "modern_industrialization:bronze_item_output_hatch"
+					type: "item"
+				}
+				{
+					id: "267A96FED5F44276"
+					item: "modern_industrialization:bronze_fluid_input_hatch"
+					type: "item"
+				}
+				{
+					id: "092B490D68ACEA49"
+					item: "modern_industrialization:bronze_fluid_output_hatch"
+					type: "item"
+				}
+			]
+			title: "This is not Coca Cola!"
+			x: -10.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["36ECD7C06649DE78"]
+			description: [""]
+			id: "748D2241F66FF644"
+			rewards: [
+				{
+					id: "5D4B74FC7E1B82E1"
+					item: "modern_industrialization:coke_block"
+					type: "item"
+				}
+				{
+					id: "44DF7C8EB7213352"
+					type: "xp"
+					xp: 30
+				}
+			]
+			subtitle: "Coke is a useful fuel source that is much more powerful than any fuel source, and it is a small requirment for what is to come."
+			tasks: [
+				{
+					id: "4F5F070D435F875B"
+					item: "modern_industrialization:coke"
+					type: "item"
+				}
+				{
+					id: "6C1E991F4D0A3148"
+					item: "modern_industrialization:coke_dust"
+					type: "item"
+				}
+			]
+			x: -10.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["0BAB52BE15CE157F"]
+			description: [""]
+			id: "0DD703B94D202B68"
+			rewards: [
+				{
+					count: 5
+					id: "5C2F3FDE9BA07D12"
+					item: "minecraft:water_bucket"
+					type: "item"
+				}
+				{
+					id: "1607CABFFD8D45E6"
+					type: "xp"
+					xp: 25
+				}
+			]
+			subtitle: "The Bronze Pump is good at inserting water into your machinery that requires water, especially boilers. Make sure they're near a water source in order for this to work automatically!"
+			tasks: [{
+				id: "510DB26BFE950469"
+				item: "modern_industrialization:bronze_water_pump"
+				type: "item"
+			}]
+			title: "Pump Your Pistons!"
+			x: -9.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["4661838E492BDE53"]
+			description: [""]
+			id: "75608EDF99965533"
+			rewards: [
+				{
+					count: 8
+					id: "1E311CE091051941"
+					item: "minecraft:red_dye"
+					type: "item"
+				}
+				{
+					id: "2C38E0BDB85FF28F"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "Perfect! Now we can move our fluids properly now! Though it only works with one type of fluid at a time."
+			tasks: [{
+				count: 16L
+				id: "2E9298C2FC478FF5"
+				item: "modern_industrialization:fluid_pipe"
+				type: "item"
+			}]
+			title: "Fluid Transportation"
+			x: -11.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["586CB8FEAA0A50C6"]
+			description: [""]
+			id: "7C5C1CA5A7954896"
+			rewards: [{
+				id: "583024642A669E0B"
+				type: "xp"
+				xp: 40
+			}]
+			shape: "gear"
+			subtitle: "Steel is the next upgrade to such advanced machinery as it was not only complicated to reach this point, but also shows your ability to think ahead."
+			tasks: [{
+				id: "3612549FFBF5E73C"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "c:steel_ingots"
+					}
+				}
+				title: "Steel Ingots"
+				type: "item"
+			}]
+			title: "&8A Kilogram of Feathers or A Kilogram of Steel?"
+			x: -4.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6F6196A606D3A8EF"]
+			id: "0D10B5E838DF9196"
+			rewards: [{
+				count: 8
+				id: "468AFB6AC11BDA99"
+				item: "modern_industrialization:lignite_coal_block"
+				type: "item"
+			}]
+			subtitle: "It's a regular coal's twin sibling, nothing different from each other, but handy at least."
+			tasks: [{
+				count: 64L
+				id: "5B8A314E5014ADA6"
+				item: "modern_industrialization:lignite_coal"
+				type: "item"
+			}]
+			title: "Coal's Twin"
+			x: -11.5d
+			y: -11.0d
+		}
+		{
+			dependencies: ["7C5C1CA5A7954896"]
+			id: "6F4AE13DA520109C"
+			rewards: [{
+				id: "1AD889DB628B5A42"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "It is time to upgrade your bronze machinery into their steel variants, they have evolved even further than you can imagine."
+			tasks: [{
+				count: 2L
+				id: "763B45889C554D7E"
+				item: "modern_industrialization:steel_upgrade"
+				type: "item"
+			}]
+			title: "You Live, You Learn, You Upgrade"
+			x: -2.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["7C5C1CA5A7954896"]
+			description: [
+				"The Steam Quarry is a steam multiblock machine that consumes bronze drills, uses them to dig deeper than the bedrock and gives you back some ores, as you can see in REI."
+				""
+				"It's recommended that you have multiple SBFs running before you attempt to build it because it requires a lot of steel."
+				""
+			]
+			icon: "modern_industrialization:steam_quarry"
+			id: "26E587E34810A8FE"
+			rewards: [
+				{
+					count: 5
+					id: "21D56C8F919971F6"
+					item: "modern_industrialization:bronze_drill_head"
+					type: "item"
+				}
+				{
+					id: "204170409FA28596"
+					type: "xp"
+					xp: 50
+				}
+			]
+			subtitle: "Here we are, it is time to assemble a Steam Quarry, an advanced machinery that uses bronze drills to dig for ores. This will be an expensive machinery but it will be one of your greatest investments of all."
+			tasks: [
+				{
+					id: "0B829B6C4987D67B"
+					item: "modern_industrialization:steam_quarry"
+					type: "item"
+				}
+				{
+					count: 13L
+					id: "3FA8E3781E4BF9AE"
+					item: "modern_industrialization:steel_machine_casing"
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "4AEC4A5817CF1493"
+					item: "modern_industrialization:steel_machine_casing_pipe"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "05F5685C54F12B88"
+					item: "minecraft:chain"
+					type: "item"
+				}
+			]
+			title: "Infinite resources?"
+			x: -4.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["2050D2FF42E29F6D"]
+			id: "74A278B57EF76B3B"
+			rewards: [{
+				id: "3AF9B328CED1A5BF"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "Now we're cooking, perhaps there is more to this quarry than just this drill, maybe we can advance even further?"
+			tasks: [{
+				count: 4L
+				id: "624F6E6D7A45923D"
+				item: "modern_industrialization:bronze_drill"
+				type: "item"
+			}]
+			title: "Bronze drill"
+			x: -3.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["7C5C1CA5A7954896"]
+			description: [""]
+			id: "43F43FB0B9ED0818"
+			rewards: [
+				{
+					count: 4
+					id: "1E9D18D104CA30EC"
+					item: { Count: 4b, id: "techreborn:steel_plate" }
+					type: "item"
+				}
+				{
+					id: "35629DF69C5A56D9"
+					type: "xp"
+					xp: 20
+				}
+			]
+			subtitle: "A Steel Wiremill will be useful to create even more sophisticated machinery, but also remember that you need some raw synthetic oil and paper to make rubber sheets and more."
+			tasks: [{
+				id: "32FF28A50A8B3DD5"
+				item: "modern_industrialization:steel_wiremill"
+				type: "item"
+			}]
+			title: "Do not tangle up the wires, okay?"
+			x: 1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2050D2FF42E29F6D"]
+			id: "2F5A88568154E986"
+			rewards: [{
+				id: "113170A0A2F1E4A1"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "Let's start small first. You never know how this will turn out."
+			tasks: [{
+				id: "4CB128CC2F0687DD"
+				item: "modern_industrialization:copper_drill"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["43F43FB0B9ED0818"]
+			id: "19E5E31614FE485E"
+			rewards: [{
+				id: "749148FEAC43A349"
+				type: "xp"
+				xp: 30
+			}]
+			shape: "gear"
+			subtitle: "You have done well to make it this far. Now that we have moved on from steam, we are now doing even more complicated machinery using electricity, but the results are rewarding."
+			tasks: [{
+				count: 2L
+				id: "33A196551A047E54"
+				item: "modern_industrialization:analog_circuit"
+				type: "item"
+			}]
+			title: "&6I want a Nokia phone now!"
+			x: 1.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["7C5C1CA5A7954896"]
+			description: [""]
+			id: "38F9192F665742BA"
+			rewards: [
+				{
+					count: 8
+					id: "0B0E01C14DDDB67F"
+					item: "minecraft:blue_dye"
+					type: "item"
+				}
+				{
+					id: "54FAEED00879D52F"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "Now we can force items to be transported! Remember to force a connection with the pipes into machineries so they will transport them when needed."
+			tasks: [{
+				count: 16L
+				id: "52537690D3281DBF"
+				item: "modern_industrialization:item_pipe"
+				type: "item"
+			}]
+			title: "Item Transportation"
+			x: -6.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["19E5E31614FE485E"]
+			description: [""]
+			id: "79F4B68189C05A25"
+			rewards: [
+				{
+					count: 2
+					id: "2E44F161981497D4"
+					item: "modern_industrialization:robot_arm"
+					type: "item"
+				}
+				{
+					id: "2453759A75AEE3D5"
+					type: "xp"
+					xp: 30
+				}
+			]
+			shape: "rsquare"
+			subtitle: "The Assembler is a sophisticated machinery that will automate almost all of your machinery parts, but remember to make more of them to make it easier."
+			tasks: [{
+				id: "651D4E443F87E715"
+				item: "modern_industrialization:assembler"
+				type: "item"
+			}]
+			title: "Machine Parts, ASSEMBLE!!"
+			x: 2.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["19E5E31614FE485E"]
+			description: [""]
+			icon: "modern_industrialization:large_steam_boiler"
+			id: "2F6ED192CC3A9AF4"
+			rewards: [
+				{
+					count: 16
+					id: "66C0E34F6FD976C3"
+					item: "modern_industrialization:white_fluid_pipe"
+					type: "item"
+				}
+				{
+					id: "7234354A2DB717F6"
+					type: "xp"
+					xp: 35
+				}
+			]
+			subtitle: "I feel like we're creating a Steam Engine with how much bigger these boilers get. Anyway, this is an upgraded version of your already known boilers, they use up more fuel but their output is tremendous."
+			tasks: [
+				{
+					id: "7D1063975B5EA66E"
+					item: "modern_industrialization:large_steam_boiler"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "13C71839379B60DA"
+					item: "modern_industrialization:bronze_machine_casing_pipe"
+					type: "item"
+				}
+				{
+					count: 24L
+					id: "32E98789AE243D6A"
+					item: "modern_industrialization:bronze_plated_bricks"
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "27E2509D1BD44B95"
+					item: "modern_industrialization:heatproof_machine_casing"
+					type: "item"
+				}
+			]
+			title: "Can we boil our food now? No?"
+			x: 1.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["19E5E31614FE485E"]
+			description: [""]
+			id: "55ED05A197F8D24A"
+			rewards: [{
+				id: "596B76D1A8846CD9"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "The Steam Turbine uses steam to produce electricity. But there will be more upgrades to this certain turbine so remember to make a lot of these to power your electrical machinery."
+			tasks: [{
+				id: "0497A2F2D5A65B0C"
+				item: "modern_industrialization:lv_steam_turbine"
+				type: "item"
+			}]
+			title: "Is this my electric fan?"
+			x: 0.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["55ED05A197F8D24A"]
+			id: "5F52B24FFE2DDD86"
+			rewards: [
+				{
+					count: 4
+					id: "36D19E83ED7A2C1B"
+					item: "modern_industrialization:steel_rod_magnetic"
+					type: "item"
+				}
+				{
+					id: "34537E4DA898574A"
+					type: "xp"
+					xp: 20
+				}
+			]
+			subtitle: "The Polarizer is a unique machinery that adds in magnet like properties to certain machinery parts that will be essential."
+			tasks: [{
+				id: "796F845AA4E8F271"
+				item: "modern_industrialization:polarizer"
+				type: "item"
+			}]
+			title: "Can we create Magnemite?"
+			x: 0.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["5F52B24FFE2DDD86"]
+			description: [""]
+			icon: "modern_industrialization:electric_blast_furnace"
+			id: "796F33AE4A9CF30C"
+			rewards: [
+				{
+					id: "242165A5743BEA2A"
+					item: "modern_industrialization:steel_item_input_hatch"
+					type: "item"
+				}
+				{
+					id: "5969D12E96E787AE"
+					item: "modern_industrialization:steel_item_output_hatch"
+					type: "item"
+				}
+				{
+					id: "3651BB07120D0AD5"
+					type: "xp"
+					xp: 50
+				}
+			]
+			subtitle: "The electric version of the Steam Blast Furnace, nothing more, nothing less. But it does add more recipes that can only be done with this furnace."
+			tasks: [
+				{
+					id: "39EB9EA6FC93093F"
+					item: "modern_industrialization:electric_blast_furnace"
+					type: "item"
+				}
+				{
+					count: 17L
+					id: "3AD3F002BEB84710"
+					item: "modern_industrialization:heatproof_machine_casing"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "431CC13936EFB564"
+					item: "modern_industrialization:cupronickel_coil"
+					type: "item"
+				}
+			]
+			title: "Induction Stove?"
+			x: 0.5d
+			y: -11.0d
+		}
+		{
+			dependencies: ["796F33AE4A9CF30C"]
+			id: "6BEB4461CA08633F"
+			rewards: [{
+				id: "0F79198782678260"
+				type: "xp"
+				xp: 35
+			}]
+			shape: "gear"
+			subtitle: "Oh dear me, this was such a headache, but now we're going even further beyond? I hope I don't get a headache.."
+			tasks: [{
+				id: "36962E06671E364F"
+				item: "modern_industrialization:electronic_circuit"
+				type: "item"
+			}]
+			title: "&bI want a car now!"
+			x: 5.5d
+			y: -11.0d
+		}
+		{
+			dependencies: ["33BF21CF8232FD35"]
+			id: "036292964BDE4944"
+			rewards: [{
+				id: "3305918FD4754EE6"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "Will turn various fluids into their lighter parts. So this is how we get distilled water?"
+			tasks: [{
+				id: "25449DE629548BDF"
+				item: "modern_industrialization:distillery"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["036292964BDE4944"]
+			description: [""]
+			id: "6D0310EF6A259AC8"
+			rewards: [{
+				id: "6FD4B8C610F5ED57"
+				type: "xp"
+				xp: 40
+			}]
+			subtitle: "These tools will be powerful and potentially replace your pickaxe and shovel. The jetpack will also fly faster with better fuel, handle with care."
+			tasks: [
+				{
+					id: "67C570594E13FA80"
+					item: "modern_industrialization:diesel_mining_drill"
+					type: "item"
+				}
+				{
+					id: "7E63F544E1AF7DC1"
+					item: "modern_industrialization:diesel_chainsaw"
+					type: "item"
+				}
+				{
+					id: "13107B90179730F8"
+					item: "modern_industrialization:diesel_jetpack"
+					type: "item"
+				}
+			]
+			title: "&bIs it a Jet Engine or a Diesel Engine?"
+			x: 9.0d
+			y: -10.5d
+		}
+		{
+			dependencies: [
+				"036292964BDE4944"
+				"64BACF5B60AD2406"
+			]
+			id: "7CE18D246F01445D"
+			rewards: [{
+				id: "12A8A25898D36CAF"
+				type: "xp"
+				xp: 40
+			}]
+			shape: "gear"
+			subtitle: "A Digital World! Finally, we're at this stage, where things get even more ridiculously complex. Remember to read carefully."
+			tasks: [{
+				id: "096259C009D8AFC1"
+				item: "modern_industrialization:digital_circuit"
+				type: "item"
+			}]
+			title: "&9I want a console now!"
+			x: 10.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["6BEB4461CA08633F"]
+			description: [""]
+			icon: "modern_industrialization:oil_drilling_rig"
+			id: "33BF21CF8232FD35"
+			rewards: [{
+				id: "3D028FD471613B8A"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "A huge multiblock that can dig for Crude Oil under the bedrock using fluid pipes. I hope we can sell all this oil for money... wait, do we have money at all?"
+			tasks: [
+				{
+					id: "26F6DB1C04F1CF93"
+					item: "modern_industrialization:oil_drilling_rig"
+					type: "item"
+				}
+				{
+					count: 38L
+					id: "0BC5972EF14E4DA5"
+					item: "modern_industrialization:steel_machine_casing"
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "0FF841D00CE1829C"
+					item: "modern_industrialization:steel_machine_casing_pipe"
+					type: "item"
+				}
+				{
+					count: 18L
+					id: "0806B1D850EDDACE"
+					item: "minecraft:chain"
+					type: "item"
+				}
+			]
+			title: "Time to be rich!"
+			x: 8.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["6BEB4461CA08633F"]
+			id: "6B11B8A209763B36"
+			rewards: [{
+				id: "418FD62C77FE7890"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "Can make items and fluids react with each other."
+			tasks: [{
+				id: "4405859846ECFE0E"
+				item: "modern_industrialization:chemical_reactor"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["7CE18D246F01445D"]
+			id: "2AE689F6495C83A6"
+			rewards: [{
+				id: "3B83F18D0F1A5394"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "This is a very advanced machinery that is fairly tall with how they're able to assemble to an even taller machinery. If you would like to change the height, right click it with a screwdriver and it applies to other multiblocks with multiple shapes like the Kanthal tier Electric Blast Furnace!"
+			tasks: [{
+				id: "54C9073262B25D06"
+				item: "modern_industrialization:distillation_tower"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["7CE18D246F01445D"]
+			id: "7F41EEF87B3A8B84"
+			rewards: [{
+				id: "6F2C95E5F5B98B7E"
+				type: "xp"
+				xp: 40
+			}]
+			subtitle: "You can use a Heat Exchanger to recover the HP water for another cycle."
+			tasks: [{
+				id: "4223D53BFBB35DEF"
+				item: "modern_industrialization:heat_exchanger"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["6B522DC6845DB558"]
+			description: [""]
+			id: "65CB5CA13FBD010E"
+			rewards: [{
+				id: "177817FBCF270434"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "Turbo Upgrades will be useful to speed up your machinery when right clicked with it while the Advanced Machine Hulls will be used on machines to accept MV only as they're a higher tier. Both can be removed using a crowbar when necessary."
+			tasks: [
+				{
+					id: "5625CE2C5AF1194F"
+					item: "modern_industrialization:turbo_upgrade"
+					type: "item"
+				}
+				{
+					id: "08B66500C8E9F4CE"
+					item: "modern_industrialization:advanced_machine_hull"
+					type: "item"
+				}
+			]
+			title: "More upgrades!"
+			x: 10.0d
+			y: -12.5d
+		}
+		{
+			dependencies: ["6BEB4461CA08633F"]
+			id: "693E05A909195578"
+			rewards: [{
+				id: "2B562E202B3E2FC4"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "Splits items by spinning them very fast."
+			tasks: [{
+				id: "68D837AA6DE85D6F"
+				item: "modern_industrialization:centrifuge"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["6BEB4461CA08633F"]
+			description: [
+				"Provide it with items and energy, and watch your resources GO BRRR!"
+				""
+				"Its structure is exactly the same as the Steam Quarry's."
+			]
+			icon: "modern_industrialization:electric_quarry"
+			id: "3DC21B6F47A253E4"
+			rewards: [{
+				id: "789C3CC47EFFAF36"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "The electric equivalent of the Steam Quarry."
+			tasks: [
+				{
+					id: "1004292AA09E90E0"
+					item: "modern_industrialization:electric_quarry"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "530C5BAAAE5874C2"
+					item: "modern_industrialization:steel_machine_casing"
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "2CAD989D39D01AD6"
+					item: "modern_industrialization:steel_machine_casing_pipe"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "773643F90F9A7B82"
+					item: "minecraft:chain"
+					type: "item"
+				}
+			]
+			x: 5.5d
+			y: -12.5d
+		}
+		{
+			dependencies: ["3DC21B6F47A253E4"]
+			id: "381693770EF21108"
+			rewards: [{
+				id: "74C349AA8684AA58"
+				type: "xp"
+				xp: 40
+			}]
+			subtitle: "One of the Quarry's drills."
+			tasks: [{
+				id: "7B1FED6BDC3FB1FA"
+				item: "modern_industrialization:gold_drill"
+				type: "item"
+			}]
+			title: "&6Gold Drill"
+			x: 5.5d
+			y: -13.5d
+		}
+		{
+			dependencies: ["3DC21B6F47A253E4"]
+			id: "01BBE636EBB71416"
+			rewards: [{
+				id: "040558025CE54280"
+				type: "xp"
+				xp: 40
+			}]
+			subtitle: "One of the Quarry's drills."
+			tasks: [{
+				id: "6A35321C6F3D7D64"
+				item: "modern_industrialization:stainless_steel_drill"
+				type: "item"
+			}]
+			title: "&3Stainless Steel Drill"
+			x: 4.5d
+			y: -13.5d
+		}
+		{
+			dependencies: ["3DC21B6F47A253E4"]
+			id: "04B4FB69D88D1C76"
+			rewards: [{
+				id: "318007A8654AD93F"
+				type: "xp"
+				xp: 40
+			}]
+			subtitle: "One of the Quarry's drills."
+			tasks: [{
+				id: "758EB0D2CB85F803"
+				item: "modern_industrialization:steel_drill"
+				type: "item"
+			}]
+			title: "&8Steel Drill"
+			x: 6.5d
+			y: -13.5d
+		}
+		{
+			dependencies: ["036292964BDE4944"]
+			description: [""]
+			id: "6B522DC6845DB558"
+			rewards: [{
+				id: "42A6BE7F8466142A"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "You are almost there! With oil processing, you're a few steps closer to making even more advanced machinery."
+			tasks: [{
+				id: "71B5428A94930A18"
+				item: "modern_industrialization:advanced_upgrade"
+				type: "item"
+			}]
+			title: "Upgrades!"
+			x: 10.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["6BEB4461CA08633F"]
+			id: "7D4B8F84394B1B35"
+			rewards: [{
+				id: "18F80756296C9C71"
+				type: "xp"
+				xp: 40
+			}]
+			subtitle: "I wonder if this steam turbine can blow us away? Nah."
+			tasks: [{
+				id: "16E814CBBEE5F8AB"
+				item: "modern_industrialization:mv_steam_turbine"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["7CE18D246F01445D"]
+			id: "2B0219B675E3820F"
+			rewards: [{
+				id: "7259BDAB5CDCB430"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "Another option for small setups is to use an HV steam turbine, they are not a joke with their production."
+			tasks: [{
+				id: "54B31CE72767D4C6"
+				item: "modern_industrialization:hv_steam_turbine"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["6BEB4461CA08633F"]
+			icon: "modern_industrialization:vacuum_freezer"
+			id: "0A0931D04AE50D4B"
+			rewards: [
+				{
+					id: "670918DB54A59B14"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 32
+					id: "7322BEDD2D7C61E3"
+					item: "modern_industrialization:annealed_copper_dust"
+					type: "item"
+				}
+			]
+			subtitle: "The Vacuum Freezer is what it sounds like, it cools down or freezes solids and liquids in order to make them usable."
+			tasks: [
+				{
+					id: "2D292B2E8511A84D"
+					item: "modern_industrialization:vacuum_freezer"
+					type: "item"
+				}
+				{
+					count: 33L
+					id: "43D4C2C2AB9CAA35"
+					item: "modern_industrialization:frostproof_machine_casing"
+					type: "item"
+				}
+			]
+			title: "I hope it's safe to put ice cream in here."
+			x: 5.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["6BEB4461CA08633F"]
+			id: "68BD457258EC8CBF"
+			rewards: [{
+				id: "57D249639CB0DD0E"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "Can split materials into their different parts using strong electric currents."
+			tasks: [{
+				id: "4ECD4D66C0DAB6AC"
+				item: "modern_industrialization:electrolyzer"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["0A0931D04AE50D4B"]
+			description: ["Smelting stainless steel dust in an EBF will give you hot ingots, which you can cool back into regular ingots with a Vacuum Freezer."]
+			id: "64BACF5B60AD2406"
+			rewards: [{
+				id: "16BD1A2AE7B30382"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "Stainless Steel, another necessary ingot used for new stuff. Wait.. I see a stain here!"
+			tasks: [{
+				id: "37EE6FA75FA9D21D"
+				item: "modern_industrialization:stainless_steel_ingot"
+				type: "item"
+			}]
+			title: "Squeaky Clean"
+			x: 5.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["64BACF5B60AD2406"]
+			id: "6B15091EC1B119B0"
+			rewards: [
+				{
+					id: "1820D9BCBE47DF52"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 10
+					id: "51E2F19F88B5020E"
+					item: "modern_industrialization:kanthal_dust"
+					type: "item"
+				}
+			]
+			subtitle: "Kanthal Coils are used by the Electric Blast Furnace to produce more materials as they are powerful enough to do so."
+			tasks: [{
+				count: 16L
+				id: "2BD708AAF08C5905"
+				item: "modern_industrialization:kanthal_coil"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6B15091EC1B119B0"]
+			id: "7D3D156BE9C9E150"
+			rewards: [{
+				id: "47D7E1DF8030D3AD"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "This is not an easy metal to work with, remember that you need machinery to even bend this, but it shows its durability."
+			tasks: [{
+				id: "040031047A05E0AE"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "c:titanium_ingots"
+					}
+				}
+				title: "Any #c:titanium_ingots"
+				type: "item"
+			}]
+			title: "Titanium"
+			x: 17.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"6B15091EC1B119B0"
+				"7CE18D246F01445D"
+			]
+			id: "5310B93F2821826A"
+			rewards: [{
+				id: "09F0E3FEF88A4E55"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "A Processing Unit is used to create highly sophisticated machine parts and even highly advanced drills that are already difficult to make use of."
+			tasks: [{
+				id: "5D18FA4D68318732"
+				item: "modern_industrialization:processing_unit"
+				type: "item"
+			}]
+			title: "Computer Brain"
+			x: 10.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7D3D156BE9C9E150"]
+			id: "6B05C72FF31E104D"
+			rewards: [{
+				id: "04E110046D2E9DF1"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "7103DFB1F1EF3828"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "c:raw_iridium_ores"
+					}
+				}
+				title: "Raw Iridium"
+				type: "item"
+			}]
+			title: "Raw Iridium"
+			x: 19.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["7D3D156BE9C9E150"]
+			id: "1EACE9E49BA4B753"
+			rewards: [{
+				id: "4D5F114F8BFAC71D"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "This blastproof alloy plate is going to be specially important with a specific process that will be booming."
+			tasks: [{
+				id: "072C3C5C4355E8DF"
+				item: "modern_industrialization:blastproof_alloy_plate"
+				type: "item"
+			}]
+			title: "Can we make a shield out of this?"
+			x: 17.5d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"7D3D156BE9C9E150"
+				"7CE18D246F01445D"
+			]
+			icon: "modern_industrialization:pressurizer"
+			id: "46319F2AE2F90532"
+			rewards: [
+				{
+					id: "24AE87D5D3E02EDB"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "10F2E622F3B1EE3A"
+					item: "minecraft:water_bucket"
+					type: "item"
+				}
+			]
+			subtitle: "A new multiblock made of titanium that can turn water into HP (high pressure) water, steam into HP steam, and the other way around."
+			tasks: [
+				{
+					id: "34D13E49CD76D0E5"
+					item: "modern_industrialization:pressurizer"
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "406C11A88083444C"
+					item: "modern_industrialization:solid_titanium_machine_casing"
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "44B6C74129ADE260"
+					item: "modern_industrialization:titanium_machine_casing_pipe"
+					type: "item"
+				}
+			]
+			title: "Stop giving me peer pressure!"
+			x: 13.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["6B05C72FF31E104D"]
+			id: "18949581A0F3E28B"
+			rewards: [{
+				id: "41162E317076EB09"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				id: "119D5B764A8F7E09"
+				item: "modern_industrialization:superconductor_cable"
+				type: "item"
+			}]
+			x: 20.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["18949581A0F3E28B"]
+			description: [""]
+			id: "6C1822FED0613FAF"
+			rewards: [
+				{
+					id: "41ECB8916CEA5AF0"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "3A6A0ADDC3AD8899"
+					item: "prominent:infused_molten_remnant"
+					type: "item"
+				}
+			]
+			subtitle: "A specialized chestplate that is used to grant the wearer fall damage protection and creative flight, but will not protect the wearer from any external damage. It must be powered in order to use."
+			tasks: [{
+				id: "4AEAA8FA55EA9B82"
+				item: "modern_industrialization:gravichestplate"
+				type: "item"
+			}]
+			title: "Iron Man"
+			x: 21.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["1EACE9E49BA4B753"]
+			icon: "modern_industrialization:implosion_compressor"
+			id: "0F7CE2BA2A295A4D"
+			rewards: [{
+				id: "5C077C4D2DE7FCAE"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "An Implosion Compressor is an interesting machinery that contains explosions inside it. Using Industrial TNT, it is able to compress the most resistant materials."
+			tasks: [
+				{
+					id: "459C20F94BC31393"
+					item: "modern_industrialization:implosion_compressor"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "36704F63596BB959"
+					item: "modern_industrialization:blastproof_casing"
+					type: "item"
+				}
+				{
+					count: 17L
+					id: "1D26B3532226028F"
+					item: "modern_industrialization:solid_titanium_machine_casing"
+					type: "item"
+				}
+			]
+			x: 17.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["0F7CE2BA2A295A4D"]
+			id: "46D1B0C583A57B12"
+			rewards: [{
+				id: "56D32E4289136DC7"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				id: "36161A69190A900D"
+				item: "modern_industrialization:mixed_ingot_iridium"
+				type: "item"
+			}]
+			x: 16.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["46D1B0C583A57B12"]
+			id: "363455215C23E84E"
+			rewards: [{
+				id: "7B97711A7833FA13"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			subtitle: "Using this very delicate material, it will be used to create the best of the best machinery for UNLIMITED POWER!!"
+			tasks: [{
+				id: "7E4D849D6F611B94"
+				item: "modern_industrialization:quantum_circuit"
+				type: "item"
+			}]
+			title: "&dThe Endgame"
+			x: 16.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["363455215C23E84E"]
+			id: "4847BA675A04852F"
+			rewards: [{
+				id: "75608929A229D94D"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "The most powerful machine upgrade ever. Have a look for yourself, maybe you can create a Replicator?"
+			tasks: [{
+				id: "4CD547671372F659"
+				item: "modern_industrialization:quantum_upgrade"
+				type: "item"
+			}]
+			x: 15.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["363455215C23E84E"]
+			icon: "modern_industrialization:fusion_reactor"
+			id: "208DE0E29C636F41"
+			rewards: [{
+				id: "4A2AF8D770E54116"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			subtitle: "The Fusion Reactor is the ultimate energy source, to make it work requires a large amount of energy and it can combine Deuterium, Tritium, and/ or Helium-3 into Helium Plasma."
+			tasks: [
+				{
+					id: "3F8F140654BCBDCA"
+					item: "modern_industrialization:fusion_reactor"
+					type: "item"
+				}
+				{
+					count: 40L
+					id: "0ED2032159A96066"
+					item: "modern_industrialization:fusion_chamber"
+					type: "item"
+				}
+				{
+					count: 203L
+					id: "64AE82C5CFDBF6D2"
+					item: "modern_industrialization:highly_advanced_machine_hull"
+					type: "item"
+				}
+			]
+			x: 16.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["208DE0E29C636F41"]
+			id: "370EE225E8140570"
+			rewards: [{
+				id: "09F1818CD1B04036"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Do not underestimate SCIENCE! Without it, we wouldn't have been able to create the best energy producer of the mod!"
+			tasks: [
+				{
+					id: "414FC59A3998C675"
+					item: "modern_industrialization:plasma_turbine"
+					type: "item"
+				}
+				{
+					count: 18L
+					id: "2B841E64FB2F9D5D"
+					item: "modern_industrialization:iridium_machine_casing_pipe"
+					type: "item"
+				}
+				{
+					count: 17L
+					id: "553244F087ECF3CA"
+					item: "modern_industrialization:plasma_handling_iridium_machine_casing"
+					type: "item"
+				}
+			]
+			x: 16.5d
+			y: -12.5d
+		}
+		{
+			dependencies: ["0F7CE2BA2A295A4D"]
+			description: [
+				"It can produce 100s of times more EU/t than diesel. It comes in several sizes from small to large."
+				""
+				"How it works under the hood can be a bit overwhelming, nevertheless, you don't need to understand the details to be able to design a powerful reactor. We recommend that you experiment with various designs in creative mode until you find one that suits you."
+				""
+				"Note that the Nuclear Reactor cannot explode, emit radiation, or otherwise damage the map. The only thing that it can damage is the items you put in it if the temperature gets too high (more on this later). You should feel free to experiment, and enjoy your new life as a nuclear scientist!"
+				""
+				"The main component is the Nuclear Casing which is made with Nuclear Alloy : a mix of cadmium, beryllium and blastproof alloy."
+				""
+				"The upper part of the structure accepts Nuclear Item or Fluid Hatches (or simple casings). Those are the inputs and outputs of the reactor."
+				""
+				"Each hatch has one input (either item or fluid) and two outputs. The input slots will form a grid, displayed in the reactor GUI (accessible by right-clicking on the controller)."
+				""
+				"Each hatch has a temperature and stores heat which can be dissipated in several ways. The heat will naturally move to an adjacent hatch or to the outside if the hatch is on the edge (the heat is then lost). The speed of this process is equal to the hatches content's heat transfer coefficient (shown in REI) times the temperature difference. The heat can also be extracted in a fluid hatch by producing steam. A temperature above an item's maximum temperature will destroy it."
+				""
+				"The core nuclear reactor elements are neutrons. Those are produced by the nuclear fuel. There are two type of neutrons, fast and thermal : the fast carry energy while the thermal do not. Neutrons move in a straight line until they encounter an element or exit the reactor (for fast neutrons, their energy is then lost). The flow of neutrons is shown in the reactor GUI."
+				""
+				"When a neutron encounters a non-empty hatch, two things can happen : the neutron is absorbed or scattered. A scattered neutron will randomly change direction. If the scattered neutron is fast, it has a chance of slowing down, becoming a thermal one. This transfers the energy from the neutron to the hatch in the form of heat. An absorbed neutron stops its course and also transfers its energy if it was a fast neutron."
+				""
+				"The number of absorbed neutrons in a single hatch can be seen in the GUI. The probability for each processes is shown in REI. Those will strongly depend on the hatch's content and the neutron type (fast or thermal). Nuclear fuels absorb thermal neutrons far better."
+				""
+				"When a neutron, either fast or thermal, is absorbed in nuclear fuel, more neutrons are generated. Those are always fast neutrons and have random direction. Their generation is accompanied by the direct release of energy in the form of additional heat in the hatch."
+				""
+				"Above a certain threshold, the number of generated neutrons will decrease with the temperature until reaching zero. This process wastes some energy, but guarantees the stability of the reactor. The number of generated neutrons (and effective efficiency), the direct energy and the temperature threshold are in REI."
+				""
+				"Each nuclear component has maximum number of absorptions. When reached, the item is either destroyed or transformed into a depleted version. This is particularly useful for nuclear fuel because some part of the U238 is transformed into Plutonium in the depleted version, meaning some of it can be transformed back into fuel."
+				""
+				"The same thing happens for fluids: a bit of fluid is transformed after each neutron absorption. This can be used to mass produce useful isotopes like deuterium and tritium. In both cases, the outcome is shown in REI."
+			]
+			id: "03896D148D7B4E3B"
+			rewards: [{
+				id: "36615F6544892129"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "A large multiblock whose purpose is to generate massive amounts of energy by consuming nuclear fuel."
+			tasks: [
+				{
+					id: "6539BC5A7D008ABE"
+					item: "modern_industrialization:nuclear_reactor"
+					type: "item"
+				}
+				{
+					count: 27L
+					id: "453E60CB97E09F53"
+					item: "modern_industrialization:nuclear_alloy_machine_casing_pipe"
+					type: "item"
+				}
+				{
+					count: 77L
+					id: "6A65032810E039AA"
+					item: "modern_industrialization:nuclear_casing"
+					type: "item"
+				}
+			]
+			x: 18.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["03896D148D7B4E3B"]
+			id: "04FAF93691F0BD9C"
+			rewards: [{
+				id: "7944381BFE9F2996"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Nah, it doesn't explode and do external damage, but it only works inside machinery, sorry to burst your bubble."
+			tasks: [{
+				id: "562F6128B9E139A8"
+				item: "modern_industrialization:nuke"
+				type: "item"
+			}]
+			title: "TACTICAL NUKE! INCOMING!!"
+			x: 18.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["04FAF93691F0BD9C"]
+			id: "6314525E36DEA54B"
+			rewards: [
+				{
+					id: "7585ED4813069C75"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "136D111C9638282F"
+					item: "prominent:molten_remnant"
+					type: "item"
+				}
+			]
+			subtitle: "I wonder if creating a miniature black hole is safe? Ah well, it'll be useful for quantum physics."
+			tasks: [{
+				id: "1A5C0F0D73190307"
+				item: "modern_industrialization:singularity"
+				type: "item"
+			}]
+			title: "Are we gonna fix history for Humanity?"
+			x: 18.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["6314525E36DEA54B"]
+			id: "79802A9D4A83E757"
+			rewards: [
+				{
+					id: "35F90BA880FF48B6"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "392AB02FBCD2F27C"
+					item: "prominent:infused_molten_remnant"
+					type: "item"
+				}
+			]
+			subtitle: "This is a difficult bucket to use. With an electrolyzer and a singularity, large amounts of energy will be turned into Hawnking Radiation, into UU Matter, the very fabric of the universe!!"
+			tasks: [{
+				id: "15325EFF41DA3891"
+				item: "modern_industrialization:uu_matter_bucket"
+				type: "item"
+			}]
+			title: "UwU Matter"
+			x: 18.5d
+			y: -12.5d
+		}
+		{
+			dependencies: ["5310B93F2821826A"]
+			id: "60A05C52ACCBE35D"
+			rewards: [{
+				id: "38A91AF5616D43B4"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				id: "537CE70D027A8B77"
+				item: "modern_industrialization:highly_advanced_upgrade"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["33BF21CF8232FD35"]
+			id: "419F7B74E30C2AF4"
+			rewards: [
+				{
+					id: "695F346DFC3362DE"
+					item: "modern_industrialization:crude_oil_bucket"
+					type: "item"
+				}
+				{
+					id: "2DC7DD622E6FC4FD"
+					type: "xp"
+					xp: 40
+				}
+			]
+			subtitle: "A specialized drill used to dig for crude oil and only useful in an Oil Drilling Rig."
+			tasks: [{
+				count: 4L
+				id: "5F35CE6C3C6BAEF9"
+				item: "modern_industrialization:aluminum_drill"
+				type: "item"
+			}]
+			title: "&bAluminum Drill"
+			x: 8.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["7D3D156BE9C9E150"]
+			id: "24535DA01189CC75"
+			rewards: [{
+				id: "4C22D23C96F1C508"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "One of the most expensive drills to create, but it is useful for digging up iridium and uranium ores."
+			tasks: [{
+				id: "6448D47D73DD3726"
+				item: "modern_industrialization:titanium_drill"
+				type: "item"
+			}]
+			x: 21.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4661838E492BDE53"]
+			description: ["Don't break it with the wrench, use a pickaxe."]
+			id: "2DB9C3C383C91BC0"
+			rewards: [{
+				id: "2975DAD665501B19"
+				type: "xp"
+				xp: 15
+			}]
+			subtitle: "Is it a monkey or a wrench? Anyway this will be useful in rotating the machine or changing their input and output locations."
+			tasks: [{
+				id: "68063DD59C50E1A7"
+				item: "modern_industrialization:wrench"
+				type: "item"
+			}]
+			title: "Engineer's Toy"
+			x: -7.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["796F33AE4A9CF30C"]
+			id: "1B0A4271FCBD581F"
+			rewards: [
+				{
+					id: "0CFB0E3E504A70F7"
+					item: "modern_industrialization:basic_machine_hull"
+					type: "item"
+				}
+				{
+					id: "5EC9EA78055ED67E"
+					type: "xp"
+					xp: 20
+				}
+			]
+			subtitle: "This machine part will be needed in order for more advanced electric machinery to function so remember to make some of these."
+			tasks: [{
+				id: "13C4EB4423DBF2B5"
+				item: "modern_industrialization:lv_energy_input_hatch"
+				type: "item"
+			}]
+			title: "Where's the Plug?"
+			x: -1.5d
+			y: -11.0d
+		}
+		{
+			dependencies: ["26E587E34810A8FE"]
+			description: [""]
+			id: "2050D2FF42E29F6D"
+			rewards: [
+				{
+					id: "54AF33022467EEBE"
+					item: "modern_industrialization:steel_item_output_hatch"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "4CF31744EC697161"
+					item: "modern_industrialization:copper_drill_head"
+					type: "item"
+				}
+				{
+					id: "3DD0D4DAE02EF45C"
+					type: "xp"
+					xp: 30
+				}
+			]
+			subtitle: "Getting these steel hatches will be essential for your quarry to use up their drills and give out their results."
+			tasks: [
+				{
+					id: "7A4F57CDD12A6800"
+					item: "modern_industrialization:steel_fluid_input_hatch"
+					type: "item"
+				}
+				{
+					id: "5D7622FC67473FA0"
+					item: "modern_industrialization:steel_item_input_hatch"
+					type: "item"
+				}
+				{
+					id: "4A27BBE015E4B476"
+					item: "modern_industrialization:steel_item_output_hatch"
+					type: "item"
+				}
+			]
+			title: "Advance, advance, advance!"
+			x: -4.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["7C5C1CA5A7954896"]
+			description: ["You can now automate double ingots and pipes, for example! Again, check REI."]
+			id: "324B15844FC6C305"
+			rewards: [{
+				id: "06CDD11D0F136DDC"
+				type: "xp"
+				xp: 40
+			}]
+			subtitle: "The Steel Packer is a self-explanatory machinery that automates combining of certain machinery parts, the sibling of Steel Unpacker."
+			tasks: [{
+				id: "52306C6F2E77D371"
+				item: "modern_industrialization:steel_packer"
+				type: "item"
+			}]
+			title: "Pack your bags, people!"
+			x: -3.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["7C5C1CA5A7954896"]
+			id: "2D320F78629CC719"
+			rewards: [{
+				id: "228B42F539A2DAFC"
+				type: "xp"
+				xp: 40
+			}]
+			subtitle: "The Steel Unpacker is a self-explanatory machinery that takes apart machine parts into other smaller pieces as a sort of recycling system, and the sibling of the Steel Packer."
+			tasks: [{
+				id: "58691A4447512CEE"
+				item: "modern_industrialization:steel_unpacker"
+				type: "item"
+			}]
+			title: "Unpack your bags, people!"
+			x: -5.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["19E5E31614FE485E"]
+			description: [""]
+			id: "4DCFE7721417E669"
+			rewards: [{
+				id: "09EC6A5EC9AD5AF6"
+				type: "xp"
+				xp: 20
+			}]
+			shape: "rsquare"
+			subtitle: "Cable networks have limitations on the amount of energy they will pull into the network depending on tier."
+			tasks: [{
+				id: "2E9730BA35730C4B"
+				item: "modern_industrialization:tin_cable"
+				type: "item"
+			}]
+			title: "Energy Transfer"
+			x: -0.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["6BEB4461CA08633F"]
+			id: "31BCEF301071F67C"
+			subtitle: "My back is killing me! More boilers?! I might get a heatstroke at this rate!"
+			tasks: [{
+				id: "5A4042280D8835FB"
+				item: "modern_industrialization:advanced_large_steam_boiler"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -9.0d
+		}
+	]
+	title: " &6Modern Industrialization"
+}

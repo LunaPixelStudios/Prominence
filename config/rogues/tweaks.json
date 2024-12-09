@@ -1,0 +1,19 @@
+{
+  "ignore_items_required_mods": false,
+  "effects_raw_id_start": 700,
+  "slice_and_dice_damage_multiplier": 0.1,
+  "slice_and_dice_max_stacks": 10,
+  "stealth_movement_speed_multiplier": -0.5,
+  "stealth_follow_range": 1.0,
+  "stealth_visibility_multiplier": 0.1,
+  "shattered_armor_multiplier": -0.3,
+  "shout_damage_multiplier": -0.3,
+  "charge_speed_multiplier": 0.5,
+  "charge_knockback_resistance_bonus": 0.5,
+  "enable_rebalance_enchantment_sharpness": true,
+  "enchantment_sharpness_multiplier_per_level": 0.08,
+  "enable_rebalance_enchantment_smite": true,
+  "enchantment_smite_multiplier_per_level": 0.12,
+  "enable_rebalance_enchantment_arthropods": true,
+  "enchantment_arthropods_multiplier_per_level": 0.12
+}

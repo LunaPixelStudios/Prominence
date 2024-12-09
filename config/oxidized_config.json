@@ -1,0 +1,14 @@
+{
+  "copper_rail_range": 50,
+  "enable_copper_pulsar": true,
+  "pulsar_reach": 10,
+  "iron_nugget_chance": 0.15,
+  "gold_nugget_chance": 0.15,
+  "sand_chance": 0.24,
+  "gravel_chance": 0.12,
+  "emerald_chance": 0.02,
+  "enable_copper_pan_sound": true,
+  "copper_golem_button_chance": 30,
+  "enable_copper_golem": true,
+  "enable_rose_gold_tools": true
+}

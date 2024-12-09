@@ -1,0 +1,221 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_nether"
+	group: "3E586F2160161EEA"
+	icon: "minecraft:obsidian"
+	id: "0D7FF8F037EFF568"
+	images: [{
+		click: ""
+		corner: false
+		dev: false
+		height: 3.5d
+		hover: [ ]
+		image: "bosses_of_mass_destruction:textures/particle/magic_circle_23.png"
+		rotation: 0.0d
+		width: 3.5d
+		x: -5.0d
+		y: 0.0d
+	}]
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			id: "46D0AAEEB69E28B3"
+			rewards: [
+				{
+					id: "139F0AE37754B697"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "40CCAD2EFE886731"
+					item: {
+						Count: 1b
+						id: "minecraft:splash_potion"
+						tag: {
+							Potion: "minecraft:long_fire_resistance"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 2.0d
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				icon: "minecraft:netherrack"
+				id: "7FC5892104C0744C"
+				title: "Enter the Nether"
+				type: "dimension"
+			}]
+			title: "Enter &cThe Nether"
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["46D0AAEEB69E28B3"]
+			hide_dependency_lines: true
+			id: "5B11DB2289D4F66C"
+			rewards: [{
+				id: "6DD706B856271577"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "pentagon"
+			subtitle: "Spawns next to &6Blaze Spawners &7in &4nether fortresses &7but can also appear in &4Nether Wastes."
+			tasks: [{
+				entity: "adventurez:blaze_guardian"
+				icon: "minecraft:blaze_rod"
+				id: "4DBABAE3AE00C903"
+				title: "Kill a Blaze Guardian"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Kill the &6Blaze Guardian"
+			x: -7.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["46D0AAEEB69E28B3"]
+			hide_dependency_lines: true
+			id: "69872C1F1CCBDEBD"
+			rewards: [
+				{
+					id: "124E580CC33DE0EF"
+					type: "xp_levels"
+					xp_levels: 7
+				}
+				{
+					count: 3
+					id: "39B2E092980E4C04"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			subtitle: "Spawns in &4Nether Fortresses&r."
+			tasks: [{
+				entity: "adventurez:necromancer"
+				icon: "minecraft:wither_skeleton_skull"
+				id: "745C505DC4DF253C"
+				title: "Kill a Necromancer"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Kill &8The Necromancer"
+			x: -2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["46D0AAEEB69E28B3"]
+			description: [""]
+			hide_dependency_lines: true
+			id: "3963B69A10D95565"
+			shape: "pentagon"
+			subtitle: "&8The Stone Golem &rcan only be summoned with a &6Golem Ritual&r  while being in &4The Nether &f(use the for more informations)"
+			tasks: [{
+				entity: "adventurez:blackstone_golem"
+				icon: "adventurez:blackstone_golem_heart"
+				id: "27D27F2750D953BC"
+				title: "Kill the Blackstone Golem"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Kill the &8Blackstone Golem"
+			x: -5.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["46D0AAEEB69E28B3"]
+			hide_dependency_lines: true
+			id: "4BCD1F2BA84D70D7"
+			rewards: [
+				{
+					id: "1D8B697841671F20"
+					item: {
+						Count: 1b
+						id: "soulsweapons:withered_wabbajack"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4682C347018D1DDC"
+					type: "xp_levels"
+					xp_levels: 6
+				}
+			]
+			shape: "pentagon"
+			subtitle: "Spawns in Crimson Forests in &4The Nether&r."
+			tasks: [{
+				entity: "soulsweapons:withered_demon"
+				icon: "soulsweapons:withered_demon_heart"
+				id: "239ACDE3872515BB"
+				title: "Kill a Withered Demon"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Kill &8The Withered Demon"
+			x: -5.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["46D0AAEEB69E28B3"]
+			description: ["The Decaying King spawns in the remnants of the Decaying Kingdom in the nether. This cursed monstrosity wields The Darkin Blade, and has many deadly attacks to look out for. Killing it makes it drop the Darkin Blade, a Lord Soul and the Withered Demon Heart."]
+			hide_dependency_lines: true
+			icon: "soulsweapons:lord_soul_red"
+			id: "2F11604C9E2C0353"
+			rewards: [{
+				id: "28AA4F3CC36D1AFD"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "pentagon"
+			subtitle: "Spawns in &4The Remnants of The Decaying Kingdom&r."
+			tasks: [{
+				entity: "soulsweapons:accursed_lord_boss"
+				icon: "soulsweapons:lord_soul_red"
+				id: "2137D80B50F2DCCB"
+				title: "Kill &4The Decaying King"
+				type: "kill"
+				value: 1L
+			}]
+			x: -2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["46D0AAEEB69E28B3"]
+			hide_dependency_lines: true
+			id: "6B7553ECE9DF7675"
+			rewards: [
+				{
+					id: "705883451DE278E3"
+					type: "xp_levels"
+					xp_levels: 6
+				}
+				{
+					count: 5
+					id: "53E7372968FD4D83"
+					item: "minecraft:golden_apple"
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			subtitle: "The Soul Reaper spawns in the &bsoul sand valley&r with its mount, The Nightmare."
+			tasks: [{
+				entity: "adventurez:soul_reaper"
+				icon: "soulsweapons:lord_soul_void"
+				id: "09CA256D27D0482F"
+				title: "Kill &8The Soul Reaper"
+				type: "kill"
+				value: 1L
+			}]
+			x: -7.5d
+			y: 2.0d
+		}
+	]
+	title: " &cThe Nether"
+}

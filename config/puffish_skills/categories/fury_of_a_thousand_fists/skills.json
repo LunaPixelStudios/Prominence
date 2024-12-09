@@ -1,0 +1,68 @@
+{
+	"141ilpowt5glbhp1": {
+		"definition": "fyrdmg+5",
+		"x": -124.18612065923726,
+		"y": 108.49998591695052,
+		"root": true
+	},
+	"03uw1se43yuutps2": {
+		"definition": "infusion_corruption",
+		"x": 4.288905553467407,
+		"y": -32.93016977815722,
+		"root": false
+	},
+	"2r6gwuy3rfi0qhvg": {
+		"definition": "maxhealth+5",
+		"x": -60.73880911221498,
+		"y": -20.645762674315957,
+		"root": false
+	},
+	"eon2d0g9geekepri": {
+		"definition": "maxhealth+5",
+		"x": -128.29209194792875,
+		"y": 7.451508075310416,
+		"root": false
+	},
+	"sgcbg3rzuu9wun78": {
+		"definition": "fyrdmg+5",
+		"x": -38.90056919473312,
+		"y": 46.95605908804522,
+		"root": false
+	},
+	"8g0m9yrel63lkfda": {
+		"definition": "fyrdmg+5",
+		"x": -56.04009829750929,
+		"y": -64.9462536226818,
+		"root": false
+	},
+	"fu25k9i4opgsty9s": {
+		"definition": "maxhealth+5",
+		"x": -99.55747735761166,
+		"y": -59.801140696879145,
+		"root": false
+	},
+	"wzhyg0e77zk694yd": {
+		"definition": "maxhealth+5",
+		"x": -138.6130832680783,
+		"y": -39.186757841776206,
+		"root": false
+	},
+	"6s4r3ljkkgxu3tbe": {
+		"definition": "maxhealth+5",
+		"x": 60.522475533408574,
+		"y": -19.500980305398542,
+		"root": false
+	},
+	"0q59uc0l2auxfw0d": {
+		"definition": "fyrdmg+5",
+		"x": 125.365723554623,
+		"y": -31.00618534690592,
+		"root": false
+	},
+	"c7hf5p2qv0liis7g": {
+		"definition": "fyrdmg+5",
+		"x": 89.64506373913778,
+		"y": -77.80053811897602,
+		"root": false
+	}
+}

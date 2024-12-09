@@ -1,0 +1,35 @@
+{
+	id: "20B851BA74BC9A85"
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{
+			item: {
+				Count: 1b
+				id: "wizards:wand_arcane"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "wizards:wand_fire"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "wizards:wand_frost"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+	]
+	title: "wands"
+}

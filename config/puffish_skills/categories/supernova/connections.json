@@ -1,0 +1,54 @@
+{
+	"normal": {
+		"bidirectional": [
+			[
+				"8n71kowf25ilpw3e",
+				"mugbhf9n9bxemtnr"
+			],
+			[
+				"mugbhf9n9bxemtnr",
+				"kz5k980fzekwjd83"
+			],
+			[
+				"mugbhf9n9bxemtnr",
+				"0wjw6der7izzwzjq"
+			],
+			[
+				"0wjw6der7izzwzjq",
+				"eon2d0g9geekepri"
+			],
+			[
+				"kz5k980fzekwjd83",
+				"eon2d0g9geekepri"
+			],
+			[
+				"eon2d0g9geekepri",
+				"0wjyjvsbpd04s2xz"
+			],
+			[
+				"0wjyjvsbpd04s2xz",
+				"gsatjie3eshwzkah"
+			],
+			[
+				"gsatjie3eshwzkah",
+				"d335eue5f5f0x7e6"
+			],
+			[
+				"gsatjie3eshwzkah",
+				"0trq27mvvlfc7rab"
+			]
+		]
+	},
+	"exclusive": {
+		"bidirectional": [
+			[
+				"d335eue5f5f0x7e6",
+				"0trq27mvvlfc7rab"
+			],
+			[
+				"kz5k980fzekwjd83",
+				"0wjw6der7izzwzjq"
+			]
+		]
+	}
+}

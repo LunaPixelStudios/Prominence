@@ -1,0 +1,948 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_bumblezone"
+	group: "3E586F2160161EEA"
+	icon: "minecraft:bee_nest"
+	id: "59490AFCD9D1F93B"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			icon: "minecraft:bee_nest"
+			id: "4E9477A4D0A322D5"
+			rewards: [{
+				id: "33CEE00F7B27A684"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Welcome, curious adventurer! I suppose I should ask you how you got in here, but no matter, the world of the bees is what you see before you, explore the world and see what Bee culture can you learn."
+			tasks: [{
+				dimension: "the_bumblezone:the_bumblezone"
+				icon: "minecraft:bee_nest"
+				id: "094A0B7C390130EF"
+				title: "Go to the Bumblezone"
+				type: "dimension"
+			}]
+			title: "World of Bee and Honey"
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4E9477A4D0A322D5"]
+			id: "3E195E8F90C499C7"
+			rewards: [{
+				id: "41D06D62CC1ADED4"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "What's with the air in this place? It will definitely be not good for those who have allergies, this place is full of pollen!"
+			tasks: [
+				{
+					count: 16L
+					id: "5FB4790B5A75A619"
+					item: { Count: 16b, id: "the_bumblezone:pollen_puff" }
+					type: "item"
+				}
+				{
+					id: "2E5575CFFCE45B18"
+					item: "the_bumblezone:honey_bucket"
+					type: "item"
+				}
+				{
+					id: "542F425043E03CD5"
+					item: "the_bumblezone:bee_bread"
+					type: "item"
+				}
+				{
+					id: "35C784BBDFFE6055"
+					item: "the_bumblezone:honeycomb_brood_block"
+					type: "item"
+				}
+			]
+			title: "Hive's Air Pollen-tion"
+			x: -1.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4E9477A4D0A322D5"]
+			id: "460A03C99A92EEC3"
+			rewards: [
+				{
+					id: "448BA6E8977A39EA"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "2E6EAED412766865"
+					item: "minecraft:jukebox"
+					type: "item"
+				}
+				{
+					id: "7745D7DA6B275327"
+					item: {
+						Count: 1b
+						id: "the_bumblezone:flower_headwear"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Okay, while there's no actual jam that bees made, but at least there are music discs to listen to."
+			tasks: [
+				{
+					id: "396393F172D13E1E"
+					item: "the_bumblezone:music_disc_flight_of_the_bumblebee_rimsky_korsakov"
+					type: "item"
+				}
+				{
+					id: "448232F200BD55B9"
+					item: "the_bumblezone:music_disc_honey_bee_rat_faced_boy"
+					type: "item"
+				}
+				{
+					id: "3C818F63CCF6A572"
+					item: "the_bumblezone:music_disc_la_bee_da_loca"
+					type: "item"
+				}
+				{
+					id: "2191708BFD890424"
+					item: "the_bumblezone:music_disc_bee_laxing_with_the_hom_bees"
+					type: "item"
+				}
+				{
+					id: "033A2F7ADDD1FDB4"
+					item: "the_bumblezone:music_disc_bee_ware_of_the_temple"
+					type: "item"
+				}
+				{
+					id: "57C6689D0FCBF1E4"
+					item: "the_bumblezone:music_disc_knowing_renren"
+					type: "item"
+				}
+				{
+					id: "06B0F17D87E2E4E7"
+					item: "the_bumblezone:music_disc_radiance_renren"
+					type: "item"
+				}
+				{
+					id: "5FA8513DC9F76FC5"
+					item: "the_bumblezone:music_disc_life_renren"
+					type: "item"
+				}
+			]
+			title: "Bee Jams"
+			x: 0.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1B067E92666610FF"]
+			id: "1ACFAAF917E5016A"
+			rewards: [
+				{
+					id: "3E977BE907EFAC07"
+					type: "xp"
+					xp: 150
+				}
+				{
+					count: 10
+					id: "7DC3F1D7635BDB43"
+					item: "the_bumblezone:bee_bread"
+					type: "item"
+				}
+			]
+			subtitle: "How did the bees come up with the weapons? Their own stingers? Their own honey?"
+			tasks: [
+				{
+					id: "119C263D70857316"
+					item: "the_bumblezone:bee_stinger"
+					type: "item"
+				}
+				{
+					id: "4BCAF18A0B87E5F7"
+					item: {
+						Count: 1b
+						id: "the_bumblezone:stinger_spear"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "49FE029CAD2D437C"
+					item: {
+						Count: 1b
+						id: "the_bumblezone:crystal_cannon"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "73D16FF74DB5B2C9"
+					item: {
+						Count: 1b
+						id: "the_bumblezone:honey_crystal_shield"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Bee Weaponry"
+			x: 3.0d
+			y: 14.5d
+		}
+		{
+			dependencies: ["4E9477A4D0A322D5"]
+			id: "214A1041439A5560"
+			rewards: [{
+				id: "59DCBB128700B922"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "I wonder why is there a compass made of honey? Maybe it leads somewhere important in this large hive... Why's it sticking to my hand?"
+			tasks: [{
+				id: "314E0B959B386388"
+				item: {
+					Count: 1b
+					id: "the_bumblezone:honey_compass"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["4E9477A4D0A322D5"]
+			id: "1B067E92666610FF"
+			rewards: [{
+				id: "5526DD379D3336E1"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "A maze? This looks very unsafe, I probably shouldn't go in here without any safety first."
+			tasks: [
+				{
+					id: "72B19162E39280E2"
+					item: "the_bumblezone:honey_crystal_shards"
+					type: "item"
+				}
+				{
+					id: "5B59CBA3443A9183"
+					item: "the_bumblezone:honey_cocoon"
+					type: "item"
+				}
+				{
+					id: "636514D255F669A2"
+					item: "the_bumblezone:honey_crystal"
+					type: "item"
+				}
+				{
+					id: "0D57ED6E562A93E9"
+					item: "the_bumblezone:carvable_wax"
+					type: "item"
+				}
+				{
+					icon: "the_bumblezone:honey_crystal_shards"
+					id: "1D3FC21D04DF05B2"
+					structure: "the_bumblezone:cell_maze"
+					title: "Find a Cell Maze"
+					type: "structure"
+				}
+			]
+			title: "Cell Maze?"
+			x: -0.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["0F8FD241817376AE"]
+			id: "49EA7F3135E2CC74"
+			rewards: [{
+				id: "7BCD6AE0E5B198D5"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "the_bumblezone:essence_calming"
+					tag: {
+						abilityUseRemaining: 600
+					}
+				}
+				id: "026654F5006802CE"
+				structure: "the_bumblezone:sempiternal_sanctum_blue"
+				title: "Find the Sempiternal Sanctum Blue"
+				type: "structure"
+			}]
+			x: -2.0d
+			y: 19.5d
+		}
+		{
+			dependencies: ["0F8FD241817376AE"]
+			id: "54AAA9079FF8E65B"
+			rewards: [{
+				id: "45688EE3468BC71A"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "the_bumblezone:essence_life"
+					tag: {
+						abilityUseRemaining: 1000
+					}
+				}
+				id: "70CF21FB5F2B81C3"
+				structure: "the_bumblezone:sempiternal_sanctum_green"
+				title: "Find the Sempirternal Sanctum Green"
+				type: "structure"
+			}]
+			x: 2.0d
+			y: 18.5d
+		}
+		{
+			dependencies: ["0F8FD241817376AE"]
+			id: "7B8261F4787E6EA7"
+			rewards: [{
+				id: "7485D599A5869B88"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "the_bumblezone:essence_knowing"
+					tag: {
+						abilityUseRemaining: 1200
+					}
+				}
+				id: "21800782215F1EBF"
+				structure: "the_bumblezone:sempiternal_sanctum_purple"
+				title: "Find the Sempirternal Sanctum Purple"
+				type: "structure"
+			}]
+			x: -3.5d
+			y: 17.0d
+		}
+		{
+			dependencies: ["0F8FD241817376AE"]
+			id: "45FE520AC009290F"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "the_bumblezone:essence_raging"
+					tag: {
+						abilityUseRemaining: 28
+					}
+				}
+				id: "1069ECE91757590C"
+				structure: "#the_bumblezone:honey_compass/sempiternal_sanctums/red"
+				title: "Find the Sempiternal Sanctum Red"
+				type: "structure"
+			}]
+			x: -3.0d
+			y: 18.5d
+		}
+		{
+			dependencies: ["0F8FD241817376AE"]
+			id: "42C94ED483CD4AB8"
+			rewards: [{
+				id: "61735069A1BDB5C4"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "the_bumblezone:essence_continuity"
+					tag: {
+						abilityUseRemaining: 1
+					}
+				}
+				id: "24ADA1FE7305C9C6"
+				structure: "the_bumblezone:sempiternal_sanctum_white"
+				title: "Find the Sempiternal Sanctum White"
+				type: "structure"
+			}]
+			x: 1.0d
+			y: 19.5d
+		}
+		{
+			dependencies: ["0F8FD241817376AE"]
+			id: "6BADAB3BD0E50555"
+			rewards: [{
+				id: "3B59AE8D040B8549"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "the_bumblezone:essence_radiance"
+					tag: {
+						abilityUseRemaining: 4800
+					}
+				}
+				id: "63BEA72E5A7DCF1F"
+				structure: "the_bumblezone:sempiternal_sanctum_yellow"
+				title: "Find the Sempiternal Sanctum Yellow"
+				type: "structure"
+			}]
+			x: 2.5d
+			y: 17.0d
+		}
+		{
+			dependencies: ["4E9477A4D0A322D5"]
+			id: "7B767822A0B3B19A"
+			rewards: [{
+				id: "30E75C4EF6D6997B"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Many bee warriors have fallen and this shrine is to dedicate the fallen warriors, with a stinger spear of one of the most prominent bee warriors to have ever lived."
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "the_bumblezone:stinger_spear"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "60EBEED85691EF2F"
+				structure: "the_bumblezone:stinger_spear_shrine"
+				title: "Find the Stinger Spear Shrine"
+				type: "structure"
+			}]
+			title: "Stinger Spear Shrine"
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4E9477A4D0A322D5"]
+			id: "60E941719D226AD0"
+			rewards: [{
+				id: "507B630BDE2E1FDB"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Bees having a subway seems out of place considering how modern this technology is, but at least travel is fun."
+			tasks: [{
+				icon: "the_bumblezone:windy_air"
+				id: "64FC28F523C427D2"
+				structure: "the_bumblezone:subway"
+				title: "Find a Subway"
+				type: "structure"
+			}]
+			title: "Subway"
+			x: -2.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1B067E92666610FF"]
+			id: "2F9D5C546F713DDC"
+			rewards: [{
+				id: "190D852CDF497C71"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Meet up with Her Majesty, the Queen Bee. She is willing to be impartial and trade with you items and maybe even send you some tasks worth doing."
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "the_bumblezone:honey_compass"
+					tag: { }
+				}
+				id: "2118C4EF58105BEB"
+				structure: "the_bumblezone:throne_pillar"
+				title: "Find the Throne Pillar"
+				type: "structure"
+			}]
+			title: "Queen Bee's Throne"
+			x: -0.5d
+			y: 15.0d
+		}
+		{
+			dependencies: ["2F9D5C546F713DDC"]
+			id: "0F8FD241817376AE"
+			rewards: [
+				{
+					id: "42AB5752837026CF"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "3EC68765E4BC9613"
+					item: "the_bumblezone:bee_soup"
+					type: "item"
+				}
+				{
+					id: "1D62A6277DF11F3E"
+					item: "the_bumblezone:royal_jelly_bottle"
+					type: "item"
+				}
+				{
+					id: "7F1D592625D7C214"
+					item: "prominent:molten_remnant"
+					type: "item"
+				}
+			]
+			subtitle: "Congratulations. You have now earn the favor of the Queen Bee! Now you are one of her kin and the bees will no longer attack you, but perhaps there is more to explore."
+			tasks: [{
+				id: "1885038F0C08454B"
+				item: "the_bumblezone:essence_of_the_bees"
+				type: "item"
+			}]
+			title: "One of Us! One of Us!"
+			x: -0.5d
+			y: 17.5d
+		}
+		{
+			dependencies: ["1B067E92666610FF"]
+			id: "394A179160EB4AE8"
+			rewards: [
+				{
+					id: "6D08D28EFD2D4982"
+					type: "xp"
+					xp: 150
+				}
+				{
+					count: 10
+					id: "4F7A8CFF28114CF1"
+					item: "the_bumblezone:bee_bread"
+					type: "item"
+				}
+			]
+			subtitle: "What a majestic set of armor worn by the bee warriors. While not very powerful, it is a very nice looking armor."
+			tasks: [
+				{
+					id: "27A36C84442BD4A7"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "the_bumblezone:armors/helmets"
+						}
+					}
+					title: "Bee Helmet"
+					type: "item"
+				}
+				{
+					id: "1E4B0AAE235A44EB"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "the_bumblezone:armors/chestplates"
+						}
+					}
+					title: "Bee Chestplate"
+					type: "item"
+				}
+				{
+					id: "7A026460FAE4A947"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "the_bumblezone:armors/leggings"
+						}
+					}
+					title: "Bee Leggings"
+					type: "item"
+				}
+				{
+					id: "7474B92AA308F8FD"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "the_bumblezone:armors/boots"
+						}
+					}
+					title: "Bee Boots"
+					type: "item"
+				}
+			]
+			title: "The Bee Armor"
+			x: -4.0d
+			y: 14.5d
+		}
+		{
+			dependencies: ["4E9477A4D0A322D5"]
+			id: "152E438018A29730"
+			subtitle: "A stream of pollination? I'm unsure of the purpose of such a place, but there is plenty of pollen and sugar water to use."
+			tasks: [{
+				icon: "the_bumblezone:sugar_water_bucket"
+				id: "39BD856AE9E09B33"
+				structure: "the_bumblezone:pollinated_stream"
+				title: "Find a Pollinated Stream"
+				type: "structure"
+			}]
+			title: "Pollinated Stream"
+			x: -3.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4E9477A4D0A322D5"]
+			id: "106F26F32315FB56"
+			rewards: [{
+				id: "5E8C00B5375AF75C"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "I suppose this is a bee's way of living in luxury, a hotel, based around honey! I wonder how much it costs to spend a night inside."
+			tasks: [{
+				icon: "the_bumblezone:royal_jelly_block"
+				id: "06A852BC383BFB22"
+				structure: "the_bumblezone:honitel"
+				title: "Find a Honitel"
+				type: "structure"
+			}]
+			x: 2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4E9477A4D0A322D5"]
+			id: "2F56A01E1713C492"
+			rewards: [{
+				id: "02FCC90814275935"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Very curious, there's a villager in the hive raising honey slimes? I wonder how they ended up in here. Maybe they made friends with the bees."
+			tasks: [{
+				icon: "minecraft:slime_ball"
+				id: "49280FF78B9CAD65"
+				structure: "the_bumblezone:honey_slime_ranch"
+				title: "Find a Slime Ranch"
+				type: "structure"
+			}]
+			title: "Slime Ranch"
+			x: -4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4E9477A4D0A322D5"]
+			id: "3E267F949FEA4C9C"
+			rewards: [{
+				id: "3891B36CE3C3B094"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "This is getting ridiculous, how are there pirate bees? What are they trying to steal anyway?"
+			tasks: [{
+				icon: "minecraft:yellow_banner"
+				id: "521C68398D00E371"
+				structure: "the_bumblezone:pirate_ship"
+				title: "Find a Pirate Ship"
+				type: "structure"
+			}]
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4E9477A4D0A322D5"]
+			id: "3D3C60805844101B"
+			rewards: [{
+				id: "0D4E2DCB1F6642DC"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Such a massive flower in the hive! It might be normal or small size in the overworld, but I wonder how it'd got so massive."
+			tasks: [{
+				icon: "the_bumblezone:honey_crystal"
+				id: "40377F875E7C6A21"
+				structure: "the_bumblezone:overgrown_flower"
+				title: "Find an Overgrown Flower"
+				type: "structure"
+			}]
+			title: "Overgrown Flower"
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4E9477A4D0A322D5"]
+			id: "59ABBBAC6DBDB649"
+			rewards: [{
+				id: "165D98865A29684E"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "I wonder if this is how bees were first discovered, and brought to the present, frozen in ice like humans."
+			tasks: [{
+				icon: "minecraft:blue_ice"
+				id: "3F2FE2E19E44F4F1"
+				structure: "the_bumblezone:ice_monolith"
+				title: "Find an Ice Monolith"
+				type: "structure"
+			}]
+			title: "Ice Monolith"
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4E9477A4D0A322D5"]
+			id: "6671FBBE199FF79B"
+			rewards: [{
+				id: "6795911945BD9C29"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Why do bees need a parkour course if they can fly? Well, at least we can try to make it to the top and find something."
+			tasks: [{
+				icon: "the_bumblezone:super_candle_red"
+				id: "2A1BC2AB647871D2"
+				structure: "the_bumblezone:candle_parkour"
+				title: "Find a Candle Parkour"
+				type: "structure"
+			}]
+			title: "Candle Parkour"
+			x: 2.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4E9477A4D0A322D5"]
+			description: [
+				"&c(!) You need to be Level 65 to use!"
+				""
+				"&7The Crystalline flower can be placed on top of Glistering Honey Crystals. With it, you can offer items to make the flower grow. With this growth, you can choose specific enchantments to put inside a book."
+			]
+			id: "1712E7D12BFC9F90"
+			rewards: [{
+				id: "5561A8AFBDDD31A5"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "pentagon"
+			size: 1.25d
+			subtitle: "The Queen Bee must've cared for such gardens as there is a special flower that grants enchanting powers."
+			tasks: [
+				{
+					icon: "the_bumblezone:crystalline_flower"
+					id: "00347893AE03252D"
+					structure: "the_bumblezone:hanging_garden"
+					title: "Find the Hanging Gardens"
+					type: "structure"
+				}
+				{
+					id: "346EDE41A61A502B"
+					item: "the_bumblezone:glistering_honey_crystal"
+					type: "item"
+				}
+				{
+					id: "220700F6746286E7"
+					item: "the_bumblezone:crystalline_flower"
+					type: "item"
+				}
+			]
+			title: "&eThe Crystalline Flower"
+			x: -0.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["4E9477A4D0A322D5"]
+			icon: "the_bumblezone:bee_queen_spawn_egg"
+			id: "4E6687341EFF200B"
+			rewards: [{
+				id: "1DDFCCF75BEC40EC"
+				type: "xp"
+				xp: 20
+			}]
+			subtitle: "Who knew bees can have a house inside of a hive? Well, a little odd that the house is shaped like an actual bee. I hope we're not intruding their space."
+			tasks: [{
+				id: "56EA7542F4676A4B"
+				structure: "the_bumblezone:bee_house"
+				title: "Find a Bee House"
+				type: "structure"
+			}]
+			title: "Bee House?!"
+			x: -0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4E9477A4D0A322D5"]
+			icon: "the_bumblezone:ancient_wax_bricks"
+			id: "7568E66D2457DA53"
+			rewards: [{
+				id: "3236855D77CD66B3"
+				type: "xp"
+				xp: 20
+			}]
+			subtitle: "Based on the appearance, it seems that bees would fly around these hoops in the past, but now they're just an ancient relic of the past in this hive."
+			tasks: [{
+				id: "41597F4CBF0C7E52"
+				structure: "the_bumblezone:ancient_hoops"
+				title: "Find the Ancient Hoops"
+				type: "structure"
+			}]
+			title: "Ancient Hoops"
+			x: 0.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["4E9477A4D0A322D5"]
+			id: "41F8F8AC81CF1B18"
+			rewards: [{
+				id: "519A97ADE9B72899"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "So this is how they make music, they also dance too."
+			tasks: [{
+				icon: "the_bumblezone:carvable_wax_music"
+				id: "6A445E2CE2DD0C21"
+				structure: "the_bumblezone:dance_floor"
+				title: "Find the Dance Floor"
+				type: "structure"
+			}]
+			title: "Dance Floor"
+			x: -4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4E9477A4D0A322D5"]
+			id: "4C1276D733165FCE"
+			subtitle: "A very small hive temple, must've been another place of worship for the bees."
+			tasks: [{
+				icon: "minecraft:honey_block"
+				id: "4FAAC46C321AE79F"
+				structure: "the_bumblezone:hive_temple"
+				title: "Find a Hive Temple"
+				type: "structure"
+			}]
+			title: "Hive Temple"
+			x: -3.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4E9477A4D0A322D5"]
+			icon: "minecraft:honey_bottle"
+			id: "1FE844E12BA3660A"
+			subtitle: "So there's a fountain for honey. I suppose that's another way to show the bees' love for honey."
+			tasks: [{
+				id: "4B90BFEC05C6179C"
+				structure: "the_bumblezone:honey_fountain"
+				type: "structure"
+			}]
+			title: "Honey Fountain"
+			x: -2.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["4E9477A4D0A322D5"]
+			id: "4ABD922D3A02416E"
+			rewards: [{
+				id: "4FE4DC28C4D3C701"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Are the bees training themselves to be able to use projectile weapons? They sure are smart."
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "the_bumblezone:bee_cannon"
+					tag: {
+						BeesStored: [ ]
+						Damage: 0
+					}
+				}
+				id: "7E0AC99F6EF65E3A"
+				structure: "the_bumblezone:cannon_range"
+				title: "Find a Cannon Range"
+				type: "structure"
+			}]
+			title: "Cannon Range"
+			x: 3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4E9477A4D0A322D5"]
+			id: "1CC0687E11F5A51B"
+			rewards: [{
+				id: "17CE8943141CC8A7"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "There's too much honey! How do the bees keep producing more without getting tired? Maybe we should call it Government Honey in the future."
+			tasks: [{
+				icon: "the_bumblezone:honey_bucket"
+				id: "16A4D6926C4FE612"
+				structure: "the_bumblezone:honey_cave_room"
+				title: "Find a Honey Cave Room"
+				type: "structure"
+			}]
+			title: "Honey Cave Room"
+			x: -1.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["4E9477A4D0A322D5"]
+			icon: "the_bumblezone:carvable_wax_bricks"
+			id: "6B36C80F052D476A"
+			rewards: [{
+				id: "6040CC46F4BF5548"
+				type: "xp"
+				xp: 20
+			}]
+			subtitle: "A battle cube seems to be some sort of spider dungeon covered in massive webs, maybe this will be helpful among your tasks later."
+			tasks: [{
+				id: "63D7913F49061453"
+				structure: "the_bumblezone:battle_cubes"
+				title: "Find a Battle Cube"
+				type: "structure"
+			}]
+			title: "Battle Cubes"
+			x: 1.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["4E9477A4D0A322D5"]
+			icon: "the_bumblezone:ancient_wax_bricks"
+			id: "5B7EB596194B40DA"
+			rewards: [{
+				id: "18DCFCBAE6192C79"
+				type: "xp"
+				xp: 20
+			}]
+			subtitle: "Mm.. an ancient shrine? I wonder if this is how the bees worship their Queen.."
+			tasks: [{
+				id: "02982EB50F5338C0"
+				structure: "the_bumblezone:ancient_shrine"
+				title: "Find an Ancient Shrine"
+				type: "structure"
+			}]
+			title: "Ancient Shrine"
+			x: -4.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4E9477A4D0A322D5"]
+			id: "085633C89B01DBD9"
+			subtitle: "How is there a large cherry tree in this hive? I'm very curious how this size is scaled in the outside world."
+			tasks: [{
+				icon: "minecraft:cherry_sapling"
+				id: "562748B9BD91F4FE"
+				structure: "the_bumblezone:cherry_veteran_tree"
+				title: "Find a Cherry Tree"
+				type: "structure"
+			}]
+			title: "Cherry Veteran Tree"
+			x: 3.0d
+			y: 1.0d
+		}
+	]
+	title: " &6The Bumblezone"
+}

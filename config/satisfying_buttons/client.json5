@@ -1,0 +1,22 @@
+{
+	// Whether button hover animations are enabled or not. Turning this off toggles off all graphics changes.
+	"AnimationEnabled": true,
+	// Whether buttons should have a darkened overlay.
+	"DarkenButtonOnHover": true,
+	// Time in milliseconds for hover fade.
+	"DarkenButtonOnHoverTime": 300,
+	// ARGB packed color (default: 1610612736 (0,0,0,96))
+	"DarkenButtonColor": 1610612736,
+	// Whether the vanilla widget texture (white border by default) should fade in instead of applying immediately.
+	"FadeInVanillaWidgetTexture": true,
+	// Time in milliseconds for hover fade.
+	"FadeInVanillaWidgetTextureOnHoverTime": 300,
+	// Whether button sounds are enabled or not. Turning this off toggles off all audio changes.
+	"SoundEnabled": true,
+	// Whether a secondary, quieter sound should play when a button is unhovered..
+	"ButtonUnhoverSoundEnabled": true,
+	// Button sound Volume (range 0f - 1f).
+	"ButtonSoundVolume": 0.5,
+	// Button sound pitch (Default 1f)
+	"ButtonSoundPitch": 1.0
+}

@@ -1,0 +1,20 @@
+#General mod settings
+[general]
+	#-
+	showIdleStatesInPlayerList = true
+	#Sends when you open a gui, and what gui
+	sendActiveGui = true
+	#-
+	playMouseClickSounds = true
+	#-
+	playScreenOpenSounds = true
+	#Sends when you go idle / return
+	sendIdleState = true
+	#-
+	showIdleStatesInPlayerAboveHead = true
+	#-
+	showPlayerAnimations = true
+	#Sends relative mouse position and clicking
+	sendMouseInfo = true
+	#Sends a calculated rate of typing. If off, uses a default value on server
+	sendTypingSpeed = true

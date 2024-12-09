@@ -62,7 +62,7 @@ body:
         attributes:
             label: Optifine
             description: Did you used Optifine in our packs?
-            value: No
+            value: "No"
         validations:
             required: true
     -   type: textarea

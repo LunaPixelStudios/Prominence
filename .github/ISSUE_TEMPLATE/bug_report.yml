@@ -4,38 +4,36 @@ labels: [ "bug" ]
 body:
     -   type: textarea
         attributes:
-            label: Describe the Bug
-            description: A clear and concise description of what the bug is
+            label: Bug with Level gaining and creating Team
+            description: I have two problems. I play multiplayer version of game mod is installed on dedicated server and on the clients sides. The First problem is that I can't add or creat ftb party to make ftbquests synchronized among me and my friends. Further more two of my friends have a problem with the Leveling, his level progress stoped on 10-th level. Today we killed Lich King, he obtained the screen "Level up to 17-th level" but in the inventory menue and in the tree of skills he still have 10-th lvl and no skill points been added. his player id is 2ea998b8-f3eb-3751-aadf-a6e3076ace6e. I attached world folder and also logs of server, maybe that can help. Waiting for your answer.
         validations:
             required: true
     -   type: textarea
         attributes:
             label: Reproduction Steps
             description: Tell us about the steps to reproduce the bug
-            value: |
-                1.
-                2.
-                3.
-                ...
+            value: We just played the game and It happened after we killed the boss, cant remember his name he looks like ocen guard
         validations:
             required: false
     -   type: textarea
         attributes:
             label: Screenshots and Videos
             description: If applicable, add screenshots or videos to help explain your problem
+            value: there is no video or screenshot, hope attached files helps, sorry if attaching is not allowed
         validations:
             required: false
     -   type: input
         attributes:
             label: Crash Report or Log
             description: If applicable, please add a **link** to the crash report or log that was created when this issue occured. You can upload the crash report to a site like Pastebin or GitHub Gist. Please **do not** paste the whole crash report in this issue
+            value: There was no crashes
         validations:
             required: false
     -   type: input
         attributes:
             label: Operating System
             description: The operating system you were using when the bug occured
-            placeholder: Windows 11
+            value: Server - Ubuntu 22.02, Client - Windows 10
         validations:
             required: true
     -   type: dropdown
@@ -45,6 +43,7 @@ body:
             options:
                 - "Prominence I 1.19.2"
                 - "Prominence II 1.20.1"
+            default: 2
         validations:
             required: true
     -   type: dropdown
@@ -54,14 +53,17 @@ body:
             options:
                 - "Forge"
                 - "Fabric"
+            default: 2
         validations:
             required: true
     -   type: input
         attributes:
             label: Modpack Version
             description: The Modpack version you where using example bmc v52
+            value: v3.0.20hf
         validations:
             required: true
+
     -   type: dropdown
         attributes:
             label: Optifine
@@ -69,12 +71,14 @@ body:
             options:
                 - "I used Optifine"
                 - "No"
+            default: 2
         validations:
             required: true
     -   type: textarea
         attributes:
             label: Other Mods
             description: Any other mods you added to our packs? if yes please list any other mods.
+            value: No other mods
         validations:
             required: false
     -   type: markdown

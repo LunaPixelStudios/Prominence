@@ -58,14 +58,11 @@ body:
         validations:
             required: true
 
-    -   type: dropdown
+    -   type: input
         attributes:
             label: Optifine
             description: Did you used Optifine in our packs?
-            options:
-                - "I used Optifine"
-                - "No."
-            default: 1
+            value: No
         validations:
             required: true
     -   type: textarea

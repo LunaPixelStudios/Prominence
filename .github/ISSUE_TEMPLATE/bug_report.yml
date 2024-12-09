@@ -1,11 +1,11 @@
 name: Bug Report
 description: Create a bug report to help us improve Prominence
-labels: [ "bug" ]
+labels: [  ]
 body:
-    -   type: textarea
+    -   type: 1
         attributes:
-            label: Describe the Bug
-            description: A clear and concise description of what the bug is
+            label: Leveling and ftbteams
+            description: I have two problems. I play multiplayer version of game mod is installed on dedicated server and on the clients sides. The First problem is that I can't add or creat ftb party to make ftbquests synchronized among me and my friends. Further more two of my friends have a problem with the Leveling, his level progress stoped on 10-th level. Today we killed Lich King, he obtained the screen "Level up to 17-th level" but in the inventory menue and in the tree of skills he still have 10-th lvl and no skill points been added. his player id is 2ea998b8-f3eb-3751-aadf-a6e3076ace6e. I attached world folder and also logs of server, maybe that can help. Waiting for your answer.
         validations:
             required: true
     -   type: textarea

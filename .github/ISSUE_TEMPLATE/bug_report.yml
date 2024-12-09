@@ -70,7 +70,7 @@ body:
             description: Did you used Optifine in our packs?
             options:
                 - "I used Optifine"
-                - "No"
+                - "No."
             default: 2
         validations:
             required: true

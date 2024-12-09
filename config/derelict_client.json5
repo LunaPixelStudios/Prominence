@@ -1,0 +1,16 @@
+{
+	// Opacity of the little honeycomb icon next to waxed blocks in your inventory. 0.0 to disable.
+	"waxedIndicatorOpacity": 0.5,
+	// Scale of the honeycomb icon next to waxed blocks in your inventory. 1.0 is full item slot size.
+	"waxedIndicatorScale": 0.5,
+	// Whether the block highlights should be shown when holding a Waxing Staff or Honeycomb
+	"waxableHighlights": true,
+	// Whether the block highlights should be shown when holding an Aging Staff
+	"ageableHighlights": true,
+	// The maximum distance of the block highlights when holding a Waxing Staff, Honeycomb or Aging Staff. 0 to disable
+	"waxableAndAgeableHightlightRange": 16,
+	// Whether the crosshair tip should be shown when holding a Waxing Staff or Honeycomb
+	"waxableCrosshairTip": true,
+	// Whether the crosshair tip should be shown when holding an Aging Staff
+	"ageableCrosshairTip": true
+}

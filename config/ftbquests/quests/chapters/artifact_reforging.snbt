@@ -1,0 +1,336 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "artifact_reforging"
+	group: "3DBADFFDA1FDAD84"
+	icon: {
+		Count: 1b
+		id: "ftbquests:custom_icon"
+		tag: {
+			Icon: "alloy_forgery:block/polished_blackstone_forge_controller_front_on"
+		}
+	}
+	id: "13D4D78DE7B38A80"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecraft:block/campfire_fire"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "decorative_blocks:block/bonfire_x_alt"
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.0357142857142847d
+			y: 1.8642857142857139d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"&6Requires completion of &nChapter I&r&6 of Void's Invasion."
+				""
+				"&7The Molten Core is a powerful artifact made from the depths of the Cinderstone's Volcano; &cVaaz&7."
+				"&7With it, you can craft powerful and unique artifact weapons that have special abilities and bound to your soul, making it only usable by the one that forged it."
+				""
+				"&bEncased Remnants&7 can be used to repair and reforge these weapons. You should also make a &6Hardening Catalyst&7 to make them unbreakable."
+				""
+				"&8English"
+				""
+				"{@pagebreak}"
+				"&6Requiere la finalización de &nCapítulo I&r&d de Void's Invasion."
+				""
+				"&7El Núcleo Fundido es un poderoso artefacto forjado en las profundidades del volcán de Piedraceniza; &cVaaz&7."
+				"&7Con él, puedes crear poderosas y únicas armas artefacto que tienen habilidades especiales y están ligadas a tu alma, haciéndolas utilizables solo por quien las forjó."
+				""
+				"&7Los &bEncased Remnants&7 pueden ser usados para reparar y volver a forjar estas armas. También deberías crear un &6Hardening Catalyst&7 para hacerlas irrompibles."
+				""
+				"&8Español"
+			]
+			icon: "prominent:molten_core"
+			id: "6AD67E7C8CD78371"
+			rewards: [
+				{
+					id: "5562501929CD8443"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 10
+					id: "369B6883C30000A8"
+					item: "prominent:encased_remnant"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "&8[Click to read lore and instructions]"
+			tasks: [
+				{
+					id: "035441107821B3C1"
+					item: "prominent:molten_core"
+					type: "item"
+				}
+				{
+					id: "56A625D024CDB2DE"
+					item: "things:hardening_catalyst"
+					title: "Make a Hardening Crystal"
+					type: "item"
+				}
+			]
+			title: "&cS'kellak's Forge"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6AD67E7C8CD78371"]
+			description: [
+				"&eCan be forged using an Essence of Wrath and an Awakened Lichblade, along with the Molten Core."
+				""
+				""
+				"&8This item is a tribute to World of Warcraft's Frostmourne."
+			]
+			id: "341DB238063321BF"
+			shape: "hexagon"
+			subtitle: "A cursed sword that holds the power of an eternal winter. The Frostmourne is a runic artifact infused with soulfrost magic. Legend says whoever wields it will become the ruler of the Death Knights, the Lich King."
+			tasks: [{
+				id: "7F239D03EBB09534"
+				item: {
+					Count: 1b
+					id: "prominent:frostmourne"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["6AD67E7C8CD78371"]
+			description: [
+				"&eCan be forged using two Molten Edges along with the Molten Core."
+				""
+				""
+				"&8This item is a tribute to World of Warcraft's Fyr'alath."
+			]
+			id: "6D1B83D633AB7558"
+			shape: "hexagon"
+			subtitle: "An agonizing soulfire weapon that gives great resistance to its wielder. Oriented for tanking, but has great fire damage."
+			tasks: [{
+				id: "52D24DAEDFD19F9A"
+				item: {
+					Count: 1b
+					id: "prominent:fyralath"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6AD67E7C8CD78371"]
+			description: ["&eCan be forged using a Demonic Essence and a Soulrender, along with the Molten Core."]
+			id: "5D03084D09D2A997"
+			shape: "hexagon"
+			subtitle: "&7A'zhar is a demon trapped in a scythe form by S'kellak, making this soulfire weapon no ally, be careful when using it because it will try to betray you."
+			tasks: [{
+				id: "43F5AAA9405EE27D"
+				item: {
+					Count: 1b
+					id: "prominent:azhar"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6AD67E7C8CD78371"]
+			description: ["&eCan be forged using the Essence of Glory and a Starforge, along with the Molten Core."]
+			id: "1CE7763C1889255C"
+			shape: "hexagon"
+			subtitle: "Forged from remnants of a dying star, the Supernova is an astral weapon that can deal damage using all magic elements, and obliterate any targets with astral bursts."
+			tasks: [{
+				id: "6B6E9C04C7D69E89"
+				item: {
+					Count: 1b
+					id: "prominent:supernova"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6AD67E7C8CD78371"]
+			description: ["&eCan be forged using an Essence of Wrath and a Fist of Fury, along with the Molten Core."]
+			id: "211326D6B6C33A25"
+			shape: "hexagon"
+			subtitle: "This soulfire fist can enrage anyone if also wielding its sister weapon; the Fist of Fury, making it a lethal choice for martial artists, using its powerful punches that burn the enemy's soul."
+			tasks: [{
+				id: "3D838C3D611886A5"
+				item: {
+					Count: 1b
+					id: "prominent:fury_of_a_thousand_fists"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6AD67E7C8CD78371"]
+			description: ["&eCan be forged using a Demonic Essence and a Thunderbrand, along with the Molten Core."]
+			id: "50EB37F863EA810B"
+			shape: "hexagon"
+			subtitle: "A molten polearm, made out of Cinderstone and Noctisteel, infused with lightning, used by the long gone leader of the Serkonid race."
+			tasks: [{
+				id: "22CACA94593603A7"
+				item: {
+					Count: 1b
+					id: "prominent:thunderwrath"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["6AD67E7C8CD78371"]
+			description: ["&eCan be forged using an Essence of Glory and an Essence of Wrath. To unleash the twin swords, one must use the Essence of Ash'edar."]
+			id: "29425DCD7396CE49"
+			shape: "hexagon"
+			subtitle: "&7A pair of astral twin swords that harness the power of the Sun and Moon, using Arcane and Fire powers."
+			tasks: [{
+				id: "37DE8677AEA5721E"
+				item: "prominent:ashedar_essence"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6AD67E7C8CD78371"]
+			description: [
+				"&eCan be forged using the Essence of Glory and a Starforge, along with the Molten Core."
+				""
+				"&cEvolves to one of 5 stronger versions for Arcane, Fire, Frost, Holy or Astral mages within the Upgrade Tree."
+			]
+			icon: {
+				Count: 1b
+				id: "prominent:ekavar_staff"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "6313DD656A95E8C0"
+			shape: "hexagon"
+			subtitle: "&7An ancient Artifact forged using materials from far away stars. When infused with power, it can evolve to greater versions"
+			tasks: [{
+				id: "133C7DC53BD48F85"
+				item: {
+					Count: 1b
+					id: "prominent:ekavar_staff"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6AD67E7C8CD78371"]
+			description: [""]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "prominent:item/cinderstone_trophy"
+				}
+			}
+			id: "4C2EFCB93288D047"
+			shape: "hexagon"
+			subtitle: "&7This Artifact is being forged by S'kellak."
+			tasks: [{
+				id: "02901AAD817F6D45"
+				title: "&6Coming soon!"
+				type: "custom"
+			}]
+			title: "&9&kOrion, The Hunter"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6AD67E7C8CD78371"]
+			description: [
+				"&7All artifacts are upgradeable using their &6Upgrade Tree&7."
+				""
+				"&7Once you forge your own Artifact, you will unlock its Upgrade Tree. You can access it by pressing &6N&7, and pressing the Molten Core icon at the top left."
+				""
+				"&7All Upgrade Trees have up to &67 nodes&7 you can select, with different paths to take."
+				""
+				"&7To unlock nodes, you will need to empower you artifact using &6Molten Remnants&7, which are rewarded in quests, or craftable using Mythical Essences."
+			]
+			icon: "prominent:molten_remnant"
+			id: "3453FD3CA0E3233A"
+			rewards: [{
+				id: "76103A7FBD55037B"
+				item: "prominent:molten_remnant"
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 1.65d
+			subtitle: "&8[Click to read instructions]"
+			tasks: [
+				{
+					id: "559B1BA85C721A6D"
+					title: "Continue"
+					type: "checkmark"
+				}
+				{
+					id: "7F2A2E7F3E7BF665"
+					item: "prominent:infused_molten_remnant"
+					title: "&eObtain an Infused Molten Remnant from the Campaign."
+					type: "item"
+				}
+			]
+			title: "&cUpgrading your Artifact"
+			x: 0.0d
+			y: 2.475d
+		}
+	]
+	title: "&c&l S'kellak's Forge"
+}

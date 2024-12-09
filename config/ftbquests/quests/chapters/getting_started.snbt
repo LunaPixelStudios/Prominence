@@ -1,0 +1,399 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "getting_started"
+	group: ""
+	icon: "minecraft:grass_block"
+	id: "7539C31213D86E55"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "prominent:textures/text/the_basics.png"
+			rotation: 0.0d
+			width: 2.504166666666667d
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "prominent:textures/text/storage.png"
+			rotation: 0.0d
+			width: 2.504166666666667d
+			x: 4.0d
+			y: -4.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 4.0d
+			hover: [ ]
+			image: "prominent:textures/other/prominent_logo.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: 3.0d
+			y: 0.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "prominent:textures/text/welcome.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: 3.0d
+			y: 2.5d
+		}
+		{
+			click: ""
+			color: 11250603
+			corner: false
+			dev: false
+			height: 7.311518324607329d
+			hover: [ ]
+			image: "prominent:textures/text/prominence-desc.png"
+			rotation: 0.0d
+			width: 10.5d
+			x: 0.048660714285709616d
+			y: -7.030260533532783d
+		}
+	]
+	order_index: 0
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["&eAs a flameborn, you were created and sent by S'kellak to this place; The Overworld, with an important purpose."]
+			icon: "minecraft:grass_block"
+			id: "1DD302BB650057E3"
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "Start your journey in &eProminence&r!"
+			tasks: [{
+				dimension: "minecraft:overworld"
+				icon: "minecraft:grass_block"
+				id: "7B701D980200A661"
+				title: "Enter the Overworld"
+				type: "dimension"
+			}]
+			title: "&aFirst Steps"
+			x: 0.0d
+			y: -0.625d
+		}
+		{
+			dependencies: ["1DD302BB650057E3"]
+			description: [
+				"The &6questbook&r is very important in Prominence, and will guide you through most of the game's progression."
+				""
+				"To easily access the &6questbook&r, you can click the book"
+				" icon at the top left of your inventory."
+				""
+				"When you open a quest, the left side shows what tasks you need to do to finish the quest, and the right side shows what rewards you will get."
+			]
+			id: "6E9F5146EA3F505F"
+			rewards: [{
+				id: "78B218622FE5FA2B"
+				type: "xp"
+				xp: 2
+			}]
+			subtitle: "Click me and read my description!"
+			tasks: [{
+				id: "4184344EFBA63388"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "c:crops"
+					}
+				}
+				title: "Find a fruit or vegetable!"
+				type: "item"
+			}]
+			title: "&f&lFirst Steps&r: &aQuesting!"
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2BE6B7EC6F6CC58B"]
+			id: "52C0EB35542648C6"
+			rewards: [{
+				id: "3685CADB8B28BF24"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "rsquare"
+			subtitle: "Mine some copper and use the &eBlank Chest Upgrade&r to make a copper upgrade for your &6chests&r!"
+			tasks: [{
+				id: "1C2CEDE48DF1D506"
+				item: "ironchests:copper_chest_upgrade"
+				type: "item"
+			}]
+			title: "&e&lUpgrading:&f &fChests"
+			x: 4.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["6E9F5146EA3F505F"]
+			icon: "minecraft:filled_map"
+			id: "33961F7EE650AA60"
+			rewards: [{
+				id: "10944260335D83B1"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			shape: "diamond"
+			subtitle: "To open the &2Quest Chapters&r screen, close this quest and move your cursor to the left. Each chapter has a different set of quests that fit into that theme."
+			tasks: [{
+				id: "6E754EF86972872E"
+				title: "Click here!"
+				type: "checkmark"
+			}]
+			title: "&f&lFirst Steps: &r&aChapters"
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["33961F7EE650AA60"]
+			id: "2BE6B7EC6F6CC58B"
+			rewards: [
+				{
+					id: "578E739C5F5BB9AC"
+					item: "ironchests:blank_chest_upgrade"
+					type: "item"
+				}
+				{
+					id: "4FA5E60B4E68FDBF"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "55DC8F156573C515"
+					item: "travelersbackpack:backpack_tank"
+					type: "item"
+				}
+			]
+			subtitle: "Craft a &6chest&r - upgradeable via the &5Iron Chests&r mod!"
+			tasks: [{
+				id: "17209749B99F5873"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "c:chests"
+					}
+				}
+				title: "Craft a Chest"
+				type: "item"
+			}]
+			title: "&f&lFirst Steps&r: &aCraft a Chest"
+			x: 1.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["2BE6B7EC6F6CC58B"]
+			description: [
+				"To equip a &9backpack&r, click the Equip icon in the &9backpack&r menu."
+				""
+				"Once a &9backpack&r is equipped, you can open it by pressing &bB&r"
+				""
+				"&9Backpacks&r can be upgraded through several tiers. &9Backpacks&r with special benefits can be found in loot chests."
+				""
+				"To see all &9backpack&r variants, search &d@traveler&r in the &eREI&r search bar."
+				""
+				"You can find this search bar at the bottom of your inventory. "
+				""
+				"Clicking on items in the item list to the right of your inventory will show their recipes and uses."
+				""
+				"You can also press &bR&r and &bU&r while hovering over any item to see their Recipe and Uses"
+			]
+			hide_dependency_lines: true
+			id: "702ED6D1B159048D"
+			rewards: [{
+				id: "1510D8B226901BAD"
+				item: "travelersbackpack:blank_upgrade"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "Click me and read my description!"
+			tasks: [{
+				id: "524D333C37CC1E78"
+				item: {
+					Count: 1b
+					id: "travelersbackpack:standard"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "&e&lUpgrading:&f Inventory"
+			x: 3.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["33961F7EE650AA60"]
+			description: [
+				"Press &a[M]&r to open the &eWorld Map&r."
+				""
+				"To &eclaim a chunk&r, you simply need to right click on top of a chunk, and select &eClaim Selected&r."
+				""
+				"Some servers may have lower claim limits than normal. Stay mindful of this limit, so you don't run out."
+			]
+			icon: "supplementaries:slice_map"
+			id: "723951CD2A49AEB7"
+			rewards: [{
+				id: "130FE58DD2BBD7D8"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			subtitle: "Click me and read my description!"
+			tasks: [{
+				id: "1BC73062E2DC9CB8"
+				title: "Click to continue!"
+				type: "checkmark"
+			}]
+			title: "&e&lMultiplayer: &dClaiming"
+			x: -1.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["002FC90E5914D9C2"]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "prominent:textures/other/skellak.png"
+				}
+			}
+			id: "2F5A3E304ABAADF6"
+			rewards: [{
+				id: "2CBB2CDF05805373"
+				item: "prominent_ost:music_disc_iv"
+				type: "item"
+			}]
+			size: 1.5d
+			subtitle: "&eContinue your journey through the other Chapters!"
+			tasks: [{
+				id: "721111D6BBD02194"
+				title: "Click here to continue!"
+				type: "checkmark"
+			}]
+			title: "&6&lWelcome to Prominence!"
+			x: 4.017857142857146d
+			y: -1.9885938668661183d
+		}
+		{
+			dependencies: ["33961F7EE650AA60"]
+			id: "002FC90E5914D9C2"
+			rewards: [{
+				id: "09883A3C64098DAA"
+				item: "fwaystones:waystone_scroll"
+				type: "item"
+			}]
+			subtitle: "The easiest way to teleport between locations is to use &eWaystones&r. Waystones generate naturally in villages and are also craftable."
+			tasks: [{
+				icon: "fwaystones:waystone"
+				id: "70CE3441ADA82DBA"
+				observe_type: 0
+				timer: 0L
+				title: "Use a Waystone!"
+				to_observe: "fwaystones:waystone"
+				type: "observation"
+			}]
+			title: "&f&lThe Basics: &dTeleporting"
+			x: 1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["33961F7EE650AA60"]
+			description: [
+				"&7The Talent Tree, along with leveling, is the most important method of player progression in Prominence, as with it you can increase your stats and unlock new abilities."
+				""
+				"&7It is directly tied to leveling, as you will receive a talent point every 2 levels."
+				""
+				"&7You can open it by pressing &eN&7, to reset it, you can use a &eKnowledge Scroll&7. This item will get consumed on use and your talent points will get refunded."
+			]
+			icon: "prominent:knowledge_scroll"
+			id: "6F99CB89833D7AA2"
+			rewards: [{
+				id: "19F81DCB4196EE34"
+				item: "prominent:knowledge_scroll"
+				type: "item"
+			}]
+			shape: "diamond"
+			subtitle: "Click me and read my description!"
+			tasks: [{
+				id: "31F7356F773E8E8E"
+				title: "Click here to continue"
+				type: "checkmark"
+			}]
+			title: "&d&lProgression: &e&lThe Talent Tree"
+			x: 1.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["33961F7EE650AA60"]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "tiered:textures/gui/anvil_tab_icon.png"
+				}
+			}
+			id: "58AD6DBD81B67C1C"
+			rewards: [{
+				count: 4
+				id: "4EB0CB7EF7E56D4D"
+				item: "tiered:limestone_chunk"
+				type: "item"
+			}]
+			subtitle: "All tools will have a random &erarity&r. This will affect their stats. To improve the rarity, you can &ereforge the tools&r using the second tab in the anvil. You will require &ea tool-specific material&r and &eone of the 3 ores&7 to successfully change its rarity. &cYou can read the \"Reforging\" questline for more info!"
+			tasks: [{
+				id: "2AC258EF05B19E8F"
+				item: "minecraft:anvil"
+				title: "Obtain an Anvil"
+				type: "item"
+			}]
+			title: "&f&lThe Basics: &e&lRarities \\& Reforging"
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["33961F7EE650AA60"]
+			description: [
+				""
+				"&7A core aspect of your player progression is leveling, displayed at the top left of your inventory."
+				""
+				"&7It grows with combat experience, such as fighting enemies, or defeating bosses. It allows to scale up enemies to your level, and serves as a progression requirement to fight certain bosses."
+				""
+				"&7Each level you get an increase in maximum health."
+				""
+				"&eFor some boss fights, it's an essential part to be on their required level! The boss' quest will show on its description the recommended level if they do have one."
+				""
+				"&cPlayer Level is a different level than the experience level from your hotbar!"
+			]
+			icon: "minecraft:writable_book"
+			id: "72EE0A2E9D410B2C"
+			shape: "diamond"
+			subtitle: "Click me and read my description!"
+			tasks: [{
+				id: "7E40E783D7E377CB"
+				title: "Click here to continue"
+				type: "checkmark"
+			}]
+			title: "&d&lProgression:&6&l Leveling"
+			x: -1.0d
+			y: -5.0d
+		}
+	]
+	title: " Getting Started"
+}

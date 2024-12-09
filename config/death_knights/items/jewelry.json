@@ -1,0 +1,88 @@
+{
+  "items": {
+    "death_knights:unholy_dk_ring": {
+      "attributes": [
+        {
+          "id": "death_knights:unholy",
+          "value": 0.08,
+          "operation": "MULTIPLY_BASE"
+        },
+        {
+          "id": "minecraft:generic.attack_damage",
+          "value": 0.06,
+          "operation": "MULTIPLY_BASE"
+        }
+      ]
+    },
+    "death_knights:frost_dk_ring": {
+      "attributes": [
+        {
+          "id": "spell_power:frost",
+          "value": 0.08,
+          "operation": "MULTIPLY_BASE"
+        },
+        {
+          "id": "minecraft:generic.attack_damage",
+          "value": 0.06,
+          "operation": "MULTIPLY_BASE"
+        }
+      ]
+    },
+    "death_knights:frost_dk_necklace": {
+      "attributes": [
+        {
+          "id": "spell_power:frost",
+          "value": 0.08,
+          "operation": "MULTIPLY_BASE"
+        },
+        {
+          "id": "minecraft:generic.attack_damage",
+          "value": 0.06,
+          "operation": "MULTIPLY_BASE"
+        }
+      ]
+    },
+    "death_knights:unholy_dk_necklace": {
+      "attributes": [
+        {
+          "id": "death_knights:unholy",
+          "value": 0.08,
+          "operation": "MULTIPLY_BASE"
+        },
+        {
+          "id": "minecraft:generic.attack_damage",
+          "value": 0.06,
+          "operation": "MULTIPLY_BASE"
+        }
+      ]
+    },
+    "death_knights:blood_dk_ring": {
+      "attributes": [
+        {
+          "id": "death_knights:blood",
+          "value": 0.08,
+          "operation": "MULTIPLY_BASE"
+        },
+        {
+          "id": "minecraft:generic.max_health",
+          "value": 0.06,
+          "operation": "MULTIPLY_BASE"
+        }
+      ]
+    },
+    "death_knights:blood_dk_necklace": {
+      "attributes": [
+        {
+          "id": "death_knights:blood",
+          "value": 0.08,
+          "operation": "MULTIPLY_BASE"
+        },
+        {
+          "id": "minecraft:generic.max_health",
+          "value": 0.06,
+          "operation": "MULTIPLY_BASE"
+        }
+      ]
+    }
+  }
+}

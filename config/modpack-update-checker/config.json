@@ -1,0 +1,16 @@
+{
+    "schemaVersion": 6,
+    "currentVersion": "",
+    "modpackName": "Prominence II RPG: Hasturian Era",
+    "modpackAuthor": "ElocinDev",
+    "modpackReleaseType": "stable",
+    "githubRepo": "https://raw.githubusercontent.com/nvb-uy/ProminenceII-HasturianEra/main/",
+    "advanced": {
+      "bccEnabled": true,
+      "expandButton": true,
+      "updateCheckerType": 2,
+      "addButton": true,
+      "mainMenuCreditsIntegration": true,
+      "modpackMods": []
+    }
+  }

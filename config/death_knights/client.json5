@@ -1,0 +1,14 @@
+{
+  // If true, the player will stop attacking when casting an ability.
+  // This is recommended to make the ability's animation feel more natural.
+  "should_stop_attacking_on_ability": true,
+  // Enables clientside compatibility with better combat if the mod is loaded.
+  "enable_bettercombat_compatibility": true,
+  // Patches melee animations for Spell Engine.
+  // If you're making a compatible datapack and added custom animations, add them here if you have issues with their playback speed.
+  "patched_animations": [
+    "death_knights:obliterate",
+    "death_knights:frost_strike",
+    "death_knights:death_strike"
+  ]
+}

@@ -1,0 +1,166 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "8the_prision"
+	group: "3E586F2160161EEA"
+	icon: "graveyard:dark_iron_bars"
+	id: "419EFD597601A50B"
+	images: [{
+		click: ""
+		corner: false
+		dev: false
+		height: 3.0d
+		hover: [ ]
+		image: "minecells:item/blood_sword"
+		rotation: 0.0d
+		width: 3.0d
+		x: -3.0d
+		y: -1.0d
+	}]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			description: [""]
+			id: "0D23A31DAF3866F4"
+			rewards: [{
+				id: "4A4473CE89392149"
+				item: "minecells:health_flask"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.25d
+			subtitle: "The portal to the &8Prison &rdimension spawns randomly throughout the &aOverworld&r."
+			tasks: [{
+				dimension: "minecells:prison"
+				icon: "graveyard:dark_iron_bars"
+				id: "0E868C4F785876CA"
+				title: "Enter the Prison"
+				type: "dimension"
+			}]
+			title: "&8Enter the Prison"
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0D23A31DAF3866F4"]
+			id: "056835280827D016"
+			rewards: [
+				{
+					id: "2FCF73BFB5EB1746"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "40247E988E658E5A"
+					item: {
+						Count: 1b
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:sharpness"
+								lvl: 5s
+							}]
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			size: 1.5d
+			subtitle: "Spawns in &1The Lair&r, which can be found underground in the &8Prison &rdimension. To deal damage to the &dConjunctivius&r, you must first kill the tentacles."
+			tasks: [{
+				entity: "minecells:conjunctivius"
+				icon: {
+					Count: 1b
+					id: "minecells:tentacle"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "60BB85E2901C9AFB"
+				title: "Defeat Conjunctivius"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&lBossfight: &d&lConjunctivius"
+			x: -2.25d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0D23A31DAF3866F4"]
+			id: "3C8D91F2793CECAD"
+			shape: "hexagon"
+			size: 1.25d
+			subtitle: "Going through the elevator found in the last floor of the prision will get you to the Promenade.\\n \\n&eIt is suggested to bring a waystone or a pocket wormhole with you to come back to your home."
+			tasks: [{
+				dimension: "minecells:promenade"
+				icon: "minecells:promenade_torch"
+				id: "3D4982DEF40E26A6"
+				title: "Visit the Promenade"
+				type: "dimension"
+			}]
+			title: "&7Enter the &cPromenade"
+			x: 2.4642857142857153d
+			y: 1.5178571428571388d
+		}
+		{
+			dependencies: ["58E9FDE95BB414C8"]
+			id: "618580FC7F5FFBD0"
+			subtitle: "Cell Crafters allow you to make various melee and ranged weapons for your armory in the Mine Cells."
+			tasks: [{
+				icon: "minecells:cell_crafter"
+				id: "57DD47C8EC79E9E4"
+				observe_type: 0
+				timer: 0L
+				title: "Use a Cell Crafter"
+				to_observe: "minecells:cell_crafter"
+				type: "observation"
+			}]
+			title: "Craft a &cCell Crafter"
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0D23A31DAF3866F4"]
+			id: "58E9FDE95BB414C8"
+			subtitle: "Monster Cells drop from monsters in the &8Prison &rdimension."
+			tasks: [{
+				id: "5A6C4572411834AA"
+				item: "minecells:monster_cell"
+				type: "item"
+			}]
+			title: "Loot a Monster Cell"
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["58E9FDE95BB414C8"]
+			id: "364E9528AE5F1047"
+			subtitle: "Some weapons that can be made in the Cell Crafter require Cell-Infused Steel to make. Keep this in mind."
+			tasks: [{
+				id: "492AFFEA634E0376"
+				item: "minecells:cell_infused_steel"
+				type: "item"
+			}]
+			title: "Craft Some &bCell-Infused &rSteel"
+			x: 2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0D23A31DAF3866F4"]
+			description: ["&eCan be cell crafted with Guts and Monster Cells."]
+			id: "447E7AA3CB192FE4"
+			subtitle: "The Health Flask is a really useful item that heals you 10% of your maximum health and grants regeneration for a few seconds."
+			tasks: [{
+				icon: "minecells:health_flask"
+				id: "2D109EBD7B56015A"
+				title: "Quick Healing!"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.0d
+		}
+	]
+	title: " &7The Prison"
+}

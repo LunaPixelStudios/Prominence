@@ -1,0 +1,9 @@
+{
+	chapter_groups: [
+		{ id: "3DBADFFDA1FDAD84", title: "&6Campaign" }
+		{ id: "3E586F2160161EEA", title: "&eRealms" }
+		{ id: "555B69C1AF8C1C7F", title: "&cCombat \\& Gear" }
+		{ id: "244F516C4853FD2F", title: "&dMagic" }
+		{ id: "49D52BD6447C5CC0", title: "&bTech" }
+	]
+}

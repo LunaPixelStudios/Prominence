@@ -1,0 +1,32 @@
+#.
+#Settings for the dash effect
+[dash]
+	#.
+	#The multiplier for the dash delta movement
+	#Range: 0 ~ 100
+	dashDeltaModifier = 2
+	#.
+	#Enable dash from the Effect of Estrogen
+	dashEnabled = true
+#.
+#Settings for the centrifuge
+[centrifuge]
+	#.
+	#Minimum speed required for the centrifuge to work
+	#[@cui:RequiresReload:both]
+	#Range: 0.0 ~ 256.0
+	centrifugeSpeedRequired = 256.0
+#.
+#Settings for the estrogen patches
+[patch]
+	#.
+	#The level of girlpower you get from Estrogen Patches
+	#Range: 1 ~ 255
+	patchGirlPowerAmount = 1
+	#.
+	#Enable the estrogen patches to drain
+	patchDrain = true
+	#.
+	#The amount of ticks it takes for the estrogen patches to drain a millibucket
+	#Range: > 0
+	patchDrainAmount = 72

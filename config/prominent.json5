@@ -1,0 +1,38 @@
+{
+  // --------------------------------------------------
+  //      All Rights Reserved - ElocinDev 2024
+  // --------------------------------------------------
+  // If you are seeing this file in a modpack that isn't
+  // Prominence by ElocinDev, it is a reupload which is
+  // against the modpack's license.
+  // Report it to the moderators of CurseForge/Modrinth
+  // --------------------------------------------------
+  //  
+  //  
+  // --------------------------------------------------
+  //                     General
+  // --------------------------------------------------
+  "mythic_enabled": true,
+  "mythic_bosses": [
+    "aquamirae:captain_cornelia",
+    "adventurez:blackstone_golem",
+    "minecells:concierge",
+    "graveyard:lich",
+    "bosses_of_mass_destruction:obsidilith",
+    "adventurez:blackstonestone_golem",
+    "bosses_of_mass_destruction:void_blossom",
+    "bosses_of_mass_destruction:obsidilith",
+    "bosses_of_mass_destruction:gauntlet"
+  ],
+  // Health multiplier per mythic level. 0.25 = +25%
+  "mythic_hp_multiplier": 0.40,
+  // Damage multiplier per mythic level. 0.25 = +25%
+  "mythic_damage_multiplier": 0.35,
+  // --------------------------------------------------
+  //                     Items
+  // --------------------------------------------------
+  //  Thunderwrath
+  // --------------------------------------------------
+  "thunderwrath_damage": 15.0,
+  "thunderwrath_attackSpeed": -2.6
+}

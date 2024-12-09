@@ -1,0 +1,29 @@
+{
+  // ------------------------------------------------
+  //        ReBalance by ElocinDev & Sweeney
+  // ------------------------------------------------
+  //  
+  // ------------------------------------------------
+  //               Dynamic Rebalance
+  // ------------------------------------------------
+  "enable_dynamic_rebalance": true,
+  "reduction_amount": 18.0,
+  "attack_speed_weight": 0.2,
+  "dynamic_reduction_start": 10.0,
+  "health_minimum": 5.0,
+  "health_threshold": 1.0,
+  "should_ignore_first_hit": false,
+  // ------------------------------------------------
+  //               Global Reduction
+  // ------------------------------------------------
+  "enable_global_reduction": false,
+  "global_reduction_multiplier": 1.0,
+  "global_reduction_start": 4.0,
+  // ------------------------------------------------
+  //                 PvP Reduction
+  // ------------------------------------------------
+  "enable_pvp_rebalance": true,
+  "pvp_damage_multiplier": 0.60,
+  // ------------------------------------------------
+  "enable_debug": false
+}

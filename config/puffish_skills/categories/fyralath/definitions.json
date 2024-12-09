@@ -1,0 +1,132 @@
+{
+	"fyrdmg+5": {
+		"title": "§f\uF943 §6+5% §7Damage dealt by §6Fyr'alath",
+		"frame": {
+			"type": "texture",
+			"data": {
+				"unlocked": "prominent_talents:textures/frames/diamond_selected.png",
+				"available": "prominent_talents:textures/frames/diamond.png"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/prom_compat/fire.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "prominent:artifact_damage",
+					"value": 0.05,
+					"operation": "addition"
+				}
+			}
+		],
+		"editor-color": "#ff00a6",
+		"metadata": {
+			"icon": "vt5q3v2tr9v4ow8e"
+		}
+	},
+	"maxhealth+5": {
+		"title": "§6+5% §7Maximum Health for the wielder of §6Fyr'alath",
+		"frame": {
+			"type": "texture",
+			"data": {
+				"unlocked": "prominent_talents:textures/frames/diamond_selected.png",
+				"available": "prominent_talents:textures/frames/diamond.png"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "simplyskills:textures/icons/prom_compat/health.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 0.05,
+					"operation": "multiply_base"
+				}
+			}
+		],
+		"editor-color": "#ff00a6",
+		"metadata": {
+			"icon": "vt5q3v2tr9v4ow8e"
+		}
+	},
+	"infusion_etyr": {
+		"title": "§f\uF940 §2Etyr Infusion",
+		"description": "§7Infuse Fyr'alath with Etyr, giving its wielder reabsorption and higher resistances to corruption effects.\n \n§2+20 §7Corruption Resistance\n§6+10 §7Reabsorption",
+		"size": 1.5,
+		"frame": {
+			"type": "texture",
+			"data": {
+				"unlocked": "prominent_talents:textures/frames/diamond_selected.png",
+				"available": "prominent_talents:textures/frames/diamond.png"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "eldritch_end:textures/item/etyr_upgrade_pattern.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "eldritch_end:corruption_resistance",
+					"value": 20,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "extraspellattributes:reabsorption",
+					"value": 10,
+					"operation": "addition"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "n241yslto644cv8k"
+		}
+	},
+	"infusion_corruption": {
+		"title": "§f\uF940 §9Void's Touch",
+		"description": "§7Allows Fyr'alath to channel Corruption, making it deal more damage the more corrupted the wielder is.\n \n§f\uA998 §9+20§7 Corruption",
+		"size": 1.5,
+		"frame": {
+			"type": "texture",
+			"data": {
+				"unlocked": "prominent_talents:textures/frames/diamond_selected.png",
+				"available": "prominent_talents:textures/frames/diamond.png"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "eldritch_end:textures/icon/corruption.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "eldritch_end:corruption",
+					"value": 20,
+					"operation": "addition"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "eqvex0gqoc0c3krb"
+		}
+	}
+}

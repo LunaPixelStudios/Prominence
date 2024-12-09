@@ -1,0 +1,19 @@
+{
+	/* Default (0): Everything other than self
+	   Next Permission (1): Not self and not teammates or pets of self
+	   Next Permission (2): Not self and not teammates or pets of self or AnimalEntities (not hitting farm animals is not present in permission 3)
+	   Next Permission (3): Not self and not Potential allies (pets of any player, iron golems, villagers, players)
+	   Final Permission (4): Only hostile mobs
+	   WARNING: LOOKS AT HOSTILE ENTITY CLASS WHICH DOES NOT INCLUDE ENDER DRAGON AND OTHERS.
+	   If anything else is put, it will be treated as default
+	*/
+	"aoePermission": 0,
+	"ENABLE_ENCHANTMENT_SETTINGS": {
+		"ENABLE_OP_ENCHANTMENT_MIXING": false,
+		"LEECHING_CAN_BE_MIXED_WITH_HEALING": false,
+		"EXTRA_XP_HEALING": false,
+		"SHARED_PAIN_CAN_DAMAGE_USER": false,
+		"AREA_OF_EFFECT_ENCHANTS_DONT_AFFECT_PLAYERS": true,
+		"ENABLE_INNATE_ENCHANTMENTS": true
+	}
+}

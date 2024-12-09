@@ -1,0 +1,22 @@
+{
+	// Items in for example mineshaft chests get modifiers
+	"lootContainerModifier": true,
+	// Equipped items on entities get modifiers
+	"entityItemModifier": true,
+	// Crafted items get modifiers
+	"craftingModifier": true,
+	// Merchant items get modifiers
+	"merchantModifier": true,
+	// Decreases the biggest weights by this modifier
+	"reforgeModifier": 0.8999999761581421,
+	// Modify the biggest weights by this modifier per smithing level
+	"levelzReforgeModifier": 0.009999999776482582,
+	// Modify the biggest weights by this modifier per luck
+	"luckReforgeModifier": 0.019999999552965164,
+	"uniqueReforge": false,
+	"showReforgingTab": true,
+	"xIconPosition": 0,
+	"yIconPosition": 0,
+	"tieredTooltip": true,
+	"centerName": true
+}

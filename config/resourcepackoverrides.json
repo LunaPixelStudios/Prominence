@@ -1,0 +1,105 @@
+ {
+  "schema_version": 1,
+  "failed_reloads_per_session": 5,
+  "default_packs": [
+    "Fabric Mods",
+    "file/NoBushyLeaves.zip",
+    "file/Icons.zip",
+    "file/Ashen_1.8.2.zip",
+    "file/Ashen_Custom_Mobs.zip",
+    "file/Ashen_Eating_Animation_Support_1.0.zip",
+    "file/Mandalas_Legacy_Gui_Background.zip",
+    "file/MandalasGUI+Dakmode_1.20.5.zip",
+    "file/Prominent-UI-1.20.1.zip",
+    "file/Mandala_x_Prominent_UI.zip",
+    "file/Ashen_Simple_Foliage.zip",
+    "file/xali\u0027s Enchanted Books v0.12.0.zip",
+    "file/Frosty-Deathchill.zip",
+    "file/Prominence-Custom-Lootr.zip",
+    "file/ProminenceFancyServerListing.zip",
+    "file/ReApplied.zip"
+  ],
+  "default_overrides": {
+    "force_compatible": true
+  },
+  "pack_overrides": {
+    "file/Charm_Architects_Palette_integration.zip": {
+      "hidden": true
+    },
+    "file/Scarecrow_Obliterator.zip": {
+      "hidden": true
+    },
+    "file/Charm_BetterEnd_integration_v2.zip": {
+      "hidden": true
+    },
+    "file/Charm_BetterNether_integration_v2.zip": {
+      "hidden": true
+    },
+    "file/Repurposed_Structures-Better_Desert_Temples_v6.zip": {
+      "hidden": true
+    },
+    "file/Repurposed_Structures-Better_Dungeons_v4.zip": {
+      "hidden": true
+    },
+    "file/Repurposed_Structures-Better_Monuments_v5.zip": {
+      "hidden": true
+    },
+    "file/WDA-VanillaLoot-1.18.2-1.19.2-0.0.1.zip": {
+      "hidden": true
+    },
+    "file/Repurposed_Structures-Better_Strongholds_v4.zip": {
+      "hidden": true
+    },
+    "file/Repurposed_Structures-Better_Witch_Huts_v3.zip": {
+      "hidden": true
+    },
+    "file/Repurposed_Structures-Bygone_Nether_v1.zip": {
+      "hidden": true
+    },
+    "file/Repurposed_Structures-Better_Nether_Fortress_v4.zip": {
+      "hidden": true
+    },
+    "file/Repurposed_Structures-Bountiful_v2.zip": {
+      "hidden": true
+    },
+    "file/Repurposed_Structures-Farmers_Delight_v5.zip": {
+      "hidden": true
+    },
+    "file/Repurposed_Structures-Friends_And_Foes_v3.zip": {
+      "hidden": true
+    },
+    "file/Repurposed_Structures-Oh_The_Biomes_Youll_Go_v2.zip": {
+      "hidden": true
+    },
+    "file/Repurposed_Structures-VillagersPlus_v1.zip": {
+       "hidden": true
+    },
+    "file/Repurposed_Structures-Chef's_Delight_v1.zip": {
+      "hidden": true
+    },
+    "Everycomp Generated Pack": {
+      "hidden": true
+    },
+    "Supplementaries Generated Pack": {
+      "hidden": true
+    },
+    "charmonium/journeyman": {
+      "hidden": true
+    },
+    "lambdabettergrass/default": {
+      "hidden": true
+    },
+    "Immersive Weathering Generated Pack": {
+      "hidden": true
+    },
+    "Snowyspirit Generated Pack": {
+      "hidden": true
+    },
+    "continuity/default": {
+      "hidden": true
+    },
+    "meadow/optifine_support": {
+      "hidden": true
+    }
+  }
+}

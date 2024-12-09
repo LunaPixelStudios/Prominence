@@ -1,0 +1,17 @@
+{
+	id: "a44760cd-b9f1-3608-8920-c773924b5455"
+	type: "player"
+	player_name: "shizikkid123"
+	ranks: {
+		a44760cd-b9f1-3608-8920-c773924b5455: "owner"
+	}
+	properties: {
+		"ftbteams:display_name": "shizikkid123"
+		"ftbteams:description": ""
+		"ftbteams:color": "#59FFF5"
+		"ftbteams:free_to_join": 0b
+		"ftbteams:max_msg_history_size": 1000
+	}
+	message_history: [ ]
+	extra: { }
+}

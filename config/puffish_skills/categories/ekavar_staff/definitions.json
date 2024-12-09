@@ -1,0 +1,351 @@
+{
+	"haste": {
+		"title": "§f賂 §b+2% §7Spell Haste",
+		"frame": {
+			"type": "texture",
+			"data": {
+				"unlocked": "prominent_talents:textures/frames/diamond_selected.png",
+				"available": "prominent_talents:textures/frames/diamond.png"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "prominent:textures/icon/talent_tree/spell_haste.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "spell_power:haste",
+					"value": 0.02,
+					"operation": "multiply_base"
+				}
+			}
+		],
+		"editor-color": "#ff00a6",
+		"metadata": {
+			"icon": "vt5q3v2tr9v4ow8e"
+		}
+	},
+	"critchance": {
+		"title": "§f雷 §d+2% §7Spell Critical Chance",
+		"frame": {
+			"type": "texture",
+			"data": {
+				"unlocked": "prominent_talents:textures/frames/diamond_selected.png",
+				"available": "prominent_talents:textures/frames/diamond.png"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "prominent:textures/icon/talent_tree/spell_critical.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "spell_power:critical_chance",
+					"value": 0.04,
+					"operation": "multiply_base"
+				}
+			}
+		],
+		"editor-color": "#ff00a6",
+		"metadata": {
+			"icon": "vt5q3v2tr9v4ow8c"
+		}
+	},
+	"critdamage": {
+		"title": "§c雷 §c+2% §7Spell Critical Damage",
+		"frame": {
+			"type": "texture",
+			"data": {
+				"unlocked": "prominent_talents:textures/frames/diamond_selected.png",
+				"available": "prominent_talents:textures/frames/diamond.png"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "prominent:textures/icon/talent_tree/spell_critical_damage.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "spell_power:critical_damage",
+					"value": 0.02,
+					"operation": "multiply_base"
+				}
+			}
+		],
+		"editor-color": "#ff00a6",
+		"metadata": {
+			"icon": "st7ee3sncy4vfgdk"
+		}
+	},
+	"infusion_arcane": {
+		"title": "§f鹿 §dArcane Infusion",
+		"description": "§7Infuse Fire powers to Ekavar, transforming it into §dAl Na'ir, The Bright Star§7.\n \n§f\uF951 §d+30%§7 Arcane Power\n§fꦘ §9+20§7 Corruption",
+		"size": 1.5,
+		"frame": {
+			"type": "texture",
+			"data": {
+				"unlocked": "prominent_talents:textures/frames/fate_selected.png",
+				"available": "prominent_talents:textures/frames/fate.png"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "prominent:textures/icon/talent_tree/magic_type/arcane.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "prominent:ekavar_phase",
+					"value": 1,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "eldritch_end:corruption",
+					"value": 20,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "spell_power:arcane",
+					"value": 0.3,
+					"operation": "multiply_base"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "eqvex0gqoc0c3krb"
+		}
+	},
+	"infusion_fire": {
+		"title": "§f鹿 §cFire Infusion",
+		"description": "§7Infuse Fire powers to Ekavar, transforming it into §cAdassil, The Scorched Tree§7.\n \n§f\uF950 §c+30%§7 Fire Power\n§fꦘ §9+20§7 Corruption",
+		"size": 1.5,
+		"frame": {
+			"type": "texture",
+			"data": {
+				"unlocked": "prominent_talents:textures/frames/fate_selected.png",
+				"available": "prominent_talents:textures/frames/fate.png"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "prominent:textures/icon/talent_tree/magic_type/fire.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "prominent:ekavar_phase",
+					"value": 2,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "eldritch_end:corruption",
+					"value": 20,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "spell_power:fire",
+					"value": 0.3,
+					"operation": "multiply_base"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "eqvex0gqoc0c3k54"
+		}
+	},
+	"infusion_frost": {
+		"title": "§f鹿 §bFrozen Infusion",
+		"description": "§7Infuse Frost powers to Ekavar, transforming it into §bKhaz'el, The Frozen Destiny§7.\n \n§f\uF952 §b+30%§7 Frost Power\n§f\uAB01 §2+20§7 Corruption Resistance",
+		"size": 1.5,
+		"frame": {
+			"type": "texture",
+			"data": {
+				"unlocked": "prominent_talents:textures/frames/fate_selected.png",
+				"available": "prominent_talents:textures/frames/fate.png"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "prominent:textures/icon/talent_tree/magic_type/frost.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "prominent:ekavar_phase",
+					"value": 3,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "eldritch_end:corruption_resistance",
+					"value": 20,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "spell_power:frost",
+					"value": 0.3,
+					"operation": "multiply_base"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "eqvex0gqoc0c3en4"
+		}
+	},
+	"infusion_holy": {
+		"title": "§f鹿 §6Holy Infusion",
+		"description": "§7Infuse Holy powers to Ekavar, transforming it into §6Ad'anel, Secret of Ain§7.\n \n§f\uF957 §6+30%§7 Holy Power\n§f\uAB01 §2+20§7 Corruption Resistance",
+		"size": 1.5,
+		"frame": {
+			"type": "texture",
+			"data": {
+				"unlocked": "prominent_talents:textures/frames/fate_selected.png",
+				"available": "prominent_talents:textures/frames/fate.png"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "prominent:textures/icon/talent_tree/magic_type/holy.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "prominent:ekavar_phase",
+					"value": 4,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "eldritch_end:corruption_resistance",
+					"value": 20,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "spell_power:healing",
+					"value": 0.3,
+					"operation": "multiply_base"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "eqvex0gqoc0c3yf5"
+		}
+	},
+	"infusion_astral": {
+		"title": "§f鹿 §dAstral Infusion",
+		"description": "§7Infuse Astral powers to Ekavar, transforming it into §dSingularity, A Star's Rebirth§7.\n \n§f\uF956 §d+20%§7 Astral Power\n§f\uAB01 §2+10§7 Corruption Resistance\n§fꦘ §9+10§7 Corruption",
+		"size": 1.5,
+		"frame": {
+			"type": "texture",
+			"data": {
+				"unlocked": "prominent_talents:textures/frames/fate_selected.png",
+				"available": "prominent_talents:textures/frames/fate.png"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "prominent:textures/icon/talent_tree/supernova/fate_corruption.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "prominent:ekavar_phase",
+					"value": 5,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "eldritch_end:corruption",
+					"value": 10,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "eldritch_end:corruption_resistance",
+					"value": 10,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "spell_power:frost",
+					"value": 0.3,
+					"operation": "multiply_base"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "spell_power:fire",
+					"value": 0.3,
+					"operation": "multiply_base"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "spell_power:arcane",
+					"value": 0.3,
+					"operation": "multiply_base"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "eqvex0gqcc0c3yu3"
+		}
+	}
+}

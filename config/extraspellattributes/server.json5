@@ -1,0 +1,34 @@
+{
+	// Registration of turtle bracer
+	"turtle_bracer": true,
+	// Mod of turtle bracer
+	"turtle_bracer_mod": 0.30000001192092896,
+	// Registration of turtle girdle
+	"turtle_girdle": true,
+	// Mod of turtle girdle
+	"turtle_girdle_mod": 0.25,
+	// Registration of arcane bracer
+	"arcane_bracer": true,
+	// Mod of arcane bracer
+	"arcane_bracer_mod": 0.25,
+	// Registration of nonbeliever amulet
+	"nonbeliever": true,
+	// Mod of nonbeliever amulet
+	"nonbeliever_mod": 0.5,
+	// Registration of defiance ring
+	"defiance_ring": true,
+	// Mod of defiance ring
+	"defiance_ring_mod": 0.15000000596046448,
+	// Registration of undying soul
+	"undying_soul": true,
+	// Mod of undying soul
+	"undying_soul_mod": 0.30000001192092896,
+	// Mod of gold absorption ring
+	"gold_absorption_ring_mod": 4.0,
+	// Mod of netherite absorption ring
+	"netherite_absorption_ring_mod": 6.0,
+	// Mod of gold necklace
+	"gold_absorption_necklace_mod": 0.25,
+	// Mod of netherite necklace
+	"netherite_absorption_necklace_mod": 0.5
+}

@@ -1,0 +1,6 @@
+{
+	// Gu'Mas health (Default: 900)
+	"gumasHealth": 1100.0,
+	// Gu'Mas Attack Damage (Default: 10)
+	"gumasDamage": 9.0
+}

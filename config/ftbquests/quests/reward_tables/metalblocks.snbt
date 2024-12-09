@@ -1,0 +1,11 @@
+{
+	id: "78BEF532F8C9292D"
+	loot_size: 1
+	order_index: 4
+	rewards: [
+		{ item: "minecraft:gold_block" }
+		{ item: "minecraft:copper_block" }
+		{ item: "minecraft:iron_block" }
+	]
+	title: "metalblocks"
+}

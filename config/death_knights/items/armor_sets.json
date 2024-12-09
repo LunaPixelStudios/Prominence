@@ -1,0 +1,281 @@
+{
+  "weapons": {},
+  "armor_sets": {
+    "crimson_guard_armor": {
+      "armor_toughness": 0.0,
+      "knockback_resistance": 0.0,
+      "head": {
+        "armor": 3,
+        "attributes": [
+          {
+            "id": "death_knights:blood",
+            "value": 0.1,
+            "operation": "MULTIPLY_BASE"
+          },
+          {
+            "id": "minecraft:generic.max_health",
+            "value": 20.0,
+            "operation": "ADDITION"
+          }
+        ]
+      },
+      "chest": {
+        "armor": 6,
+        "attributes": [
+          {
+            "id": "death_knights:blood",
+            "value": 0.1,
+            "operation": "MULTIPLY_BASE"
+          },
+          {
+            "id": "minecraft:generic.max_health",
+            "value": 20.0,
+            "operation": "ADDITION"
+          }
+        ]
+      },
+      "legs": {
+        "armor": 5,
+        "attributes": [
+          {
+            "id": "death_knights:blood",
+            "value": 0.1,
+            "operation": "MULTIPLY_BASE"
+          },
+          {
+            "id": "minecraft:generic.max_health",
+            "value": 20.0,
+            "operation": "ADDITION"
+          }
+        ]
+      },
+      "feet": {
+        "armor": 3,
+        "attributes": [
+          {
+            "id": "death_knights:blood",
+            "value": 0.1,
+            "operation": "MULTIPLY_BASE"
+          },
+          {
+            "id": "minecraft:generic.max_health",
+            "value": 20.0,
+            "operation": "ADDITION"
+          }
+        ]
+      }
+    },
+    "plaguebringer_armor": {
+      "armor_toughness": 0.0,
+      "knockback_resistance": 0.0,
+      "head": {
+        "armor": 3,
+        "attributes": [
+          {
+            "id": "death_knights:unholy",
+            "value": 0.1,
+            "operation": "MULTIPLY_BASE"
+          },
+          {
+            "id": "minecraft:generic.attack_damage",
+            "value": 0.02,
+            "operation": "MULTIPLY_BASE"
+          }
+        ]
+      },
+      "chest": {
+        "armor": 6,
+        "attributes": [
+          {
+            "id": "death_knights:unholy",
+            "value": 0.1,
+            "operation": "MULTIPLY_BASE"
+          },
+          {
+            "id": "minecraft:generic.attack_damage",
+            "value": 0.02,
+            "operation": "MULTIPLY_BASE"
+          }
+        ]
+      },
+      "legs": {
+        "armor": 5,
+        "attributes": [
+          {
+            "id": "death_knights:unholy",
+            "value": 0.1,
+            "operation": "MULTIPLY_BASE"
+          },
+          {
+            "id": "minecraft:generic.attack_damage",
+            "value": 0.02,
+            "operation": "MULTIPLY_BASE"
+          }
+        ]
+      },
+      "feet": {
+        "armor": 3,
+        "attributes": [
+          {
+            "id": "death_knights:unholy",
+            "value": 0.1,
+            "operation": "MULTIPLY_BASE"
+          },
+          {
+            "id": "minecraft:generic.attack_damage",
+            "value": 0.02,
+            "operation": "MULTIPLY_BASE"
+          }
+        ]
+      }
+    },
+    "frozen_champion_armor": {
+      "armor_toughness": 0.0,
+      "knockback_resistance": 0.0,
+      "head": {
+        "armor": 3,
+        "attributes": [
+          {
+            "id": "spell_power:frost",
+            "value": 0.1,
+            "operation": "MULTIPLY_BASE"
+          },
+          {
+            "id": "minecraft:generic.attack_speed",
+            "value": 0.03,
+            "operation": "MULTIPLY_BASE"
+          }
+        ]
+      },
+      "chest": {
+        "armor": 6,
+        "attributes": [
+          {
+            "id": "spell_power:frost",
+            "value": 0.1,
+            "operation": "MULTIPLY_BASE"
+          },
+          {
+            "id": "minecraft:generic.attack_speed",
+            "value": 0.03,
+            "operation": "MULTIPLY_BASE"
+          }
+        ]
+      },
+      "legs": {
+        "armor": 5,
+        "attributes": [
+          {
+            "id": "spell_power:frost",
+            "value": 0.1,
+            "operation": "MULTIPLY_BASE"
+          },
+          {
+            "id": "minecraft:generic.attack_speed",
+            "value": 0.03,
+            "operation": "MULTIPLY_BASE"
+          }
+        ]
+      },
+      "feet": {
+        "armor": 3,
+        "attributes": [
+          {
+            "id": "spell_power:frost",
+            "value": 0.1,
+            "operation": "MULTIPLY_BASE"
+          },
+          {
+            "id": "minecraft:generic.attack_speed",
+            "value": 0.03,
+            "operation": "MULTIPLY_BASE"
+          }
+        ]
+      }
+    },
+    "initiate_armor": {
+      "armor_toughness": 0.0,
+      "knockback_resistance": 0.0,
+      "head": {
+        "armor": 2,
+        "attributes": [
+          {
+            "id": "death_knights:blood",
+            "value": 1.0,
+            "operation": "ADDITION"
+          },
+          {
+            "id": "death_knights:unholy",
+            "value": 1.0,
+            "operation": "ADDITION"
+          },
+          {
+            "id": "spell_power:frost",
+            "value": 1.0,
+            "operation": "ADDITION"
+          }
+        ]
+      },
+      "chest": {
+        "armor": 5,
+        "attributes": [
+          {
+            "id": "death_knights:blood",
+            "value": 1.0,
+            "operation": "ADDITION"
+          },
+          {
+            "id": "death_knights:unholy",
+            "value": 1.0,
+            "operation": "ADDITION"
+          },
+          {
+            "id": "spell_power:frost",
+            "value": 1.0,
+            "operation": "ADDITION"
+          }
+        ]
+      },
+      "legs": {
+        "armor": 4,
+        "attributes": [
+          {
+            "id": "death_knights:blood",
+            "value": 1.0,
+            "operation": "ADDITION"
+          },
+          {
+            "id": "death_knights:unholy",
+            "value": 1.0,
+            "operation": "ADDITION"
+          },
+          {
+            "id": "spell_power:frost",
+            "value": 1.0,
+            "operation": "ADDITION"
+          }
+        ]
+      },
+      "feet": {
+        "armor": 2,
+        "attributes": [
+          {
+            "id": "death_knights:blood",
+            "value": 1.0,
+            "operation": "ADDITION"
+          },
+          {
+            "id": "death_knights:unholy",
+            "value": 1.0,
+            "operation": "ADDITION"
+          },
+          {
+            "id": "spell_power:frost",
+            "value": 1.0,
+            "operation": "ADDITION"
+          }
+        ]
+      }
+    }
+  }
+}

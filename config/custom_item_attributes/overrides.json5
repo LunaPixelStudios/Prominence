@@ -1,0 +1,426 @@
+{
+  // ---------------------------------------------------------------------------------------------------------------------------------
+  //                                            Custom Item Attributes (CIA) by ElocinDev
+  // ---------------------------------------------------------------------------------------------------------------------------------
+  //                                                        Overrides Config 
+  //                                Reloaded via datapack reload (/reload) or by restarting the game
+  // ---------------------------------------------------------------------------------------------------------------------------------
+  // Option Index:
+  //       item        :           The item's identifier. You can get this using the autocomplete of the /give command.
+  //       slot        :           A list of slots where the attributes should be applied.
+  //       attribute   :           The Identifier of the attribute. You can get it using the autocomplete of the /attribute command.
+  //       value       :           The value of the desired attribute. You can use negatives too, must be a decimal number.
+  //       operation   :           The operation to calculate the attribute. Addition or Multiply.
+  //       unbreakable :           Whether or not the item should be unbreakable.
+  //       force_unbreakable :     Force the unbreakable tag over other mods. Setting this to true will break the Hardening Catalyst from Things from being used on that item!
+  // ---------------------------------------------------------------------------------------------------------------------------------
+  // Slots:
+  //       mainhand    :   The main hand slot.
+  //       offhand     :   The off hand slot.
+  //       head        :   The head slot.
+  //       chest       :   The chest slot.
+  //       legs        :   The legs slot.
+  // ------------------------------------------------------------------------------------------------------------------------------
+  // The example showcases a config to add +10 attack damage and +20% attack speed to an "example_item", on both the main hand and off hand.
+  // Each of the attributes are overrides for modifiers of the same attribute type, depending on each slot correspondingly.
+  "items": [
+    {
+        "item": "minecells:cursed_sword",
+        "affected_slots": [
+            "mainhand"
+        ],
+        "attribute_overrides": [
+            {
+                "attribute": "minecraft:generic.max_health",
+                "value": -0.8,
+                "operation": "MULTIPLY_TOTAL"
+            }
+        ],
+        "unbreakable": false,
+        "force_unbreakable": false
+    },
+    {
+        "item": "spellbladenext:monkeystaff",
+        "affected_slots": [
+            "mainhand"
+        ],
+        "attribute_overrides": [
+            {
+                "attribute": "minecraft:generic.attack_speed",
+                "value": -2,
+                "operation": "ADDITION"
+            }
+        ],
+        "unbreakable": false,
+        "force_unbreakable": false
+    },
+    {
+        "item": "soulsweapons:crucible_sword",
+        "affected_slots": [
+            "mainhand",
+            "offhand"
+        ],
+        "attribute_overrides": [
+            {
+                "attribute": "minecraft:generic.max_health",
+                "value": -0.45,
+                "operation": "MULTIPLY_TOTAL"
+            },
+            {
+                "attribute": "minecraft:generic.armor",
+                "value": -1,
+                "operation": "MULTIPLY_TOTAL"
+            }
+        ],
+        "unbreakable": false,
+        "force_unbreakable": false
+    },
+    {
+        "item": "spellbladenext:frozen_chest",
+        "affected_slots": [
+            "chest"
+        ],
+        "attribute_overrides": [
+            {
+                "attribute": "death_knights:unholy",
+                "value": 0.10,
+                "operation": "MULTIPLY_BASE"
+            },
+            {
+                "attribute": "death_knights:blood",
+                "value": 0.10,
+                "operation": "MULTIPLY_BASE"
+            }
+        ],
+        "unbreakable": false,
+        "force_unbreakable": false
+    },
+    {
+        "item": "spellbladenext:frozen_legs",
+        "affected_slots": [
+            "legs"
+        ],
+        "attribute_overrides": [
+            {
+                "attribute": "death_knights:unholy",
+                "value": 0.10,
+                "operation": "MULTIPLY_BASE"
+            },
+            {
+                "attribute": "death_knights:blood",
+                "value": 0.10,
+                "operation": "MULTIPLY_BASE"
+            }
+        ],
+        "unbreakable": false,
+        "force_unbreakable": false
+    },
+    {
+        "item": "spellbladenext:frozen_feet",
+        "affected_slots": [
+            "feet"
+        ],
+        "attribute_overrides": [
+            {
+                "attribute": "death_knights:unholy",
+                "value": 0.10,
+                "operation": "MULTIPLY_BASE"
+            },
+            {
+                "attribute": "death_knights:blood",
+                "value": 0.10,
+                "operation": "MULTIPLY_BASE"
+            }
+        ],
+        "unbreakable": false,
+        "force_unbreakable": false
+    },
+    {
+        "item": "spellbladenext:blazing_chest",
+        "affected_slots": [
+            "chest"
+        ],
+        "attribute_overrides": [
+            {
+                "attribute": "spell_power:soul",
+                "value": 0.15,
+                "operation": "MULTIPLY_BASE"
+            }
+        ],
+        "unbreakable": false,
+        "force_unbreakable": false
+    },
+    {
+        "item": "spellbladenext:blazing_legs",
+        "affected_slots": [
+            "legs"
+        ],
+        "attribute_overrides": [
+            {
+                "attribute": "spell_power:soul",
+                "value": 0.15,
+                "operation": "MULTIPLY_BASE"
+            }
+        ],
+        "unbreakable": false,
+        "force_unbreakable": false
+    },
+    {
+        "item": "spellbladenext:blazing_feet",
+        "affected_slots": [
+            "feet"
+        ],
+        "attribute_overrides": [
+            {
+                "attribute": "spell_power:soul",
+                "value": 2.0,
+                "operation": "ADDITION"
+            }
+        ],
+        "unbreakable": false,
+        "force_unbreakable": false
+    },
+    {
+        "item": "mcda:heros_armor_helmet",
+        "affected_slots": [
+            "head"
+        ],
+        "attribute_overrides": [
+            {
+                "attribute": "spell_power:lightning",
+                "value": 0.15,
+                "operation": "MULTIPLY_BASE"
+            }
+        ],
+        "unbreakable": false,
+        "force_unbreakable": false
+    },
+    {
+        "item": "mcda:heros_armor_chestplate",
+        "affected_slots": [
+            "chest"
+        ],
+        "attribute_overrides": [
+            {
+                "attribute": "spell_power:lightning",
+                "value": 0.15,
+                "operation": "MULTIPLY_BASE"
+            }
+        ],
+        "unbreakable": false,
+        "force_unbreakable": false
+    },
+    {
+        "item": "mcda:heros_armor_leggings",
+        "affected_slots": [
+            "legs"
+        ],
+        "attribute_overrides": [
+            {
+                "attribute": "spell_power:lightning",
+                "value": 0.15,
+                "operation": "MULTIPLY_BASE"
+            }
+        ],
+        "unbreakable": false,
+        "force_unbreakable": false
+    },
+    {
+        "item": "mcda:heros_armor_boots",
+        "affected_slots": [
+            "feet"
+        ],
+        "attribute_overrides": [
+            {
+                "attribute": "spell_power:lightning",
+                "value": 0.15,
+                "operation": "MULTIPLY_BASE"
+            }
+        ],
+        "unbreakable": false,
+        "force_unbreakable": false
+    },
+    {
+        "item": "mythicupgrades:sapphire_helmet",
+        "affected_slots": [
+            "head"
+        ],
+        "attribute_overrides": [
+            {
+                "attribute": "minecraft:generic.max_health",
+                "value": 20,
+                "operation": "ADDITION"
+            }
+        ],
+        "unbreakable": false,
+        "force_unbreakable": false
+    },
+    {
+        "item": "mythicupgrades:sapphire_chestplate",
+        "affected_slots": [
+            "chest"
+        ],
+        "attribute_overrides": [
+            {
+                "attribute": "minecraft:generic.max_health",
+                "value": 20,
+                "operation": "ADDITION"
+            }
+        ],
+        "unbreakable": false,
+        "force_unbreakable": false
+    },
+    {
+        "item": "mythicupgrades:sapphire_leggings",
+        "affected_slots": [
+            "legs"
+        ],
+        "attribute_overrides": [
+            {
+                "attribute": "minecraft:generic.max_health",
+                "value": 20,
+                "operation": "ADDITION"
+            }
+        ],
+        "unbreakable": false,
+        "force_unbreakable": false
+    },
+    {
+        "item": "mythicupgrades:sapphire_boots",
+        "affected_slots": [
+            "feet"
+        ],
+        "attribute_overrides": [
+            {
+                "attribute": "minecraft:generic.max_health",
+                "value": 20,
+                "operation": "ADDITION"
+            }
+        ],
+        "unbreakable": false,
+        "force_unbreakable": false
+    },
+    {
+    "item": "deeperdarker:warden_helmet",
+    "affected_slots": [
+        "head"
+    ],
+    "attribute_overrides": [
+        {
+            "attribute": "minecraft:generic.max_health",
+            "value": 15,
+            "operation": "ADDITION"
+        }
+    ],
+    "unbreakable": false,
+    "force_unbreakable": false
+    },
+    {
+        "item": "deeperdarker:warden_chestplate",
+        "affected_slots": [
+            "chest"
+        ],
+        "attribute_overrides": [
+            {
+                "attribute": "minecraft:generic.max_health",
+                "value": 15,
+                "operation": "ADDITION"
+            }
+        ],
+        "unbreakable": false,
+        "force_unbreakable": false
+    },
+    {
+        "item": "deeperdarker:warden_leggings",
+        "affected_slots": [
+            "legs"
+        ],
+        "attribute_overrides": [
+            {
+                "attribute": "minecraft:generic.max_health",
+                "value": 15,
+                "operation": "ADDITION"
+            }
+        ],
+        "unbreakable": false,
+        "force_unbreakable": false
+    },
+    {
+        "item": "deeperdarker:warden_boots",
+        "affected_slots": [
+            "feet"
+        ],
+        "attribute_overrides": [
+            {
+                "attribute": "minecraft:generic.max_health",
+                "value": 15,
+                "operation": "ADDITION"
+            }
+        ],
+        "unbreakable": false,
+        "force_unbreakable": false
+    },
+    {
+        "item": "death_knights:crimson_guard_armor_head",
+        "affected_slots": [
+            "head"
+        ],
+        "attribute_overrides": [
+            {
+                "attribute": "minecraft:generic.max_health",
+                "value": 18,
+                "operation": "ADDITION"
+            }
+        ],
+        "unbreakable": false,
+        "force_unbreakable": false
+    },
+    {
+        "item": "death_knights:crimson_guard_armor_chest",
+        "affected_slots": [
+            "chest"
+        ],
+        "attribute_overrides": [
+            {
+                "attribute": "minecraft:generic.max_health",
+                "value": 18,
+                "operation": "ADDITION"
+            }
+        ],
+        "unbreakable": false,
+        "force_unbreakable": false
+    },
+    {
+        "item": "death_knights:crimson_guard_armor_legs",
+        "affected_slots": [
+            "legs"
+        ],
+        "attribute_overrides": [
+            {
+                "attribute": "minecraft:generic.max_health",
+                "value": 18,
+                "operation": "ADDITION"
+            }
+        ],
+        "unbreakable": false,
+        "force_unbreakable": false
+    },
+    {
+        "item": "death_knights:crimson_guard_armor_feet",
+        "affected_slots": [
+            "feet"
+        ],
+        "attribute_overrides": [
+            {
+                "attribute": "minecraft:generic.max_health",
+                "value": 18,
+                "operation": "ADDITION"
+            }
+        ],
+        "unbreakable": false,
+        "force_unbreakable": false
+    }
+  ],
+  // Don't touch this!
+  "CONFIG_VERSION": 2
+}

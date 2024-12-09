@@ -1,0 +1,112 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "d_the_art_of_transmogrification"
+	group: "244F516C4853FD2F"
+	icon: {
+		Count: 1b
+		id: "ftbquests:custom_icon"
+		tag: {
+			Icon: "zenith:items/gems/endersurge"
+		}
+	}
+	id: "0EF4DA402B0EFC8E"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "simplyswords:item/lichblade_eyes"
+			rotation: 0.0d
+			width: 0.016666666666666666d
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "botania:block/purple_mystical_flower"
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.062159863945574045d
+			y: -3.5918367346938815d
+		}
+	]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				""
+				"&dTransmogrification&7 is a type of magic that allows you to &echange the shape of any object without altering its function&7, letting you to mask your items into another, including weapons and armors. It does not give any benefit aside from being purely cosmetic."
+			]
+			icon: "minecraft:amethyst_cluster"
+			id: "1F3A415DDF6355EE"
+			shape: "hexagon"
+			subtitle: "&8[Click to read information]"
+			tasks: [{
+				id: "138402A5BE9F444A"
+				title: "The Art of Transmogrification"
+				type: "checkmark"
+			}]
+			title: "&eThe Art of Transmogrification"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1F3A415DDF6355EE"]
+			description: [
+				""
+				"&7To start off, you must craft a &dTransmogrification Table&7. This magic is powered with &dAmethyst&7, so you'll have to get some each time you want to transform any item."
+				""
+				"No items will be consumed, but to change the shape you'll need to own the desired item."
+			]
+			id: "09C318161E20A39E"
+			rewards: [{
+				id: "5E60EBADBFED48BC"
+				type: "xp"
+				xp: 90
+			}]
+			shape: "diamond"
+			subtitle: "&8[Click to read information]"
+			tasks: [{
+				id: "07DDEFBFD93B4F74"
+				item: "transmog:transmogrification_table"
+				type: "item"
+			}]
+			title: "&dTransmogs!"
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["09C318161E20A39E"]
+			description: [
+				"&7If you dont want to display an armor piece, or a weapon, you can hide the items!"
+				""
+				"&7By using a &dVoid Fragment&7 as the transmoggable material"
+			]
+			id: "6A69BEA7C1E7E1FD"
+			rewards: [{
+				id: "0778651DAD1A18EA"
+				type: "xp"
+				xp: 120
+			}]
+			shape: "diamond"
+			subtitle: "&8[Click to read information]"
+			tasks: [{
+				id: "0D1D91DEF701EFDA"
+				item: "transmog:void_fragment"
+				type: "item"
+			}]
+			title: "&dThe Illusion of Nothing"
+			x: 0.0d
+			y: -3.0d
+		}
+	]
+	title: "&d Transmogrification"
+}

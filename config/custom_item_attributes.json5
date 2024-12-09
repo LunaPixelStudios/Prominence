@@ -1,0 +1,180 @@
+{
+  // ------------------------------------------------------------------------------------------------------------------------------
+  //                                         Custom Item Attributes (CIA) by ElocinDev
+  // ------------------------------------------------------------------------------------------------------------------------------
+  //                                                          Config 
+  //                             Reloaded via datapack reload (/reload) or restarting the game
+  // ------------------------------------------------------------------------------------------------------------------------------
+  // Index:
+  //       item        :   The item's identifier. You can get this using the autocomplete of the /give command.
+  //       slot        :   Each override option represents a slot where the attributes get applied to. Hands or armors.
+  //       attribute   :   The Identifier of the attribute. You can get it using the autocomplete of the /attribute command.
+  //       value       :   The value of the desired attribute. You can use negatives too, must be a decimal number.
+  //       operation   :   The operation to calculate the attribute. Addition or Multiply.
+  //       unbreakable :   Whether or not the item should be unbreakable.
+  // ------------------------------------------------------------------------------------------------------------------------------
+  // The example showcases a config to add +10 attack damage and +20% attack speed to an "example_item", only on the main hand.
+  // Each of the attributes are overrides for modifiers of the same attribute type, depending on each slot correspondingly.
+  "items": [
+    {
+      "item": "minecells:cursed_sword",
+      "overrides_main_hand": [
+        {
+          "attribute": "minecraft:generic.max_health",
+          "value": -0.8,
+          "operation": "MULTIPLY_TOTAL"
+        }
+      ],
+      "overrides_off_hand": [],
+      "overrides_head": [],
+      "overrides_chest": [],
+      "overrides_legs": [],
+      "overrides_feet": [],
+      "unbreakable": false
+    },
+    {
+      "item": "spellbladenext:monkeystaff",
+      "overrides_main_hand": [
+        {
+          "attribute": "minecraft:generic.attack_speed",
+          "value": -2,
+          "operation": "ADDITION"
+        }
+      ],
+      "overrides_off_hand": [],
+      "overrides_head": [],
+      "overrides_chest": [],
+      "overrides_legs": [],
+      "overrides_feet": [],
+      "unbreakable": false
+    },
+    {
+      "item": "soulsweapons:crucible_sword",
+      "overrides_main_hand": [
+        {
+          "attribute": "minecraft:generic.max_health",
+          "value": -0.45,
+          "operation": "MULTIPLY_TOTAL"
+        },
+        {
+          "attribute": "minecraft:generic.armor",
+          "value": -1,
+          "operation": "MULTIPLY_TOTAL"
+        }
+      ],
+      "overrides_off_hand": [
+        {
+          "attribute": "minecraft:generic.max_health",
+          "value": -0.45,
+          "operation": "MULTIPLY_TOTAL"
+        },
+        {
+          "attribute": "minecraft:generic.armor",
+          "value": -1,
+          "operation": "MULTIPLY_TOTAL"
+        }
+      ],
+      "overrides_head": [],
+      "overrides_chest": [],
+      "overrides_legs": [],
+      "overrides_feet": [],
+      "unbreakable": false
+    },
+    {
+      "item": "spellbladenext:frozen_chest",
+      "overrides_main_hand": [],
+      "overrides_off_hand": [],
+      "overrides_head": [],
+      "overrides_chest": [
+        {
+          "attribute": "spell_power:soul",
+          "value": 2.0,
+          "operation": "ADDITION"
+        }
+      ],
+      "overrides_legs": [],
+      "overrides_feet": [],
+      "unbreakable": false
+    },
+    {
+      "item": "spellbladenext:frozen_legs",
+      "overrides_main_hand": [],
+      "overrides_off_hand": [],
+      "overrides_head": [],
+      "overrides_chest": [],
+      "overrides_legs": [
+        {
+          "attribute": "spell_power:soul",
+          "value": 2.0,
+          "operation": "ADDITION"
+        }
+      ],
+      "overrides_feet": [],
+      "unbreakable": false
+    },
+    {
+      "item": "spellbladenext:frozen_feet",
+      "overrides_main_hand": [],
+      "overrides_off_hand": [],
+      "overrides_head": [],
+      "overrides_chest": [],
+      "overrides_legs": [],
+      "overrides_feet": [
+        {
+          "attribute": "spell_power:soul",
+          "value": 2.0,
+          "operation": "ADDITION"
+        }
+      ],
+      "unbreakable": false
+    },
+    {
+      "item": "spellbladenext:blazing_chest",
+      "overrides_main_hand": [],
+      "overrides_off_hand": [],
+      "overrides_head": [],
+      "overrides_chest": [
+        {
+          "attribute": "spell_power:soul",
+          "value": 2.0,
+          "operation": "ADDITION"
+        }
+      ],
+      "overrides_legs": [],
+      "overrides_feet": [],
+      "unbreakable": false
+    },
+    {
+      "item": "spellbladenext:blazing_legs",
+      "overrides_main_hand": [],
+      "overrides_off_hand": [],
+      "overrides_head": [],
+      "overrides_chest": [],
+      "overrides_legs": [
+        {
+          "attribute": "spell_power:soul",
+          "value": 2.0,
+          "operation": "ADDITION"
+        }
+      ],
+      "overrides_feet": [],
+      "unbreakable": false
+    },
+    {
+      "item": "spellbladenext:blazing_feet",
+      "overrides_main_hand": [],
+      "overrides_off_hand": [],
+      "overrides_head": [],
+      "overrides_chest": [],
+      "overrides_legs": [],
+      "overrides_feet": [
+        {
+          "attribute": "spell_power:soul",
+          "value": 2.0,
+          "operation": "ADDITION"
+        }
+      ],
+      "unbreakable": false
+    }
+  ]
+}

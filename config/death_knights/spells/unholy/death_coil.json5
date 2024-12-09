@@ -1,0 +1,8 @@
+{
+  // The unholy power multiplier that Death Coil's plague explosion will deal, per stack.
+  "unholy_coefficent": 0.35,
+  // The maxmimum plague stacks that Death Coil will explode.
+  "plague_stacks": 4,
+  // The radius of the plague spread once stacks explode.
+  "spread_radius": 5.0
+}

@@ -1,0 +1,17 @@
+{
+	id: "a11bf952-ca57-3f89-aab8-ded316a39f45"
+	type: "player"
+	player_name: "jacopoenjoyer"
+	ranks: {
+		a11bf952-ca57-3f89-aab8-ded316a39f45: "owner"
+	}
+	properties: {
+		"ftbteams:display_name": "jacopoenjoyer"
+		"ftbteams:description": ""
+		"ftbteams:color": "#89FF59"
+		"ftbteams:free_to_join": 0b
+		"ftbteams:max_msg_history_size": 1000
+	}
+	message_history: [ ]
+	extra: { }
+}

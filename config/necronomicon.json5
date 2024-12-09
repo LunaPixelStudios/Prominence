@@ -1,0 +1,13 @@
+{
+  "debug": false,
+  "test": false,
+  "list": [
+    "test",
+    "test2"
+  ],
+  "exampleColors": {
+    "red": 255,
+    "green": 255,
+    "blue": 255
+  }
+}

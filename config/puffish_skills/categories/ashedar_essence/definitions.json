@@ -1,0 +1,156 @@
+{
+	"damage": {
+		"title": "§f\uF943 §6+5% §7Damage dealt by §6Ash'edar",
+		"frame": {
+			"type": "texture",
+			"data": {
+				"unlocked": "prominent_talents:textures/frames/diamond_selected.png",
+				"available": "prominent_talents:textures/frames/diamond.png"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "prominent:textures/spell/sunstrike.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "prominent:artifact_damage",
+					"value": 0.05,
+					"operation": "addition"
+				}
+			}
+		],
+		"editor-color": "#ff00a6",
+		"metadata": {
+			"icon": "vt5q3v2tr9v4ow8e"
+		}
+	},
+	"atkspeed": {
+		"title": "§f\uF944 §e+5% §7Attack Speed for §6Ash'edar",
+		"frame": {
+			"type": "texture",
+			"data": {
+				"unlocked": "prominent_talents:textures/frames/diamond_selected.png",
+				"available": "prominent_talents:textures/frames/diamond.png"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "prominent:textures/spell/darkening.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.attack_speed",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"editor-color": "#ff00a6",
+		"metadata": {
+			"icon": "vt5q3v2tr9v4ow8e"
+		}
+	},
+	"infusion_etyr": {
+		"title": "§f鹿 §6Burning Wrath",
+		"description": "§7Channel the power of Ash with the infusion of Etyr, gaining resistance to corruption and increasing the fire damage dealt by Ash.\n \n§f\uAB01 §2+20 §7Corruption Resistance\n§f\uF943 §6+5% §7Physical Damage\n§f\uF950 §6+10% §7Fire Power",
+		"size": 1.5,
+		"frame": {
+			"type": "texture",
+			"data": {
+				"unlocked": "prominent_talents:textures/frames/diamond_selected.png",
+				"available": "prominent_talents:textures/frames/diamond.png"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "prominent:textures/spell/solar_prominence.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "eldritch_end:corruption_resistance",
+					"value": 20,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.attack_damage",
+					"value": 0.05,
+					"operation": "multiply_base"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "spell_power:fire",
+					"value": 0.10,
+					"operation": "multiply_base"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "n241yslto644cv8k"
+		}
+	},
+	"infusion_corruption": {
+		"title": "§f鹿 §9Night's Embrace",
+		"description": "§7Unleash the darkness of Edar and embrace the corruption within the void, dealing more damage the more corruption you have.\n \n§f\uA999 §9+20§7 Corruption\n§f\uF944 §e+10% §7Attack Speed\n§f\uF951 §d+10% §7Arcane Power",
+		"size": 1.5,
+		"frame": {
+			"type": "texture",
+			"data": {
+				"unlocked": "prominent_talents:textures/frames/diamond_selected.png",
+				"available": "prominent_talents:textures/frames/diamond.png"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "prominent:textures/spell/moonlight_nova.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "eldritch_end:corruption",
+					"value": 20,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.attack_speed",
+					"value": 0.10,
+					"operation": "multiply_base"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "spell_power:arcane",
+					"value": 0.10,
+					"operation": "multiply_base"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "eqvex0gqoc0c3krb"
+		}
+	}
+}

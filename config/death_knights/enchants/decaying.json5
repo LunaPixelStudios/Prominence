@@ -1,0 +1,15 @@
+{
+  // Decaying Enchantment.
+  // This enchantment increases the damage dealt by Unholy and Blood spells.
+  //  
+  // Whether this enchantment should be enabled or not.
+  "enabled": true,
+  // Maximum level of the enchantment.
+  "max_level": 5,
+  // The minimum cost of the enchantment; at level 1.
+  "min_cost": 10,
+  // The additional cost per level, after level 1.
+  "step_cost": 9,
+  // The bonus damage per level.
+  "bonus_per_level": 0.03
+}

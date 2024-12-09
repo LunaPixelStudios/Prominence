@@ -1,0 +1,15 @@
+{
+	id: "619f7be2-a0d9-334f-98f6-f25e4ce91e73"
+	type: "player"
+	player_name: "Kurivyan"
+	ranks: { }
+	properties: {
+		"ftbteams:display_name": "Kurivyan"
+		"ftbteams:description": ""
+		"ftbteams:color": "#59FFE1"
+		"ftbteams:free_to_join": 0b
+		"ftbteams:max_msg_history_size": 1000
+	}
+	message_history: [ ]
+	extra: { }
+}

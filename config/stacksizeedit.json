@@ -1,0 +1,9 @@
+{
+  "enableMaxSize": false,
+  "maxStacker": 99,
+  "itemOverride": [
+    "minecells:health_flask:200"
+  ],
+  "fontOverride": true,
+  "itemCountScaleInt": 25
+}

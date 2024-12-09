@@ -1,0 +1,21 @@
+{
+  // List of plagues that Unholy Death Knights can apply.
+  // Any effect from any mod can be a plague.
+  // The weight is used to determine the chance of applying the plague, the higher the weight, the higher the chance.
+  // The max stacks is the maximum amount of stacks the plague can have when applied by an ability.
+  // The duration is how long the plague lasts in ticks, applied stacks won't extend this duration.
+  "plagues": [
+    {
+      "effect_id": "death_knights:grevious_plague",
+      "max_stacks": 4,
+      "duration_ticks": 400,
+      "weight": 50
+    },
+    {
+      "effect_id": "death_knights:atrocious_plague",
+      "max_stacks": 4,
+      "duration_ticks": 400,
+      "weight": 50
+    }
+  ]
+}

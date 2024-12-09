@@ -1,0 +1,92 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "einformation_7new_mechanics"
+	group: "555B69C1AF8C1C7F"
+	id: "701CA1F978CFB569"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "ftblibrary:icons/info"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "simplyswords:item/emberblade_layer"
+			rotation: 0.0d
+			width: 0.016666666666666666d
+			x: -2.0d
+			y: -0.5d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"All shields have new mechanics from the &eShield Overhaul&r mod."
+				""
+				"&e&lBashing &r&7Attack while blocking to perform a shield bash. &7This will stun the target for 1 second, unless it's a boss."
+			]
+			icon: {
+				Count: 1b
+				id: "minecraft:shield"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "51595E88AF1F475E"
+			shape: "hexagon"
+			subtitle: "&8[Click to read more]"
+			tasks: [{
+				id: "7AAEF7553C3616AE"
+				title: "Continue"
+				type: "checkmark"
+			}]
+			title: "&eNew Defensive Mechanics"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Combat mechanics were altered by the &eBetter Combat&r mod."
+				""
+				"- &6&lWeapons &r&7Each weapon has its own attack animation and time."
+				""
+				"- &6&lCombos &r&7Consecutive attacks will perform combos."
+				""
+				"- &6&lHold to attack &r&7You can hold the attack button to keep attacking continuosly."
+			]
+			icon: {
+				Count: 1b
+				id: "minecraft:netherite_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "6B8B4323E13AB3E9"
+			shape: "hexagon"
+			subtitle: "&8[Click to read more]"
+			tasks: [{
+				id: "3589A9BB969BA94E"
+				title: "Continue"
+				type: "checkmark"
+			}]
+			title: "&eNew Combat Mechanics"
+			x: -2.0d
+			y: 0.0d
+		}
+	]
+	title: " &eInformation: &cCombat"
+}

@@ -1,0 +1,17 @@
+{
+  "enable_powerlevel_display": true,
+  "enable_powerlevel_multiple_rounding": true,
+  "powerlevel_multiple_rounding": 5,
+  "powerlevel_max": 1050,
+  "powerlevel_formula": "(sqrt(((ATTACK_DAMAGE * ATTACK_SPEED) * (ARMOR + ARMOR_TOUGHNESS / 3))) * 16) * 0.66",
+  "COLOR_TIER_1": 11842740,
+  "COLOR_TIER_2": 3396691,
+  "COLOR_TIER_3": 3369172,
+  "COLOR_TIER_4": 8795092,
+  "COLOR_TIER_5": 13935667,
+  "COLOR_OUTLINE": 1250073,
+  "RANGE_TIER_1": 99,
+  "RANGE_TIER_2": 299,
+  "RANGE_TIER_3": 599,
+  "RANGE_TIER_4": 999
+}

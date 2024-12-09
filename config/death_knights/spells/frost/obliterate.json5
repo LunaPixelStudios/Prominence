@@ -1,0 +1,8 @@
+{
+  // Defines the extension of the Remorseless Winter spell in ticks. 20 ticks is 1 second.
+  // Default: 20 ticks
+  "remorseless_winter_extension_ticks": 20,
+  // Defines the extension of the Breath of Agony spell in ticks. 20 ticks is 1 second.
+  // Default: 40 ticks
+  "breath_of_agony_extension_ticks": 40
+}

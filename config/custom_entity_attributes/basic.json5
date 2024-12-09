@@ -1,0 +1,81 @@
+{
+  // ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  //                                                             Custom Entity Attributes (CEA) by ElocinDev
+  // ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  //                                                                             Basic Config 
+  //                                                 Reloaded via datapack reload (/reload) or by restarting the game
+  //                                         This config allows you to add attribute modifiers globally to specific entities.
+  //                            For more customization, such as per-dimension, per-biome or per-difficulty, please use the advanced config.
+  // ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  // Option Index:
+  //   entity_regex   :        Entity's ID (Supports regex). For example: minecraft:zombie (to affect zombies) or minecraft:.* (to affect all minecraft entities)
+  //   apply_chance   :        The chance the modifier will be applied to the entity. 100.0 is 100% chance, 50.0 is 50% chance, etc.
+  //   attribute_overrides :   A List of attribute modifiers to add, you can add as many as you want.
+  // ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  // The example showcases a config to add +10 attack damage and +20% attack speed to an example_entity.
+  // You can use this example as a base to edit what you want, for example if you want to make zombies have 20 HP, just set the attribute to minecraft:generic.max_health and
+  // set the value to 20.0, finally use ADDITION for operation, so it adds +20 HP, leaving 40 HP total.
+  // You can also use MULTIPLY_BASE at 0.20 to give +20% max health.
+  //  
+  //  * If you modify the max HP of an entity, it'll automatically recalculate the HP the mob spawns to keep the same percentage.
+  //  this means that entities that spawn with a set percentage (like the wither) will work as expected.
+  //  * To modify the default HP an entity spawns with, use the advanced config.
+  // ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  // Operations:
+  //   ADDITION       :   Adds the value to the base value.
+  //   MULTIPLY_BASE  :   Multiplies the base value by the value.
+  //   MULTIPLY_TOTAL :   Multiplies the total value by the value.
+  // ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  "modifiers": [
+    {
+      "entity_regex": "minecells:conjuntivius",
+      "apply_chance": 100.0,
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.attack_damage",
+          "value": 5.0,
+          "operation": "ADDITION"
+        },
+        {
+          "attribute": "minecraft:generic.max_health",
+          "value": 3.5,
+          "operation": "MULTIPLY_BASE"
+        }
+      ]
+    },
+    {
+      "entity_regex": "adventurez:blackstone_golem",
+      "apply_chance": 100.0,
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.attack_damage",
+          "value": 4.0,
+          "operation": "ADDITION"
+        },
+        {
+          "attribute": "minecraft:generic.max_health",
+          "value": 3,
+          "operation": "MULTIPLY_BASE"
+        }
+      ]
+    },
+    {
+      "entity_regex": "archon:null",
+      "apply_chance": 100.0,
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.attack_damage",
+          "value": 4.0,
+          "operation": "ADDITION"
+        },
+        {
+          "attribute": "minecraft:generic.max_health",
+          "value": 0.5,
+          "operation": "MULTIPLY_BASE"
+        }
+      ]
+    }
+  ],
+  // Don't touch this!
+  "CONFIG_VERSION": 1
+}

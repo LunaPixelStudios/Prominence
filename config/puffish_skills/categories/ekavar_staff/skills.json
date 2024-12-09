@@ -1,0 +1,116 @@
+{
+	"141ilpowt5glbhp1": {
+		"definition": "haste",
+		"x": -67.96539477560282,
+		"y": 152.18973796787253,
+		"root": true
+	},
+	"a8c7ih1fg3smtwfx": {
+		"definition": "haste",
+		"x": -64.1287441301441,
+		"y": 96.67501934211111,
+		"root": false
+	},
+	"bqvy8n6mttt6188e": {
+		"definition": "critchance",
+		"x": -37.572921720113285,
+		"y": 69.38391383043009,
+		"root": false
+	},
+	"nqfo60galn8b2ty4": {
+		"definition": "critdamage",
+		"x": -31.360116113182567,
+		"y": 101.41375298741531,
+		"root": false
+	},
+	"176vufmjp24rynem": {
+		"definition": "haste",
+		"x": -5.211232188357602,
+		"y": 36.73562288279376,
+		"root": false
+	},
+	"g873ijlpuzet3djy": {
+		"definition": "critdamage",
+		"x": -19.455789530016812,
+		"y": 4.107343404404089,
+		"root": false
+	},
+	"ei9bx7z23rc3fkug": {
+		"definition": "critchance",
+		"x": -49.33134681553025,
+		"y": 32.26287052172189,
+		"root": false
+	},
+	"vbxqkcj5iv2fvoz6": {
+		"definition": "haste",
+		"x": -71.35866065557379,
+		"y": -60.26602599592627,
+		"root": false
+	},
+	"5biv4iakrcv8srdj": {
+		"definition": "critdamage",
+		"x": -15.88816818500865,
+		"y": -38.17486717787059,
+		"root": false
+	},
+	"y69gjv5dy3lsyi4c": {
+		"definition": "critchance",
+		"x": 21.10672078420087,
+		"y": -52.01854550865969,
+		"root": false
+	},
+	"fsdgdjzm6fxlikug": {
+		"definition": "critdamage",
+		"x": -2.212286362477375,
+		"y": -102.68221864814473,
+		"root": false
+	},
+	"7bl36lah8phw2lw0": {
+		"definition": "haste",
+		"x": 17.168580868159417,
+		"y": -135.0647371068865,
+		"root": false
+	},
+	"0allitfne2xm571v": {
+		"definition": "critchance",
+		"x": -36.217981111424926,
+		"y": -101.15530467516523,
+		"root": false
+	},
+	"xj5mehv6pslccse4": {
+		"definition": "haste",
+		"x": 32.62906211087963,
+		"y": -89.61678691573131,
+		"root": false
+	},
+	"m7sv6ktu260c6beh": {
+		"definition": "infusion_astral",
+		"x": 73.92905643677211,
+		"y": -258.8880508514573,
+		"root": false
+	},
+	"g45oidtxwuxmw3cd": {
+		"definition": "infusion_fire",
+		"x": 138.5970422893446,
+		"y": -187.14978593470417,
+		"root": false
+	},
+	"6676jbv1jpay1xre": {
+		"definition": "infusion_arcane",
+		"x": 114.21908517947367,
+		"y": -94.24664592788902,
+		"root": false
+	},
+	"thp1f8cdqiaaaast": {
+		"definition": "infusion_frost",
+		"x": -33.630801340508015,
+		"y": -253.85788759854165,
+		"root": false
+	},
+	"o6kofx7z4noqyn3u": {
+		"definition": "infusion_holy",
+		"x": -87.44321204206594,
+		"y": -171.47281307168544,
+		"root": false
+	}
+}

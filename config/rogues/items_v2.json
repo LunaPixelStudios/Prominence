@@ -1,0 +1,392 @@
+{
+  "weapons": {
+    "iron_double_axe": {
+      "attack_damage": 7.0,
+      "attack_speed": -2.8,
+      "attributes": []
+    },
+    "golden_dagger": {
+      "attack_damage": 1.8,
+      "attack_speed": -1.6,
+      "attributes": []
+    },
+    "golden_double_axe": {
+      "attack_damage": 4.3,
+      "attack_speed": -2.8,
+      "attributes": []
+    },
+    "aeternium_glaive": {
+      "attack_damage": 9.3,
+      "attack_speed": -2.6,
+      "attributes": []
+    },
+    "flint_dagger": {
+      "attack_damage": 2.6,
+      "attack_speed": -1.6,
+      "attributes": []
+    },
+    "golden_glaive": {
+      "attack_damage": 3.5,
+      "attack_speed": -2.6,
+      "attributes": []
+    },
+    "ruby_sickle": {
+      "attack_damage": 6.8,
+      "attack_speed": -2.0,
+      "attributes": []
+    },
+    "aeternium_dagger": {
+      "attack_damage": 5.5,
+      "attack_speed": -1.6,
+      "attributes": []
+    },
+    "iron_glaive": {
+      "attack_damage": 5.8,
+      "attack_speed": -2.6,
+      "attributes": []
+    },
+    "netherite_sickle": {
+      "attack_damage": 5.9,
+      "attack_speed": -2.0,
+      "attributes": []
+    },
+    "aeternium_sickle": {
+      "attack_damage": 6.8,
+      "attack_speed": -2.0,
+      "attributes": []
+    },
+    "ruby_glaive": {
+      "attack_damage": 9.3,
+      "attack_speed": -2.6,
+      "attributes": []
+    },
+    "iron_sickle": {
+      "attack_damage": 4.1,
+      "attack_speed": -2.0,
+      "attributes": []
+    },
+    "netherite_dagger": {
+      "attack_damage": 4.7,
+      "attack_speed": -1.6,
+      "attributes": []
+    },
+    "aeternium_double_axe": {
+      "attack_damage": 11.0,
+      "attack_speed": -2.8,
+      "attributes": []
+    },
+    "diamond_glaive": {
+      "attack_damage": 7.0,
+      "attack_speed": -2.6,
+      "attributes": []
+    },
+    "netherite_double_axe": {
+      "attack_damage": 9.6,
+      "attack_speed": -2.8,
+      "attributes": []
+    },
+    "golden_sickle": {
+      "attack_damage": 2.4,
+      "attack_speed": -2.0,
+      "attributes": []
+    },
+    "ruby_double_axe": {
+      "attack_damage": 11.0,
+      "attack_speed": -2.8,
+      "attributes": []
+    },
+    "diamond_double_axe": {
+      "attack_damage": 8.3,
+      "attack_speed": -2.8,
+      "attributes": []
+    },
+    "netherite_glaive": {
+      "attack_damage": 8.1,
+      "attack_speed": -2.6,
+      "attributes": []
+    },
+    "iron_dagger": {
+      "attack_damage": 3.3,
+      "attack_speed": -1.6,
+      "attributes": []
+    },
+    "diamond_sickle": {
+      "attack_damage": 5.0,
+      "attack_speed": -2.0,
+      "attributes": []
+    },
+    "ruby_dagger": {
+      "attack_damage": 5.5,
+      "attack_speed": -1.6,
+      "attributes": []
+    },
+    "diamond_dagger": {
+      "attack_damage": 4.0,
+      "attack_speed": -1.6,
+      "attributes": []
+    },
+    "stone_double_axe": {
+      "attack_damage": 5.6,
+      "attack_speed": -2.8,
+      "attributes": []
+    }
+  },
+  "armor_sets": {
+    "assassin_armor": {
+      "armor_toughness": 0.0,
+      "knockback_resistance": 0.0,
+      "head": {
+        "armor": 2,
+        "attributes": [
+          {
+            "id": "minecraft:generic.attack_damage",
+            "value": 0.02,
+            "operation": "MULTIPLY_BASE"
+          },
+          {
+            "id": "minecraft:generic.attack_speed",
+            "value": 0.05,
+            "operation": "MULTIPLY_BASE"
+          },
+          {
+            "id": "minecraft:generic.movement_speed",
+            "value": 0.05,
+            "operation": "MULTIPLY_BASE"
+          }
+        ]
+      },
+      "chest": {
+        "armor": 4,
+        "attributes": [
+          {
+            "id": "minecraft:generic.attack_damage",
+            "value": 0.02,
+            "operation": "MULTIPLY_BASE"
+          },
+          {
+            "id": "minecraft:generic.attack_speed",
+            "value": 0.05,
+            "operation": "MULTIPLY_BASE"
+          },
+          {
+            "id": "minecraft:generic.movement_speed",
+            "value": 0.05,
+            "operation": "MULTIPLY_BASE"
+          }
+        ]
+      },
+      "legs": {
+        "armor": 4,
+        "attributes": [
+          {
+            "id": "minecraft:generic.attack_damage",
+            "value": 0.02,
+            "operation": "MULTIPLY_BASE"
+          },
+          {
+            "id": "minecraft:generic.attack_speed",
+            "value": 0.05,
+            "operation": "MULTIPLY_BASE"
+          },
+          {
+            "id": "minecraft:generic.movement_speed",
+            "value": 0.05,
+            "operation": "MULTIPLY_BASE"
+          }
+        ]
+      },
+      "feet": {
+        "armor": 2,
+        "attributes": [
+          {
+            "id": "minecraft:generic.attack_damage",
+            "value": 0.02,
+            "operation": "MULTIPLY_BASE"
+          },
+          {
+            "id": "minecraft:generic.attack_speed",
+            "value": 0.05,
+            "operation": "MULTIPLY_BASE"
+          },
+          {
+            "id": "minecraft:generic.movement_speed",
+            "value": 0.05,
+            "operation": "MULTIPLY_BASE"
+          }
+        ]
+      }
+    },
+    "berserker_armor": {
+      "armor_toughness": 0.0,
+      "knockback_resistance": 0.0,
+      "head": {
+        "armor": 3,
+        "attributes": [
+          {
+            "id": "minecraft:generic.attack_damage",
+            "value": 0.05,
+            "operation": "MULTIPLY_BASE"
+          },
+          {
+            "id": "minecraft:generic.knockback_resistance",
+            "value": 0.1,
+            "operation": "MULTIPLY_BASE"
+          }
+        ]
+      },
+      "chest": {
+        "armor": 8,
+        "attributes": [
+          {
+            "id": "minecraft:generic.attack_damage",
+            "value": 0.05,
+            "operation": "MULTIPLY_BASE"
+          },
+          {
+            "id": "minecraft:generic.knockback_resistance",
+            "value": 0.1,
+            "operation": "MULTIPLY_BASE"
+          }
+        ]
+      },
+      "legs": {
+        "armor": 6,
+        "attributes": [
+          {
+            "id": "minecraft:generic.attack_damage",
+            "value": 0.05,
+            "operation": "MULTIPLY_BASE"
+          },
+          {
+            "id": "minecraft:generic.knockback_resistance",
+            "value": 0.1,
+            "operation": "MULTIPLY_BASE"
+          }
+        ]
+      },
+      "feet": {
+        "armor": 3,
+        "attributes": [
+          {
+            "id": "minecraft:generic.attack_damage",
+            "value": 0.05,
+            "operation": "MULTIPLY_BASE"
+          },
+          {
+            "id": "minecraft:generic.knockback_resistance",
+            "value": 0.1,
+            "operation": "MULTIPLY_BASE"
+          }
+        ]
+      }
+    },
+    "warrior_armor": {
+      "armor_toughness": 0.0,
+      "knockback_resistance": 0.0,
+      "head": {
+        "armor": 2,
+        "attributes": [
+          {
+            "id": "minecraft:generic.attack_damage",
+            "value": 0.04,
+            "operation": "MULTIPLY_BASE"
+          }
+        ]
+      },
+      "chest": {
+        "armor": 5,
+        "attributes": [
+          {
+            "id": "minecraft:generic.attack_damage",
+            "value": 0.04,
+            "operation": "MULTIPLY_BASE"
+          }
+        ]
+      },
+      "legs": {
+        "armor": 4,
+        "attributes": [
+          {
+            "id": "minecraft:generic.attack_damage",
+            "value": 0.04,
+            "operation": "MULTIPLY_BASE"
+          }
+        ]
+      },
+      "feet": {
+        "armor": 1,
+        "attributes": [
+          {
+            "id": "minecraft:generic.attack_damage",
+            "value": 0.04,
+            "operation": "MULTIPLY_BASE"
+          }
+        ]
+      }
+    },
+    "rogue_armor": {
+      "armor_toughness": 0.0,
+      "knockback_resistance": 0.0,
+      "head": {
+        "armor": 1,
+        "attributes": [
+          {
+            "id": "minecraft:generic.attack_speed",
+            "value": 0.04,
+            "operation": "MULTIPLY_BASE"
+          },
+          {
+            "id": "minecraft:generic.movement_speed",
+            "value": 0.05,
+            "operation": "MULTIPLY_BASE"
+          }
+        ]
+      },
+      "chest": {
+        "armor": 3,
+        "attributes": [
+          {
+            "id": "minecraft:generic.attack_speed",
+            "value": 0.04,
+            "operation": "MULTIPLY_BASE"
+          },
+          {
+            "id": "minecraft:generic.movement_speed",
+            "value": 0.05,
+            "operation": "MULTIPLY_BASE"
+          }
+        ]
+      },
+      "legs": {
+        "armor": 3,
+        "attributes": [
+          {
+            "id": "minecraft:generic.attack_speed",
+            "value": 0.04,
+            "operation": "MULTIPLY_BASE"
+          },
+          {
+            "id": "minecraft:generic.movement_speed",
+            "value": 0.05,
+            "operation": "MULTIPLY_BASE"
+          }
+        ]
+      },
+      "feet": {
+        "armor": 1,
+        "attributes": [
+          {
+            "id": "minecraft:generic.attack_speed",
+            "value": 0.04,
+            "operation": "MULTIPLY_BASE"
+          },
+          {
+            "id": "minecraft:generic.movement_speed",
+            "value": 0.05,
+            "operation": "MULTIPLY_BASE"
+          }
+        ]
+      }
+    }
+  }
+}

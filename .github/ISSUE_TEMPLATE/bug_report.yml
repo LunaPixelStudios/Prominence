@@ -43,7 +43,7 @@ body:
             options:
                 - "Prominence I 1.19.2"
                 - "Prominence II 1.20.1"
-            default: 2
+            default: 1
         validations:
             required: true
     -   type: dropdown
@@ -53,7 +53,7 @@ body:
             options:
                 - "Forge"
                 - "Fabric"
-            default: 2
+            default: 1
         validations:
             required: true
     -   type: input
@@ -71,7 +71,7 @@ body:
             options:
                 - "I used Optifine"
                 - "No."
-            default: 2
+            default: 1
         validations:
             required: true
     -   type: textarea

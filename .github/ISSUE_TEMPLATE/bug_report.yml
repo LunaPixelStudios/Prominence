@@ -4,8 +4,8 @@ labels: [ "bug" ]
 body:
     -   type: textarea
         attributes:
-            label: Describe the Bug
-            description: A clear and concise description of what the bug is
+            label: Redstone duplication bug.
+            description: There is a way to duplicate redstone using available craft and gringers from tech mods.
         validations:
             required: true
     -   type: textarea
@@ -13,9 +13,9 @@ body:
             label: Reproduction Steps
             description: Tell us about the steps to reproduce the bug
             value: |
-                1.
-                2.
-                3.
+                1. Craft "Raw Redstone Block" using 4 "Redstone".
+                2. Put "Raw Redstone Block" in "Grinder" and get 8 "redstone" or do the same with but with "Industrial grinder" or "Macerator"
+                3. Repeat process with output from step 2 to get endless source of "redstone"
                 ...
         validations:
             required: false

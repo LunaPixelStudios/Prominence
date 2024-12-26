@@ -1,10 +1,10 @@
-name: Bug Report
-description: Create a bug report to help us improve Prominence
+name: Redstone duplication bug.
+description: There is a way to duplicate redstone using available craft and gringers from tech mods.
 labels: [ "bug" ]
 body:
     -   type: textarea
         attributes:
-            label: Redstone duplication bug.
+            label: Describe the Bug.
             description: There is a way to duplicate redstone using available craft and gringers from tech mods.
         validations:
             required: true

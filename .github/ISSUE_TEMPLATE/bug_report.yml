@@ -15,8 +15,8 @@ body:
             description: Tell us about the steps to reproduce the bug
             value: |
                 1. Craft "Raw Redstone Block" using 4 "Redstone".
-                2. Put "Raw Redstone Block" in "Grinder" and get 8 "redstone" or do the same with but with "Industrial grinder" or "Macerator"
-                3. Repeat process with output from step 2 to get endless source of "redstone"
+                2. Put "Raw Redstone Block" in "Grinder" and get 8 "redstone" or do the same with "Industrial grinder" or "Macerator"
+                3. Repeat process.
                 ...
         validations:
             required: false
@@ -24,7 +24,7 @@ body:
         attributes:
             label: Screenshots and Videos
             description: If applicable, add screenshots or videos to help explain your problem
-            value: attached to pull request.
+            value: Attached to pull request.
         validations:
             required: false
     -   type: input

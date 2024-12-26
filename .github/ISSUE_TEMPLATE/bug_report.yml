@@ -24,6 +24,7 @@ body:
         attributes:
             label: Screenshots and Videos
             description: If applicable, add screenshots or videos to help explain your problem
+            value: attached to pull request.
         validations:
             required: false
     -   type: input

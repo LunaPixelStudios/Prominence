@@ -5,8 +5,8 @@ body:
     -   type: textarea
         attributes:
             label: Describe the Bug.
-            description: There is a way to duplicate redstone using available craft and gringers from tech mod.
-            value: | There is a way to duplicate redstone using available craft and gringers from tech mods.
+            description: A clear and concise description of what the bug is.
+            value: There is a way to duplicate redstone using available craft and gringers from tech mods.
         validations:
             required: true
     -   type: textarea

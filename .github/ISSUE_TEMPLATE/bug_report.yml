@@ -36,40 +36,35 @@ body:
         attributes:
             label: Operating System
             description: The operating system you were using when the bug occured
-            placeholder: Windows 11
+            value: Windows 10
         validations:
             required: true
-    -   type: dropdown
+    -   type: input
         attributes:
             label: Minecraft Version
             description: The version of Minecraft you were using when the bug occured
-            options:
-                - "Prominence I 1.19.2"
-                - "Prominence II 1.20.1"
+            value: "Prominence II 1.20.1"
         validations:
             required: true
-    -   type: dropdown
+    -   type: input
         attributes:
             label: Modloader
             description: The version of Minecraft you were using when the bug occured
-            options:
-                - "Forge"
-                - "Fabric"
+            value: "Fabric"
         validations:
             required: true
     -   type: input
         attributes:
             label: Modpack Version
             description: The Modpack version you where using example bmc v52
+            value: "Prominence || RPG v3.0.21"
         validations:
             required: true
-    -   type: dropdown
+    -   type: input
         attributes:
             label: Optifine
             description: Did you used Optifine in our packs?
-            options:
-                - "I used Optifine"
-                - "No"
+            value: "No"
         validations:
             required: true
     -   type: textarea

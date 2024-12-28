@@ -6,6 +6,7 @@ body:
         attributes:
             label: Describe the Bug
             description: A clear and concise description of what the bug is
+            value: Players will lost items in cosmetic slots after death and retrieving item from graves.
         validations:
             required: true
     -   type: textarea
@@ -13,16 +14,17 @@ body:
             label: Reproduction Steps
             description: Tell us about the steps to reproduce the bug
             value: |
-                1.
-                2.
-                3.
+                1. Wear two hats, one in normal slot and the other in cosmetic slot
+                2. use /kill to kill yourself
+                3. pick up items from your grave, then open inventory and you will find that your hat in cosmetic slot is missing
                 ...
         validations:
             required: false
     -   type: textarea
         attributes:
-            label: Screenshots and Videos
+            label: Solution
             description: If applicable, add screenshots or videos to help explain your problem
+            value: I have talked to the Creator of You're in grave danger, and he said this issue can be fixed by updating the mod to the newest version!
         validations:
             required: false
     -   type: input
@@ -35,24 +37,21 @@ body:
         attributes:
             label: Operating System
             description: The operating system you were using when the bug occured
-            placeholder: Windows 11
+            value: Windows 11
         validations:
             required: true
     -   type: dropdown
         attributes:
             label: Minecraft Version
             description: The version of Minecraft you were using when the bug occured
-            options:
-                - "Prominence I 1.19.2"
-                - "Prominence II 1.20.1"
+            value: 1.20.1
         validations:
             required: true
     -   type: dropdown
         attributes:
             label: Modloader
             description: The version of Minecraft you were using when the bug occured
-            options:
-                - "Forge"
+            value:
                 - "Fabric"
         validations:
             required: true
@@ -60,14 +59,14 @@ body:
         attributes:
             label: Modpack Version
             description: The Modpack version you where using example bmc v52
+            value: Prominence II RPG v3.0.21
         validations:
             required: true
-    -   type: dropdown
+    -   type: input
         attributes:
             label: Optifine
             description: Did you used Optifine in our packs?
-            options:
-                - "I used Optifine"
+            value:
                 - "No"
         validations:
             required: true

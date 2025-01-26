@@ -1,3 +1,4 @@
-FORGE: https://www.curseforge.com/minecraft/modpacks/Prominence
+Issues:
 
-FABRIC: https://www.curseforge.com/minecraft/modpacks/Prominence-Fabric
+Prominence II RPG: https://github.com/nvb-uy/ProminenceII-HasturianEra/issues
+Prominence I / Prominence Classic: Discontinued
